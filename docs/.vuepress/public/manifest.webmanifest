@@ -4,12 +4,6 @@
   "id": "/",
   "theme_color": "#3eaf7c",
   "background_color": "#3eaf7c",
-  "related_applications": [
-    {
-      "platform": "webapp",
-      "url": "https://physique-chimie-org.github.io/manifest.webmanifest"
-    }
-  ],
   "icons": [
     {
       "src": "/images/icons/android-chrome-36x36.png",
@@ -84,5 +78,5 @@
     }
   ],
   "orientation": "portrait-primary",
-  "prefer_related_applications": true
+  "prefer_related_applications": false
 }
