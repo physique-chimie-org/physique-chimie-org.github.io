@@ -1639,6 +1639,16 @@
     "@vueuse/shared" "9.1.0"
     vue-demi "*"
 
+"@vueuse/core@^9.1.0":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.1.1.tgz#a5c09c33ccee58cfd53bc3ec2d5a0d304155529e"
+  integrity sha512-QfuaNWRDMQcCUwXylCyYhPC3ScS9Tiiz4J0chdwr3vOemBwRToSywq8MP+ZegKYFnbETzRY8G/5zC+ca30wrRQ==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.15"
+    "@vueuse/metadata" "9.1.1"
+    "@vueuse/shared" "9.1.1"
+    vue-demi "*"
+
 "@vueuse/metadata@8.9.4":
   version "8.9.4"
   resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-8.9.4.tgz#a4132db33e4c1b1023636acfa20aa7b37ab3d978"
@@ -1648,6 +1658,11 @@
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.1.0.tgz#194d4bd47f7acb91e348c0f436e678ddf7ee235b"
   integrity sha512-8OEhlog1iaAGTD3LICZ8oBGQdYeMwByvXetOtAOZCJOzyCRSwqwdggTsmVZZ1rkgYIEqgUBk942AsAPwM21s6A==
+
+"@vueuse/metadata@9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.1.1.tgz#b3fe4b97e62096f7566cd8eb107c503998b2c9a6"
+  integrity sha512-XZ2KtSW+85LLHB/IdGILPAtbIVHasPsAW7aqz3BRMzJdAQWRiM/FGa1OKBwLbXtUw/AmjKYFlZJo7eOFIBXRog==
 
 "@vueuse/shared@8.9.4":
   version "8.9.4"
@@ -1660,6 +1675,13 @@
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.1.0.tgz#d8459a45324f32fb05a2a56ed754637c3d0efaeb"
   integrity sha512-pB/3njQu4tfJJ78ajELNda0yMG6lKfpToQW7Soe09CprF1k3QuyoNi1tBNvo75wBDJWD+LOnr+c4B5HZ39jY/Q==
+  dependencies:
+    vue-demi "*"
+
+"@vueuse/shared@9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.1.1.tgz#811f47629e281a19013ae6dcdf11ed3e1e91e023"
+  integrity sha512-c+IfcOYmHiHqoEa3ED1Tbpue5GHmoUmTp8PtO4YbczthtY155Rt6DmWhjxMLXBF1Bcidagxljmp/7xtAzEHXLw==
   dependencies:
     vue-demi "*"
 
@@ -4240,6 +4262,23 @@ vuepress-plugin-md-enhance@^2.0.0-beta.91:
     vuepress-plugin-sass-palette "2.0.0-beta.91"
     vuepress-shared "2.0.0-beta.91"
 
+vuepress-plugin-pwa2@^2.0.0-beta.91:
+  version "2.0.0-beta.91"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-pwa2/-/vuepress-plugin-pwa2-2.0.0-beta.91.tgz#ca78b58ca192cfa7f38015febc837f90d7f41567"
+  integrity sha512-JsKuo78GnjMUlX00LB+kSsCPvIwAij9Quz6rpzOKE94moxfxK9jLHQZvGDoXYxNJAkpZhcaHpZ2d6sR6y8385w==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.49"
+    "@vuepress/shared" "2.0.0-beta.49"
+    "@vuepress/utils" "2.0.0-beta.49"
+    "@vueuse/core" "^9.1.0"
+    mitt "^3.0.0"
+    register-service-worker "^1.7.2"
+    vue "^3.2.37"
+    vue-router "^4.1.3"
+    vuepress-plugin-sass-palette "2.0.0-beta.91"
+    vuepress-shared "2.0.0-beta.91"
+    workbox-build "^6.5.4"
+
 vuepress-plugin-sass-palette@2.0.0-beta.91:
   version "2.0.0-beta.91"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.91.tgz#250a046f541b19a5ccd54de4ea390e25e6de123e"
@@ -4336,7 +4375,7 @@ workbox-broadcast-update@6.5.4:
   dependencies:
     workbox-core "6.5.4"
 
-workbox-build@^6.5.3:
+workbox-build@^6.5.3, workbox-build@^6.5.4:
   version "6.5.4"
   resolved "https://registry.yarnpkg.com/workbox-build/-/workbox-build-6.5.4.tgz#7d06d31eb28a878817e1c991c05c5b93409f0389"
   integrity sha512-kgRevLXEYvUW9WS4XoziYqZ8Q9j/2ziJYEtTrjdz5/L/cTUa2XfyMP2i7c3p34lgqJ03+mTiz13SdFef2POwbA==

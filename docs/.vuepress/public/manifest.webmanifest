@@ -1,11 +1,4 @@
 {
-  "name": "classBot_",
-  "short_name": "classBot_",
-  "description": "Les cours accessibles partout",
-  "lang": "fr-FR",
-  "start_url": "./index.html",
-  "scope": "/",
-  "display": "standalone",
   "theme_color": "#3eaf7c",
   "background_color": "#3eaf7c",
   "related_applications": [

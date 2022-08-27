@@ -1,7 +1,6 @@
 import { defineUserConfig } from "vuepress";
-import { defaultTheme } from "@vuepress/theme-default";
 import { searchPlugin } from "@vuepress/plugin-search";
-import { pwaPlugin } from "@vuepress/plugin-pwa";
+import { pwaPlugin } from "vuepress-plugin-pwa2";
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 import { head } from "./configs/head";
@@ -20,7 +19,8 @@ export default defineUserConfig({
       enableAll: true,
     }),
     pwaPlugin({
-      skipWaiting: true,
+      maxSize: 8192,
+      update: "hint"
     }),
   ],
   extendsMarkdown: (md) => {
