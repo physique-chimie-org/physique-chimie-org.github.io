@@ -19,6 +19,8 @@ export default defineUserConfig({
       enableAll: true,
     }),
     pwaPlugin({
+      favicon: "/images/icons/favicon.ico",
+      appendBase: true,
       maxSize: 8192,
       update: "hint"
     }),
