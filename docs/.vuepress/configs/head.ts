@@ -121,7 +121,7 @@ export const head: HeadConfig[] = [
       href: "/images/icons/android-chrome-192x192.png",
     },
   ],
-  ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
+  ["link", { rel: "manifest", type: "application/manifest+json", href: "/manifest.webmanifest" }],
   [
     "link",
     {
