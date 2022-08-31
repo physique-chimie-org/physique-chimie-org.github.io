@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: physique-chimie-org/physique-chimie-org.github.io
+  base_url: https://physique-chimie.netlify.app/
   branch: main
 media_folder: "docs/.vuepress/public/images/uploads"
 public_folder: "images/uploads"
