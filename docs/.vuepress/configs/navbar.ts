@@ -8,20 +8,24 @@ export const navbar: NavbarConfig = [
         text: "Composition et transformation de la matière",
         children: [
           {
-            text: "Evolution spontanée d'un système chimique",
-            link: "/t-spe/composition-et-transformation/evolution-spontanee/introduction.md",
-          },
-          {
-            text: "Acides et bases",
-            link: "/t-spe/composition-et-transformation/acides-et-bases/introduction.md",
-          },
-          {
-            text: "Piles et électrolyse",
-            link: "/t-spe/composition-et-transformation/piles-et-electrolyse/introduction.md",
+            text: "Transformations acides bases",
+            link: "/t-spe/composition-et-transformation/transformations-acides-bases/introduction.md",
           },
           {
             text: "Déterminer la composition d’un système par des méthodes physiques et chimiques",
             link: "/t-spe/composition-et-transformation/determiner-la-composition/README.md",
+          },
+          {
+            text: "Evolution spontanée d'un système chimique",
+            link: "/t-spe/composition-et-transformation/evolution-spontanee/introduction.md",
+          },
+          {
+            text: "Force des acides et des bases",
+            link: "/t-spe/composition-et-transformation/force-acides-bases/introduction.md",
+          },
+          {
+            text: "Piles et électrolyse",
+            link: "/t-spe/composition-et-transformation/piles-et-electrolyse/introduction.md",
           },
           {
             text: "Modéliser l’évolution temporelle d’un système chimique",

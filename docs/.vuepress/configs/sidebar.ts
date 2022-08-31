@@ -7,6 +7,15 @@ export const sidebar: SidebarConfig = {
       collapsible: true,
       children: [
         {
+          text: "Transformations acides bases",
+          collapsible: true,
+          children: [
+            "/t-spe/composition-et-transformation/transformations-acides-bases/introduction",
+            "/t-spe/composition-et-transformation/transformations-acides-bases/les-acides-et-les-bases",
+            "/t-spe/composition-et-transformation/transformations-acides-bases/ph-en-solution",
+          ],
+        },
+        {
           text: "Evolution spontanée d'un système chimique",
           collapsible: true,
           children: [
@@ -16,12 +25,11 @@ export const sidebar: SidebarConfig = {
           ],
         },
         {
-          text: "Acides et bases",
+          text: "Force des acides et des bases",
           collapsible: true,
           children: [
-            "/t-spe/composition-et-transformation/acides-et-bases/introduction",
-            "/t-spe/composition-et-transformation/acides-et-bases/les-acides-et-les-bases",
-            "/t-spe/composition-et-transformation/acides-et-bases/force-des-acides-et-des-bases",
+            "/t-spe/composition-et-transformation/force-acides-bases/introduction",
+            "/t-spe/composition-et-transformation/force-acides-bases/force-acides-bases",
           ],
         },
         {
