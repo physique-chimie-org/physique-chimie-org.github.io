@@ -2,11 +2,10 @@ backend:
   name: github
   repo: physique-chimie-org/physique-chimie-org.github.io
   branch: main
-
-display_url: https://physique-chimie.netlify.app/
-publish_mode: editorial_workflow
 media_folder: "docs/.vuepress/public/images/uploads"
 public_folder: "images/uploads"
+display_url: https://physique-chimie.netlify.app/
+publish_mode: editorial_workflow
 collections:
 - name: t-spe
   label: "t-spe"
