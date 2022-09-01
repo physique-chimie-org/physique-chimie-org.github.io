@@ -1,7 +1,7 @@
 ---
 title: Le pH en solution aqueuse
 ---
-Toutes les espèces chimiques acides en solution aqueuse régagissent totalement ou en partie avec l'eau. En effet, en solution aqueuse l'eau est l'espèce chimique majoritaire et est une espèce amphotère, à la fois acide et base. Ainsi pour acide quelconque $AH$, il existe une réaction qui se produit avec l'eau en tant que base de la forme :
+Toutes les espèces chimiques acides en solution aqueuse réagissent totalement ou en partie avec l'eau. En effet, en solution aqueuse, l'eau est l'espèce chimique majoritaire et est une espèce amphotère, à la fois acide et base. Ainsi pour acide quelconque $AH$, il existe une réaction qui se produit avec l'eau en tant que base de la forme :
 
 $$
 AH_{(aq)}+H_2O_{l}⇌A^-_{(aq)}+H_3O^+_{(aq)}
@@ -31,7 +31,7 @@ $$
 Le concentration standard $c^0$ en $mol·L^{-1}$ permet à la relation d'être homogène.
 :::
 
-Par souci de simplification on calculera généralement :
+Par souci de simplification, on calculera généralement :
 $$
 pH=-log([H_3O^+])
 $$
@@ -42,11 +42,11 @@ $$
 
 - Le pH d'une solution est d'autant plus faible, est donc d'autant plus acide, que la concentration en ion oxonium $H_3O^+$ est élevée.
 - Le pH d'une solution est d'autant plus élevé, est donc d'autant plus basique, que la concentration en ion oxonium $H_3O^+$ est faible.
-- A pH=7, la solution est neutre.
+- À pH=7, la solution est neutre.
 
 ## Mesure du pH
 
 Le pH d’une solution peut se mesurer :
 
-- A l’aide du papier pH, l’incertitude de la mesure est de l’ordre d’une unité
-- A l’aide d’un pH-mètre étalonné, l’incertitude de la mesure est de l’ordre de 0,1 unité
+- À l’aide du papier pH, l’incertitude de la mesure est de l’ordre d’une unité
+- À l’aide d’un pH-mètre étalonné, l’incertitude de la mesure est de l’ordre de 0,1 unité
