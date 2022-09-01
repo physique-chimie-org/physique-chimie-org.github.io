@@ -1,5 +1,6 @@
-# Transformations acides bases
-
+---
+title: Transformations acides bases
+---
 ## Théorie de Brönsted et couples acide/base
 
 ::: danger Important
@@ -64,7 +65,7 @@ On peut identifier une analogie avec les réactions d'oxydo-réduction, vues en 
 
 Toutes les espèces comportant des atomes d’hydrogène ne sont pas forcément des acides.
 
-Pour libérer un ion hydrogène $H^+$, la liaison entre un atome d’hydrogène et le reste de la molécule doit être fortement polarisée et l’atome d’hydrogène doit porter une charge partielle positive. Plus la liaison $R−H$ est polarisée, plus l’atome d’hydrogène peut être facilement libéré́ et capté par une base.
+Pour libérer un ion hydrogène $H^+$, la liaison entre un atome d’hydrogène et le reste de la molécule doit être fortement polarisée et l’atome d’hydrogène doit porter une charge partielle positive. Plus la liaison $R−H$ est polarisée, plus l’atome d’hydrogène peut être facilement libéré et capté par une base.
 
 De même, pour qu’une espèce chimique ait un caractère basique, il faut qu’elle présente un doublet non liant, qui va pouvoir capter un ion hydrogène.
 
@@ -80,10 +81,10 @@ Représenter le schéma de Lewis et la formule semi-développée de l’acide é
 Une réaction acido-basique est un transfert d’ion hydrogène $H^+$ de l’acide d’un couple vers la base d’un autre couple acido-basique. La réaction peut être totale (→) ou non totale (⇄) suivant les couples mis en jeu.
 :::
 
-Pour établir l'équation de la réaction acide-base on peut :
+Pour établir l'équation de la réaction acide-base, on peut :
 
 - Identifier les réactifs de la réaction et les couples acide/base mis en jeu
-- Ecrire les démi-équations de chaque couple de façon à placer les réactifs à gauche et les produits à droite.
+- Écrire les demi-équations de chaque couple de façon à placer les réactifs à gauche et les produits à droite.
 - Additionner membre à membre les demi-équations pour obtenir l'équation de réaction acide-base.
 
 **Application :**
@@ -103,7 +104,7 @@ $$
 Il y a transfert d’un ion hydrogène $H^+$ de l’acide éthanoïque (acide) vers l’ion hydroxyde (base).
 :::
 
-## Cas de l'eau et éspèces amphotères
+## Cas de l'eau et espèces amphotères
 
 ::: danger Important
 Une espèce amphotère est à la fois l’acide d’un couple et la base d’un autre couple.
@@ -131,5 +132,5 @@ Toute solution aqueuse contient donc des ions $H_3O^+$ et $HO^-$.
 :::
 
 ::: info
-L’autoprotolyse est une réaction très limitée. Elle ne produit donc qu’une quantité très faible d’ions. Elle aura donc en général une influence négligeable sur la production des ions.
+L’autoprotolyse est une réaction très limitée. Elle ne produit donc qu’une quantité très faible d’ions. Elle aura ainsi en général une influence négligeable sur la production des ions.
 :::
