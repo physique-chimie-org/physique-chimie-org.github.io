@@ -1,5 +1,6 @@
-# Le pH en solution aqueuse
-
+---
+title: Le pH en solution aqueuse
+---
 Toutes les espèces chimiques acides en solution aqueuse régagissent totalement ou en partie avec l'eau. En effet, en solution aqueuse l'eau est l'espèce chimique majoritaire et est une espèce amphotère, à la fois acide et base. Ainsi pour acide quelconque $AH$, il existe une réaction qui se produit avec l'eau en tant que base de la forme :
 
 $$
