@@ -57,11 +57,12 @@ __Application :__
 
 Vous pouvez observer les quantités d'ion oxonium $H_3O^+$ en fonction du pH, et vice-versa, dans l'animation suivante (micro et my solution) :
 
-<iframe src="https://phet.colorado.edu/sims/html/ph-scale/latest/ph-scale_fr.html"
-        width="800"
-        height="600"
-        allowfullscreen>
-</iframe>
+<div class="iframe-4-3">
+    <iframe loading="lazy"
+            src="https://phet.colorado.edu/sims/html/ph-scale/latest/ph-scale_fr.html"
+            allowfullscreen>
+    </iframe>
+</div>
 
 ## Mesure du pH
 
