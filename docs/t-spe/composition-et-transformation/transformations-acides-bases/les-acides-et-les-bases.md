@@ -1,6 +1,5 @@
----
-title: Transformations acides bases
----
+# Transformations acides bases
+
 ## Théorie de Brönsted et couples acide/base
 
 ::: danger Important
@@ -35,7 +34,7 @@ On peut identifier une analogie avec les réactions d'oxydo-réduction, vues en 
 
 **Application :** _(dans chacune des réactions suivantes, un seul ion hydrogène est échangé)_
 
-| Couples acido-basiques     | Acide           | Base              | Demi-équation acido-basique            |
+| Couples acide-base         | Acide           | Base              | Demi-équation acide-base               |
 | -------------------------- | --------------- | ----------------- | -------------------------------------- |
 | $NH_{4 (aq)}^+/NH_{3(aq)}$ |                 |                   |                                        |
 |                            | $HCOOH_{(aq)}$  |                   |                                        |
@@ -48,17 +47,19 @@ On peut identifier une analogie avec les réactions d'oxydo-réduction, vues en 
 |                            | $H_2O_{(l)}$    |                   |                                        |
 
 ::: details Afficher les réponses
-| Couples acido-basiques     | Acide           | Base              | Demi-équation acido-basique            |
-| -------------------------- | --------------- | ----------------- | -------------------------------------- |
-| $NH_{4 (aq)}^+/NH_{3(aq)}$ |                 |                   |                                        |
-|                            | $HCOOH_{(aq)}$  |                   |                                        |
-|                            |                 | $NO_{3(aq)}^-$    |                                        |
-|                            |                 |                   | $HSO_{4(aq)}^- = SO_{4(aq)}^{2-}+ H^+$ |
-| $H_3O_{(aq)}^+/H_2O_{(l)}$ |                 |                   |                                        |
-|                            |                 | $CO_{3(aq)}^{2-}$ |                                        |
-|                            | $H_2CO_{3(aq)}$ |                   |                                        |
-|                            |                 |                   | $HNO_{2(aq)} =NO_{2(aq)}^- + H^+$      |
-|                            | $H_2O_{(l)}$    |                   |                                        |
+
+| Couples acide-base              | Acide           | Base              | Demi-équation acide-base                |
+| ------------------------------- | --------------- | ----------------- | --------------------------------------- |
+| $NH_{4(aq)}^+/NH_{3(aq)}$       | $NH_{4(aq)}^+$  | $NH_{3(aq)}$      | $NH_{4(aq)}^+ = NH_{3(aq)} + H^+$       |
+| $HCOOH_{(aq)}/HCOO^-_{(aq)}$    | $HCOOH_{(aq)}$  | $HCOO^-_{(aq)}$   | $HCOOH_{(aq)} = HCOO^-_{(aq)} + H^+$    |
+| $HNO_{3(aq)}/NO_{3(aq)}^-$      | $HNO_{3(aq)}$   | $NO_{3(aq)}^-$    | $HNO_{3(aq)} = NO_{3(aq)}^- + H^+$      |
+| $HSO_{4(aq)}^-/SO_{4(aq)}^{2-}$ | $HSO_{4(aq)}^-$ | $SO_{4(aq)}^{2-}$ | $HSO_{4(aq)}^- = SO_{4(aq)}^{2-}+ H^+$  |
+| $H_3O_{(aq)}^+/H_2O_{(l)}$      | $H_3O_{(aq)}^+$ | $H_2O_{(l)}$      | $H_3O_{(aq)}^+ = H_2O_{(l)} + H^+$      |
+| $HCO_{3(aq)}^-/CO_{3(aq)}^{2-}$ | $HCO_{3(aq)}^-$ | $CO_{3(aq)}^{2-}$ | $HCO_{3(aq)}^- = CO_{3(aq)}^{2-} + H^+$ |
+| $H_2CO_{3(aq)}/HCO_{3(aq)}^-$   | $H_2CO_{3(aq)}$ | $HCO_{3(aq)}^-$   | $H_2CO_{3(aq)} = HCO_{3(aq)}^- + H^+$   |
+| $HNO_{2(aq)}/NO_{2(aq)}^-$      | $HNO_{2(aq)}$   | $NO_{2(aq)}^-$    | $HNO_{2(aq)} = NO_{2(aq)}^- + H^+$      |
+| $H_2O_{(l)}/HO^-_{(aq)}$        | $H_2O_{(l)}$    | $HO^-_{(aq)}$     | $H_2O_{(l)} = HO^-_{(aq)} + H^+$        |
+
 :::
 
 ## Libération des ions hydrogènes
@@ -97,11 +98,17 @@ Couples acide/base :
 - $H_2O_{(l)}/HO^-_{(aq)}$
 
 ::: details Afficher les réponses
+
 $$
-CH_3COOH_{(aq)} + HO^-_{(aq)} → CH_3COO^-_{(aq)} + H_2O_{(l)}
+\begin{align*}
+  CH_3COOH_{(aq)} & = CH_3COO^-_{(aq)} + H^+ \\
+  HO^-_{(aq)} + H^+ & = H_2O_{(l)} \\
+  CH_3COOH_{(aq)} + HO^-_{(aq)} & → CH_3COO^-_{(aq)} + H_2O_{(l)}
+\end{align*}
 $$
 
 Il y a transfert d’un ion hydrogène $H^+$ de l’acide éthanoïque (acide) vers l’ion hydroxyde (base).
+
 :::
 
 ## Cas de l'eau et espèces amphotères
@@ -120,6 +127,12 @@ Les deux demi-équations sont :
 **Application :**
 
 Parmi les espèces chimiques du tableau précédent, identifier une autre espèce amphotère que l’eau.
+
+::: details Afficher les réponses
+
+On observe que $HCO_{3(aq)}^-$ est présent dans le couple $H_2CO_{3(aq)}/HCO_{3(aq)}^-$ en tant que base, et dans le couple $HCO_{3(aq)}^-/CO_{3(aq)}^{2-}$ en tant qu’acide. C’est donc une espèce amphotère.
+
+:::
 
 ::: danger Important
 On peut écrire l’équation de réaction suivante correspondant à l’autoprotolyse de l’eau (l’eau en tant qu’acide qui réagit avec l’eau en tant que base)
