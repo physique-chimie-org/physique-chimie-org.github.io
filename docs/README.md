@@ -3,6 +3,7 @@ home: true
 icon: home
 title: Accueil
 heroImage: /logo.svg
+heroAlt: "logo classBot_"
 heroText: classBot_
 tagline: Les cours accessibles partout
 features:
