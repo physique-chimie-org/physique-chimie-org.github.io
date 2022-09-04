@@ -10,7 +10,7 @@ La mesure de la concentration molaire en ions oxonium $H_3O^+$ nous aide donc à
 
 ## Définition du pH
 
-Le pH est une grandeur sans unité, comprise entre 1 et 14, lié à la concentration molaire en ions oxonium $H_3 O^+$  en solution aqueuse. Le pH quantifie l'acidité d'une solution aqueuse.
+Le pH est une grandeur sans unité, comprise entre 1 et 14, liée à la concentration molaire en ions oxonium $H_3 O^+$  en solution aqueuse. Le pH quantifie l'acidité d'une solution aqueuse.
 
 ::: danger Important
 Le pH d'une solution aqueuse est défini par la relation :
@@ -39,6 +39,9 @@ $$
 [H_3O^+]=10^{-pH}
 $$
 
+- Le pH d'une solution est d'autant plus faible, est donc d'autant plus acide, que la concentration en ion oxonium $H_3O^+$ est élevée.
+- Le pH d'une solution est d'autant plus élevé, est donc d'autant plus basique, que la concentration en ion oxonium $H_3O^+$ est faible.
+
 __Application :__
 
 1. On mesure $[H_3O^+]=1,0×10^{-3} mol·L^{-1}$. Quelle est la valeur du pH ?
@@ -51,11 +54,7 @@ __Application :__
 
 :::
 
-- Le pH d'une solution est d'autant plus faible, est donc d'autant plus acide, que la concentration en ion oxonium $H_3O^+$ est élevée.
-- Le pH d'une solution est d'autant plus élevé, est donc d'autant plus basique, que la concentration en ion oxonium $H_3O^+$ est faible.
-- À pH=7, la solution est neutre.
-
-Vous pouvez observer les quantités d'ion oxonium $H_3O^+$ en fonction du pH, et vice-versa, dans l'animation suivante (micro et my solution) :
+Vous pouvez observer les quantités d'ion oxonium $H_3O^+$ en fonction du pH, et vice-versa, dans l'animation suivante de l'Université du Colorado[^1] (voir _micro_ et _my solution_ dans l'animation) :
 
 <div class="iframe-4-3">
     <iframe loading="lazy"
@@ -70,3 +69,15 @@ Le pH d’une solution peut se mesurer :
 
 - À l’aide du papier pH, l’incertitude de la mesure est de l’ordre d’une unité
 - À l’aide d’un pH-mètre étalonné, l’incertitude de la mesure est de l’ordre de 0,1 unité
+
+La mesure du pH permet de classer les solutions en 3 catégories :
+
+- Acide : pH < 7
+- Neutre : pH = 7
+- Basique : pH > 7
+
+__Echelle de pH et quelques solutions associées__[^2]
+![échelle de pH](/images/cours/echelle-pH.png)
+
+[^1]: [https://phet.colorado.edu/sims/html/ph-scale/latest/ph-scale_fr.html](https://phet.colorado.edu/sims/html/ph-scale/latest/ph-scale_fr.html)
+[^2]: [https://www.smpga.fr/leau-chez-moi/qualite-controlee/ph-de-leau/](https://www.smpga.fr/leau-chez-moi/qualite-controlee/ph-de-leau/)
