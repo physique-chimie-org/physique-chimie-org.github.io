@@ -16,9 +16,9 @@
     "vue": "^3.2.37"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:dev": "vitepress dev docs --clean-cache --host --port 4000",
+    "docs:build": "vitepress build docs --clean-cache",
+    "docs:serve": "vitepress serve docs --clean-cache --host --port 4000"
   },
   "dependencies": {}
 }
