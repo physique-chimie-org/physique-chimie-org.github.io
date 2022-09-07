@@ -1,7 +1,7 @@
 export const nav = [
   {
     text: "Terminale",
-    activeMatch: '/t-spe/',
+    activeMatch: "/t-spe/",
     items: [
       {
         text: "Composition et transformation de la matière",

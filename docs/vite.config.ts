@@ -8,7 +8,10 @@ export default defineConfig({
       outDir: ".vitepress/dist",
       registerType: "prompt",
       workbox: {
-        globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,woff2}', '**/**/*.{css,js,html,svg,png,ico,txt,woff2}' ],
+        globPatterns: [
+          "**/*.{css,js,html,svg,png,ico,txt,woff2}",
+          "**/**/*.{css,js,html,svg,png,ico,txt,woff2}",
+        ],
         sourcemap: true,
       },
       manifest: {

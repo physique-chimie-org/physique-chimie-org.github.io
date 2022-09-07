@@ -16,8 +16,7 @@ export const useMediumZoom = () =>
   onMounted(() => inject(mediumZoomSymbol)?.refresh());
 
 export const useMediumZoomProvider = (app: App, router: Router) => {
-  if (import.meta.env.SSR)
-    return
+  if (import.meta.env.SSR) return;
   const zoom = mediumZoom();
   zoom.refresh = () => {
     zoom.detach();
