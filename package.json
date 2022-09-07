@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "esno": "^0.16.3",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-mathjax3": "^4.3.1",
     "medium-zoom": "^1.0.6",
