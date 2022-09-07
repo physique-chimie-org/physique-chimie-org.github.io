@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 import mathjax3 from "markdown-it-mathjax3";
 import footnote from "markdown-it-footnote";
 
-import { nav, sidebar } from "./configs";
+import { nav, sidebar, head } from "./configs";
 
 const customElements = ["mjx-container"];
 
@@ -13,6 +13,7 @@ export default defineConfig({
   title: "classBot_",
   titleTemplate: "Les cours accessibles partout",
   description: "Site de cours, accessibles partout.",
+  head: head,
 
   lastUpdated: true,
   cleanUrls: "without-subfolders",
