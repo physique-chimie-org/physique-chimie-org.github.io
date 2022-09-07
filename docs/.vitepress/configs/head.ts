@@ -81,10 +81,6 @@ export const head: HeadConfig[] = [
         href: "/images/icons/apple-touch-icon-180x180.png",
       },
     ],
-    [
-      "link",
-      { rel: "icon", type: "image/x-icon", href: "/images/favicon.ico" },
-    ],
     ["link", { rel: "shortcut icon", href: "/images/icons/favicon.ico" }],
     [
       "link",
@@ -109,8 +105,8 @@ export const head: HeadConfig[] = [
       {
         rel: "icon",
         type: "image/png",
-        sizes: "194x194",
-        href: "/images/icons/favicon-194x194.png",
+        sizes: "192x192",
+        href: "/images/icons/favicon-192x192.png",
       },
     ],
     [
