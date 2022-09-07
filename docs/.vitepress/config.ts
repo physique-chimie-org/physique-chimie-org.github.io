@@ -7,6 +7,7 @@ import { nav, sidebar } from "./configs";
 const customElements = ["mjx-container"];
 
 export default defineConfig({
+  base: "/docs-vitepress/",
   ignoreDeadLinks: true,
   lang: "fr-FR",
   title: "classBot_",
