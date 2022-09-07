@@ -16,6 +16,7 @@ Un spectre UV-Visible représente en général l’absorbance de l’espèce en 
 
 #### Principe du dosage
 
+::: danger Important
 L’absorbance notée $A$, est une grandeur sans unité. Elle caractérise la capacité d’une solution colorée à absorber des radiations monochromatiques du spectre du visible. Dans un spectrophotomètre, la largeur de la cuve et la longueur d’onde étant fixées, l’absorbance obéit à la loi de Beer-Lambert :
 
 $$
@@ -23,6 +24,7 @@ A=k×[X]
 $$
 
 $A$ sans unité, $k$ en $L·mol^{-1}$ (ou $L·g^{-1}$), $[X]$ en $mol·L^{-1}$ (ou $g·L^{-1}$)
+:::
 
 <div class="iframe-4-3">
 <iframe src="https://phet.colorado.edu/sims/html/beers-law-lab/latest/beers-law-lab_en.html"
@@ -30,9 +32,14 @@ $A$ sans unité, $k$ en $L·mol^{-1}$ (ou $L·g^{-1}$), $[X]$ en $mol·L^{-1}$ (
 </iframe>
 </div>
 
+::: warning Attention
 Pour avoir une meilleure précision sur le dosage on doit régler la longueur d’onde du spectrophotomètre sur la longueur d’onde d’absorption maximale de l’espèce chimique analysée.
+:::
 
 Courbe d’étalonnage : $A = f([X])$
+
+__courbe à ajouter__
+
 Le coefficient directeur de la droite correspond au coefficient de proportionnalité $k$ dans la loi de Beer-Lambert.
 
 #### Lien entre couleur perçue et longueurs d’onde absorbées
@@ -53,6 +60,7 @@ La conductivité notée $σ$ d’une solution caractérise la capacité de la so
 
 Rappel : en solution, ce sont les ions qui conduisent le courant électrique ; seuls les ions (particules chargées) ont une influence sur la valeur de la conductivité de la solution.
 
+::: danger Important
 La loi de Kohlrausch énonce que dans une solution diluée, la conductivité électrique $σ_i$ d’un électrolyte $X_i$ (un soluté ionique) est proportionnelle à sa concentration $[X_i]$. La constante de proportionnalité $λ$, est la conductivité ionique molaire, spécifique de l’électrolyte.
 
 $$
@@ -62,20 +70,31 @@ $$
 - $σ_i$ en $S·m^{-1}$)
 - $λ_i$ en $S·m^2·mol^{-1}$)
 - $[X_i] en $mol·m{-3}$).
+:::
 
+::: danger Important
 La conductivité totale $σ$ d’une solution est la somme de toutes les conductivités $σ_i$ de tous les ions présents.
 
 $$
 σ=\sumσ_i = \sum(λ_i×[X_i])
 $$
+:::
 
+::: danger Important
 La conductivité d’une solution ne contenant qu’un seul soluté ionique $X$ donnant des ions monovalents est proportionnelle à sa concentration $[X]$ et vérifie la loi de Kohlrausch :
+
 $$
 σ=k×[X]
 $$
 
 Cela permet de faire un dosage par étalonnage d’une solution contenant ce seul soluté.
+:::
+
 Courbe d’étalonnage : σ = f(C)
+
+__courbe à ajouter__
+
+Le coefficient directeur de la droite correspond au coefficient de proportionnalité $k$ dans la loi de Kohlrausch.
 
 ## Spectroscopie Infrarouge (IR)
 
