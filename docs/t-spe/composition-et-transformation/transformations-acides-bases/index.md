@@ -1,6 +1,5 @@
----
-title: Transformations acides bases
----
+# Transformations acides bases
+
 ## Table des matières
 
 1. [Introduction](introduction.md)

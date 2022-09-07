@@ -1,5 +1,3 @@
----
-order: 3
----
-
 # Méthodes chimiques
+
+_cours en rédaction_

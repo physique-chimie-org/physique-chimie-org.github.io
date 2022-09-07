@@ -11,7 +11,7 @@ features:
   - title: Rédigé par des professeurs
     details: Les cours sont tous rédigés et modérés par des professeurs, ce qui vous assure une confiance dans les contenus.
   - title: Open source
-    details: Le code et les cours sont Open Source et tout le monde peut donc proposer des modifications, soumises à modération des professeurs.
-  - title: Disponible hors-ligne
-    details: Le site s'installe comme une application et accessible partout même sans connexion internet.
+    details: Le code et les cours sont Open Source et tout le monde peut donc contribuer à l'amélioration du site.
+  - title: Application mobile
+    details: Le site peut être installé comme une application sur votre téléphone..
 ---

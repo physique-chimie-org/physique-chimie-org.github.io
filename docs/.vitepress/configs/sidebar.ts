@@ -1,4 +1,6 @@
-export const sidebar = {
+import { DefaultTheme } from "vitepress/theme"
+
+export const sidebar: DefaultTheme.SidebarMulti = {
   "/t-spe/": [
     {
       text: "Transformations acides bases",
@@ -15,6 +17,24 @@ export const sidebar = {
         {
           text: "Le pH en solution",
           link: "/t-spe/composition-et-transformation/transformations-acides-bases/ph-en-solution",
+        },
+      ],
+    },
+    {
+      text: "Déterminer la composition d'un système par des méthodes physiques et chimiques",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/t-spe/composition-et-transformation/determiner-la-composition/introduction",
+        },
+        {
+          text: "Méthodes physiques",
+          link: "/t-spe/composition-et-transformation/determiner-la-composition/methodes-physiques",
+        },
+        {
+          text: "Méthodes chimiques",
+          link: "/t-spe/composition-et-transformation/determiner-la-composition/methodes-chimiques",
         },
       ],
     },
