@@ -15,9 +15,9 @@ export default defineConfig({
         sourcemap: true,
       },
       manifest: {
-        start_url: "/",
-        scope: "/",
-        id: "/",
+        start_url: "/docs-vitepress/",
+        scope: "/docs-vitepress/",
+        id: "/docs-vitepress/",
         theme_color: "#3eaf7c",
         background_color: "#3eaf7c",
         icons: [
