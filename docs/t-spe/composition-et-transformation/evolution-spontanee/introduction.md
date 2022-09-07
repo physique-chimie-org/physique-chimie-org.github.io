@@ -1,12 +1,10 @@
 ---
 order: 1
+title: Introduction
 ---
-
-# Introduction
-
 ## Objectifs
 
-A l'issue de cette partie, vous devrez savoir :
+À l'issue de cette partie, vous devrez savoir :
 
 - Relier le caractère non total d’une transformation à la présence, à l’état final du système, de tous les réactifs et de tous les produits.
 - Mettre en évidence la présence de tous les réactifs dans l’état final d’un système siège d’une transformation non totale, par un nouvel ajout de réactifs.
@@ -20,7 +18,7 @@ A l'issue de cette partie, vous devrez savoir :
 
 - Un système chimique atteint l'état final si les quantités de matière des réactifs et des produits n'évoluent plus à l'échelle macroscopique.
 - Une transformation est totale si, à l'état final, au moins un réactif (appelé réactif limitant) est totalement consommé
-- L'avancement d’une réaction, noté $x$ et exprimé en moles, permet de caractériser l'évolution des quantités de matières des réactifs et des produits au cours de la transformation chimique.
+- L'avancement d’une réaction, noté $x$ et exprimé en moles, permet de caractériser l'évolution des quantités de matière, des réactifs et des produits au cours de la transformation chimique.
 
 Pour une réaction $a A + b B ⇌c C + d D$ on a, à temps t de la transformation chimique :
 $$

@@ -1,9 +1,7 @@
 ---
 order: 2
+title: Équilibre chimique
 ---
-
-# Équilibre chimique
-
 ## Transformation non totale et équilibre chimique
 
 ::: danger

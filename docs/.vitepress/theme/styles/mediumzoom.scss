@@ -1,0 +1,24 @@
+:root {
+  --medium-zoom-z-index: 20;
+  --medium-zoom-bg-color: var(--vp-c-bg);
+  --medium-zoom-opacity: 1;
+}
+
+.medium-zoom-overlay {
+  /* override element style set by medium-zoom script */
+  background-color: var(--medium-zoom-bg-color) !important;
+  z-index: var(--medium-zoom-z-index);
+}
+
+.medium-zoom-image {
+  z-index: calc(var(--medium-zoom-z-index) + 1);
+}
+
+.medium-zoom-overlay {
+  background-color: var(--medium-zoom-bg-color) !important;
+  z-index: var(--medium-zoom-z-index);
+}
+
+.medium-zoom--opened .medium-zoom-overlay {
+  opacity: var(--medium-zoom-opacity);
+}

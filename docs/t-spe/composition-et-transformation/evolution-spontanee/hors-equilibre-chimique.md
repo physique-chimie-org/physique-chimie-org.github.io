@@ -1,9 +1,7 @@
 ---
 order: 3
+title: Évolution spontanée d'un système hors équilibre chimique
 ---
-
-# Évolution spontanée d'un système hors équilibre chimique
-
 ## Quotient de réaction Qr
 
 Une grandeur chimique sans dimension, appelée activité de l'espèce $X$, notée $a_X$ permet d'étudier l'évolution d'un mélange réactionnel. On rencontrera trois cas à ce niveau, selon que X est une espèce en solution aqueuse, un solvant ou un solide :

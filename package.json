@@ -8,6 +8,10 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-mathjax3": "^4.3.1",
+    "medium-zoom": "^1.0.6",
+    "sass": "^1.54.8",
     "vitepress": "^1.0.0-alpha.12",
     "vue": "^3.2.37"
   },
