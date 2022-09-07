@@ -12,12 +12,13 @@
     "markdown-it-mathjax3": "^4.3.1",
     "medium-zoom": "^1.0.6",
     "sass": "^1.54.8",
+    "vite-plugin-pwa": "^0.12.7",
     "vitepress": "^1.0.0-alpha.12",
     "vue": "^3.2.37"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs --clean-cache --host --port 4000",
-    "docs:build": "vitepress build docs --clean-cache",
+    "docs:build": "vitepress build docs --clean-cache && esno docs/scripts/build.ts",
     "docs:serve": "vitepress serve docs --clean-cache --host --port 4000"
   },
   "dependencies": {}
