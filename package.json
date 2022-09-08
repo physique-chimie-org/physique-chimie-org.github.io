@@ -13,6 +13,7 @@
     "markdown-it-mathjax3": "^4.3.1",
     "medium-zoom": "^1.0.6",
     "sass": "^1.54.8",
+    "unocss": "^0.45.18",
     "vite-plugin-pwa": "^0.12.7",
     "vitepress": "^1.0.0-alpha.12",
     "vue": "^3.2.37"

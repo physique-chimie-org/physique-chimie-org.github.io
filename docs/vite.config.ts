@@ -1,8 +1,15 @@
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
+import { presetAttributify, presetUno } from 'unocss'
+import Unocss from 'unocss/vite'
+
 
 export default defineConfig({
   plugins: [
+    // https://github.com/unocss/unocss
+    Unocss({
+      presets: [presetUno(), presetAttributify()],
+    }),
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       outDir: ".vitepress/dist",

@@ -5,6 +5,7 @@ import { useMediumZoomProvider } from "./components/composables";
 import ReloadPrompt from "./components/ReloadPrompt.vue";
 
 import "./styles/index.scss";
+import "uno.css"
 
 export default {
   ...DefaultTheme,

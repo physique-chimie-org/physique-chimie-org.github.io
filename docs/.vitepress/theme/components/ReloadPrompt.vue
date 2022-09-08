@@ -26,21 +26,21 @@ onBeforeMount(async () => {
       aria-labelledby="pwa-message"
     >
       <div id="pwa-message" class="mb-3">
-        New content available, click the reload button to update.
+        Nouveau contenu disponible, cliquez sur le bouton recharger pour mettre à jour.
       </div>
       <button
         type="button"
         class="pwa-refresh mr-2 px-3 py-1 rounded"
         @click="updateServiceWorker?.()"
       >
-        Reload
+        Recharger
       </button>
       <button
         type="button"
         class="pwa-cancel border border-$pwa-divider mr-2 px-3 py-1 rounded"
         @click="close"
       >
-        Close
+        Fermer
       </button>
     </div>
   </Teleport>
