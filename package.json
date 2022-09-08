@@ -1,9 +1,12 @@
 {
-  "name": "physique-chimie-vuepress",
+  "name": "classot",
   "version": "0.0.1",
   "description": "Un site contenant tous les cours de physique-chimie",
   "main": "index.js",
-  "repository": "https://github.com/physique-chimie-org/physique-chimie-org.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/physique-chimie-org/physique-chimie-org.github.io"
+  },
   "author": "Aliosha Padovani <aliosha.padovani@gmail.com>",
   "license": "MIT",
   "private": false,

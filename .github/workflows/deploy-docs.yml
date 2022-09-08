@@ -27,16 +27,16 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: yarn
+          cache: pnpm
 
       - name: Install Deps 🔧
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build Docs 🧱
         env:
           NODE_OPTIONS: --max_old_space_size=4096
         run: |-
-          yarn run docs:build
+          pnpm run docs:build
           > docs/.vitepress/dist/.nojekyll
 
       - name: Deploy Docs 🚀
