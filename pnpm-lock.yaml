@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   esno: ^0.16.3
@@ -7,9 +7,11 @@ specifiers:
   medium-zoom: ^1.0.6
   sass: ^1.54.8
   unocss: ^0.45.18
+  vite: ^3.1.0
   vite-plugin-pwa: ^0.12.7
   vitepress: ^1.0.0-alpha.12
   vue: ^3.2.37
+  workbox-window: ^6.5.4
 
 devDependencies:
   esno: 0.16.3
@@ -17,10 +19,12 @@ devDependencies:
   markdown-it-mathjax3: 4.3.1
   medium-zoom: 1.0.6
   sass: 1.54.9
-  unocss: 0.45.18
-  vite-plugin-pwa: 0.12.7
-  vitepress: 1.0.0-alpha.13_sass@1.54.9
+  unocss: 0.45.18_vite@3.1.0
+  vite: 3.1.0_sass@1.54.9
+  vite-plugin-pwa: 0.12.7_hmwovejfmhdkcygyi2ttcxz6n4
+  vitepress: 1.0.0-alpha.13_72ku2eaflfa2bdsercpvjupnpm
   vue: 3.2.39
+  workbox-window: 6.5.4
 
 packages:
 
@@ -30,13 +34,14 @@ packages:
       '@algolia/autocomplete-shared': 1.7.1
     dev: true
 
-  /@algolia/autocomplete-preset-algolia/1.7.1_algoliasearch@4.14.2:
+  /@algolia/autocomplete-preset-algolia/1.7.1_qs6lk5nhygj2o3hj4sf6xnr724:
     resolution: {integrity: sha512-pJwmIxeJCymU1M6cGujnaIYcY3QPOVYZOXhFkWVM7IxKzy272BwCvMFMyc5NpG/QmiObBxjo7myd060OeTNJXg==}
     peerDependencies:
       '@algolia/client-search': ^4.9.1
       algoliasearch: ^4.9.1
     dependencies:
       '@algolia/autocomplete-shared': 1.7.1
+      '@algolia/client-search': 4.14.2
       algoliasearch: 4.14.2
     dev: true
 
@@ -451,6 +456,8 @@ packages:
     resolution: {integrity: sha512-74bEXKX2h+8rrfQUfsBfuZZHzsEs6Eql4pqy/T4Nn6Y9wNPggQOqD6z6pn5Bl8ZfysKouFZT/UXEH94ummEeQw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.19.0
     dev: true
 
   /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.18.6_@babel+core@7.19.0:
@@ -1307,10 +1314,10 @@ packages:
     resolution: {integrity: sha512-gaP6TxxwQC+K8D6TRx5WULUWKrcbzECOPA2KCVMuI+6C7dNiGUk5yXXzVhc5sld79XKYLnO9DRTI4mjXDYkh+g==}
     dev: true
 
-  /@docsearch/js/3.2.1:
+  /@docsearch/js/3.2.1_tbpndr44ulefs3hehwpi2mkf2y:
     resolution: {integrity: sha512-H1PekEtSeS0msetR2YGGey2w7jQ2wAKfGODJvQTygSwMgUZ+2DHpzUgeDyEBIXRIfaBcoQneqrzsljM62pm6Xg==}
     dependencies:
-      '@docsearch/react': 3.2.1
+      '@docsearch/react': 3.2.1_tbpndr44ulefs3hehwpi2mkf2y
       preact: 10.10.6
     transitivePeerDependencies:
       - '@algolia/client-search'
@@ -1319,7 +1326,7 @@ packages:
       - react-dom
     dev: true
 
-  /@docsearch/react/3.2.1:
+  /@docsearch/react/3.2.1_tbpndr44ulefs3hehwpi2mkf2y:
     resolution: {integrity: sha512-EzTQ/y82s14IQC5XVestiK/kFFMe2aagoYFuTAIfIb/e+4FU7kSMKonRtLwsCiLQHmjvNQq+HO+33giJ5YVtaQ==}
     peerDependencies:
       '@types/react': '>= 16.8.0 < 19.0.0'
@@ -1334,7 +1341,7 @@ packages:
         optional: true
     dependencies:
       '@algolia/autocomplete-core': 1.7.1
-      '@algolia/autocomplete-preset-algolia': 1.7.1_algoliasearch@4.14.2
+      '@algolia/autocomplete-preset-algolia': 1.7.1_qs6lk5nhygj2o3hj4sf6xnr724
       '@docsearch/css': 3.2.1
       algoliasearch: 4.14.2
     transitivePeerDependencies:
@@ -1367,6 +1374,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [loong64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1457,7 +1465,7 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@rollup/plugin-babel/5.3.1_@babel+core@7.19.0+rollup@2.79.0:
+  /@rollup/plugin-babel/5.3.1_b6woseefyuugm6lsnk4tw7iz2e:
     resolution: {integrity: sha512-WFfdLWU/xVWKeRQnKmIAQULUI7Il0gZnBIH/ZFO069wYIfPu+8zrfp/KMW0atmELoRDq8FbiP3VCss9MhCut7Q==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
@@ -1550,12 +1558,12 @@ packages:
     resolution: {integrity: sha512-w7hEHXnPMEZ+4nGKl/KDRVpxkwYxYExuHOYXyzIzCDzEZ9ZCGMAewulr9IqJu2LR4N37fcnb1XVeuZ09qgOxhA==}
     dev: true
 
-  /@unocss/astro/0.45.18:
+  /@unocss/astro/0.45.18_vite@3.1.0:
     resolution: {integrity: sha512-dikg3GswRCiFvGWNssk+X4dZVqYQvoqH3b9jwSGRjOsVQUfxm0hUBcAFj9idAstkR1zbjnPDMKMSYx4woVRZUg==}
     dependencies:
       '@unocss/core': 0.45.18
       '@unocss/reset': 0.45.18
-      '@unocss/vite': 0.45.18
+      '@unocss/vite': 0.45.18_vite@3.1.0
     transitivePeerDependencies:
       - vite
     dev: true
@@ -1685,7 +1693,7 @@ packages:
       '@unocss/core': 0.45.18
     dev: true
 
-  /@unocss/vite/0.45.18:
+  /@unocss/vite/0.45.18_vite@3.1.0:
     resolution: {integrity: sha512-6ouAqz+zBsOQ5Zcj1kwQfh5TugxvSWVye9s0UlXOyAj9wrluHZ7NV13QFGDJdPJkYl+dOq0wIlIdwsDEeWrENw==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0
@@ -1698,6 +1706,7 @@ packages:
       '@unocss/scope': 0.45.18
       '@unocss/transformer-directives': 0.45.18
       magic-string: 0.26.3
+      vite: 3.1.0_sass@1.54.9
     dev: true
 
   /@vitejs/plugin-vue/3.1.0_vite@3.1.0+vue@3.2.39:
@@ -2298,6 +2307,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [android]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2306,6 +2316,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [android]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2314,6 +2325,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2322,6 +2334,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2330,6 +2343,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [freebsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2338,6 +2352,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [freebsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2346,6 +2361,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2354,6 +2370,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2362,6 +2379,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2370,6 +2388,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2378,6 +2397,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [mips64el]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2386,6 +2406,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ppc64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2394,6 +2415,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [riscv64]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2402,6 +2424,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [s390x]
     os: [linux]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2410,6 +2433,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [netbsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2418,6 +2442,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [openbsd]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2426,6 +2451,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [sunos]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2434,6 +2460,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2442,6 +2469,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2450,6 +2478,7 @@ packages:
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [win32]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2601,6 +2630,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -3736,7 +3766,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss/0.45.18:
+  /unocss/0.45.18_vite@3.1.0:
     resolution: {integrity: sha512-VDUrLzKwCIAipTCIqS9gpuEPJu7RkzGMJV0+u9zSrg1+9Cjmag4ABkmQdiWK+j/qUgeQ1YEs7OkGSeD0lMEUzA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -3745,7 +3775,7 @@ packages:
       '@unocss/webpack':
         optional: true
     dependencies:
-      '@unocss/astro': 0.45.18
+      '@unocss/astro': 0.45.18_vite@3.1.0
       '@unocss/cli': 0.45.18
       '@unocss/core': 0.45.18
       '@unocss/preset-attributify': 0.45.18
@@ -3761,7 +3791,7 @@ packages:
       '@unocss/transformer-compile-class': 0.45.18
       '@unocss/transformer-directives': 0.45.18
       '@unocss/transformer-variant-group': 0.45.18
-      '@unocss/vite': 0.45.18
+      '@unocss/vite': 0.45.18_vite@3.1.0
     transitivePeerDependencies:
       - supports-color
       - vite
@@ -3794,19 +3824,21 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /vite-plugin-pwa/0.12.7:
+  /vite-plugin-pwa/0.12.7_hmwovejfmhdkcygyi2ttcxz6n4:
     resolution: {integrity: sha512-salSwS1wWc1niNWfhX2W6gtfXmk+XESMz62w95EHLq6fSM2bDgDm1APmvq1nkDcxH6Onky7HxysCBKMzvOHXYg==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0-0
+      workbox-build: ^6.4.0
+      workbox-window: ^6.4.0
     dependencies:
       debug: 4.3.4
       fast-glob: 3.2.11
       pretty-bytes: 6.0.0
       rollup: 2.79.0
+      vite: 3.1.0_sass@1.54.9
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
-      - '@types/babel__core'
       - supports-color
     dev: true
 
@@ -3838,12 +3870,12 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress/1.0.0-alpha.13_sass@1.54.9:
+  /vitepress/1.0.0-alpha.13_72ku2eaflfa2bdsercpvjupnpm:
     resolution: {integrity: sha512-gCbKb+6o0g5wHt2yyqBPk7FcvrB+MfwGtg1JMS5p99GTQR87l3b7symCl8o1ecv7MDXwJ2mPB8ZrYNLnQAJxLQ==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.2.1
-      '@docsearch/js': 3.2.1
+      '@docsearch/js': 3.2.1_tbpndr44ulefs3hehwpi2mkf2y
       '@vitejs/plugin-vue': 3.1.0_vite@3.1.0+vue@3.2.39
       '@vue/devtools-api': 6.2.1
       '@vueuse/core': 9.2.0_vue@3.2.39
@@ -3976,7 +4008,7 @@ packages:
       '@babel/core': 7.19.0
       '@babel/preset-env': 7.19.0_@babel+core@7.19.0
       '@babel/runtime': 7.19.0
-      '@rollup/plugin-babel': 5.3.1_@babel+core@7.19.0+rollup@2.79.0
+      '@rollup/plugin-babel': 5.3.1_b6woseefyuugm6lsnk4tw7iz2e
       '@rollup/plugin-node-resolve': 11.2.1_rollup@2.79.0
       '@rollup/plugin-replace': 2.4.2_rollup@2.79.0
       '@surma/rollup-plugin-off-main-thread': 2.2.3

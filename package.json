@@ -17,14 +17,15 @@
     "medium-zoom": "^1.0.6",
     "sass": "^1.54.8",
     "unocss": "^0.45.18",
+    "vite": "^3.1.0",
     "vite-plugin-pwa": "^0.12.7",
     "vitepress": "^1.0.0-alpha.12",
-    "vue": "^3.2.37"
+    "vue": "^3.2.37",
+    "workbox-window": "^6.5.4"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs --clean-cache --host --port 4000",
     "docs:build": "vitepress build docs --clean-cache && esno docs/scripts/build.ts",
     "docs:serve": "vitepress serve docs --clean-cache --host --port 4000"
-  },
-  "dependencies": {}
+  }
 }
