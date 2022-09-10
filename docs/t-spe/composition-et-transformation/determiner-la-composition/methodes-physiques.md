@@ -1,5 +1,5 @@
 ---
-outline: "deep"
+outline: deep
 ---
 
 # Méthodes physiques
@@ -8,7 +8,19 @@ outline: "deep"
 
 ### Principe
 
-Un dosage par étalonnage consiste à déterminer la concentration d'une espèce chimique en solution en comparant une grandeur physique (conductance, absorbance, tension électrique, etc.) de la solution avec la même grandeur physique mesurée pour des solutions étalons.
+Un dosage par étalonnage consiste à déterminer la concentration $[X]_S$ d'une espèce chimique $X$ en solution en comparant une grandeur physique (conductivité, absorbance, tension électrique, etc.) de la solution avec la même grandeur physique mesurée pour des solutions étalons, de concentration $[X]$ connues
+
+On peut alors tracer une courbe d'étalonnage à partir des mesures, de la grandeur physique mesurée en fonction de la concentration.
+![Dosage par étalonnage](/images/cours/courbe-dosage-etalonnage.png)
+
+Pour déterminer la concentration $[X]_S$ :
+
+- on mesurer la grandeur physique pour la solution de concentration $[X]_S$
+- on détermine la concentration $[X]_S$ :
+  - graphiquement en lisant directement la courbe d'étalonnage
+  - par le calcul à partir de l'équation de la courbe d'étalonnage
+
+Il n'y a pas de réaction chimique lors d'un dosage par étalonnage. Ainsi l'espèce chimique $X$ dont on mesure la concentration $[X]$ n'est pas modifiée par le dosage. Le dosage par étalonnage n'est donc pas une méthode destructive.
 
 ### Dosage par spectrophotométrie UV-Visible
 
@@ -36,11 +48,12 @@ $A$ sans unité, $k$ en $L·mol^{-1}$ (ou $L·g^{-1}$), $[X]$ en $mol·L^{-1}$ (
 Pour avoir une meilleure précision sur le dosage on doit régler la longueur d’onde du spectrophotomètre sur la longueur d’onde d’absorption maximale de l’espèce chimique analysée.
 :::
 
-Courbe d’étalonnage : $A = f([X])$
-
-Le coefficient directeur de la droite correspond au coefficient de proportionnalité $k$ dans la loi de Beer-Lambert.
+- Courbe d’étalonnage : $A = f([X])$
+- Le coefficient directeur de la droite correspond au coefficient de proportionnalité $k$ dans la loi de Beer-Lambert.
 
 #### Lien entre couleur perçue et longueurs d’onde absorbées
+
+![cercle-chromatique](/images/cours/cercle-chromatique.svg)
 
 Une espèce incolore n’absorbe aucune radiation du spectre visible.
 
@@ -56,7 +69,9 @@ __Exemple :__ les ions chrome (III) qui absorbent dans le violet et dans l’ora
 
 La conductivité notée $σ$ d’une solution caractérise la capacité de la solution à conduire le courant électrique. Elle s’exprime en siemens par mètre ($S·m^{-1}$).
 
-Rappel : en solution, ce sont les ions qui conduisent le courant électrique ; seuls les ions (particules chargées) ont une influence sur la valeur de la conductivité de la solution.
+::: tip Rappel
+en solution, ce sont les ions qui conduisent le courant électrique ; seuls les ions (particules chargées) ont une influence sur la valeur de la conductivité de la solution.
+:::
 
 ::: danger Important
 La loi de Kohlrausch énonce que dans une solution diluée, la conductivité électrique $σ_i$ d’un électrolyte $X_i$ (un soluté ionique) est proportionnelle à sa concentration $[X_i]$. La constante de proportionnalité $λ$, est la conductivité ionique molaire, spécifique de l’électrolyte.
@@ -67,16 +82,24 @@ $$
 
 - $σ_i$ en $S·m^{-1}$)
 - $λ_i$ en $S·m^2·mol^{-1}$)
-- $[X_i] en $mol·m{-3}$).
+- $[X_i]$ en $mol·m^{-3}$).
 :::
 
 ::: danger Important
 La conductivité totale $σ$ d’une solution est la somme de toutes les conductivités $σ_i$ de tous les ions présents.
 
 $$
-σ=\sumσ_i = \sum(λ_i\times[X_i])
+σ_{solution}= σ_1 + σ_2 + ... + σ_n = \sum σ_i =  \sum(λ_i\times[X_i])
 $$
 :::
+
+::: warning Attention
+Les unités peuvent être source d'erreur en conductivité. En effet, les volumes sont souvent exprimés en $m^3$.
+
+On retiendra $1 mol·L^{-1} = 10^3 mol·m^{-3}$
+:::
+
+Le conductimètre mesure la conductance, mais fournit le plus souvent directement la conductivité.
 
 ::: danger Important
 La conductivité d’une solution ne contenant qu’un seul soluté ionique $X$ donnant des ions monovalents est proportionnelle à sa concentration $[X]$ et vérifie la loi de Kohlrausch :
@@ -88,11 +111,8 @@ $$
 Cela permet de faire un dosage par étalonnage d’une solution contenant ce seul soluté.
 :::
 
-Courbe d’étalonnage : $σ=f([X])$
-
-__courbe à ajouter__
-
-Le coefficient directeur de la droite correspond au coefficient de proportionnalité $k$ dans la loi de Kohlrausch.
+- Courbe d’étalonnage : $σ=f([X])$
+- Le coefficient directeur de la droite correspond au coefficient de proportionnalité $k$ dans la loi de Kohlrausch.
 
 ## Spectroscopie Infrarouge (IR)
 
