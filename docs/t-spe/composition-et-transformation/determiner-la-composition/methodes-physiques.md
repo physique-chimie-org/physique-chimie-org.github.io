@@ -24,12 +24,12 @@ Il n'y a pas de réaction chimique lors d'un dosage par étalonnage. Ainsi l'esp
 
 ### Dosage par spectrophotométrie UV-Visible
 
-Un spectre UV-Visible représente en général l’absorbance de l’espèce en fonction de la longueur d’onde du rayonnement.
-
 #### Principe du dosage
 
+Lorsqu'une lumière UV-Visible traverse une solution, une partie de la lumière est absorbée par les espèces chimiques en solution. L’absorbance notée $A$, est une grandeur sans unité. Elle caractérise la capacité d’une solution colorée à absorber des radiations monochromatiques du spectre du visible. Plus l’absorbance est grande, plus la quantité de lumière absorbée est importante.
+
 ::: danger Important
-L’absorbance notée $A$, est une grandeur sans unité. Elle caractérise la capacité d’une solution colorée à absorber des radiations monochromatiques du spectre du visible. Dans un spectrophotomètre, la largeur de la cuve et la longueur d’onde étant fixées, l’absorbance obéit à la loi de Beer-Lambert :
+Dans un spectrophotomètre, la largeur de la cuve et la longueur d’onde étant fixées, on peut écrire pour une espèce chimique donnée de concentration $[X]$, la loi de Beer-Lambert :
 
 $$
 A=k\times[X]
@@ -48,6 +48,8 @@ $A$ sans unité, $k$ en $L·mol^{-1}$ (ou $L·g^{-1}$), $[X]$ en $mol·L^{-1}$ (
 Pour avoir une meilleure précision sur le dosage on doit régler la longueur d’onde du spectrophotomètre sur la longueur d’onde d’absorption maximale de l’espèce chimique analysée.
 :::
 
+#### Courbe d'étalonnage en spectrophotométrie
+
 - Courbe d’étalonnage : $A = f([X])$
 - Le coefficient directeur de la droite correspond au coefficient de proportionnalité $k$ dans la loi de Beer-Lambert.
 
@@ -59,11 +61,11 @@ Une espèce incolore n’absorbe aucune radiation du spectre visible.
 
 Lorsqu’une espèce chimique n’absorbe que dans un seul domaine de longueurs d’onde du visible, sa couleur est la couleur complémentaire de celle des radiations absorbées.
 
-__Exemple :__ les ions cuivre (II) absorbent dans le rouge et apparaissent cyan.
+__Exemple :__ les ions cuivre (II) absorbent dans le $\textcolor{red}{rouge}$ et apparaissent $\textcolor{cyan}{cyan}$.
 
 Lorsqu’une espèce chimique absorbe dans plusieurs domaines de longueurs d’onde, sa couleur résulte de la synthèse additive des couleurs complémentaires des radiations absorbées.
 
-__Exemple :__ les ions chrome (III) qui absorbent dans le violet et dans l’orangé, donnent des solutions vertes.
+__Exemple :__ les ions chrome (III) qui absorbent dans le $\textcolor{purple}{violet}$ et dans l’$\textcolor{orange}{orange}$, donnent des solutions $\textcolor{green}{vertes}$.
 
 ### Dosage par conductimétrie
 
@@ -83,23 +85,26 @@ $$
 - $σ_i$ en $S·m^{-1}$)
 - $λ_i$ en $S·m^2·mol^{-1}$)
 - $[X_i]$ en $mol·m^{-3}$).
-:::
 
-::: danger Important
 La conductivité totale $σ$ d’une solution est la somme de toutes les conductivités $σ_i$ de tous les ions présents.
 
 $$
-σ_{solution}= σ_1 + σ_2 + ... + σ_n = \sum σ_i =  \sum(λ_i\times[X_i])
+\begin{align}
+σ_{solution} &= σ_1 + σ_2 + ... + σ_n \\
+&= \sum_i σ_i \\
+&= \sum_i λ_i\times[X_i]
+\end{align}
 $$
 :::
 
 ::: warning Attention
 Les unités peuvent être source d'erreur en conductivité. En effet, les volumes sont souvent exprimés en $m^3$.
 
-On retiendra $1 mol·L^{-1} = 10^3 mol·m^{-3}$
-:::
+On peut retenir :
 
-Le conductimètre mesure la conductance, mais fournit le plus souvent directement la conductivité.
+- $1 mol·L^{-1} = 10^3 mol·m^{-3}$ et $1 mol·m^{-3} = 10^{-3} mol·L^{-1}$
+- $1 L = 10^{-3} m^3$ et $1 m^3 = 10^{3} L$
+:::
 
 ::: danger Important
 La conductivité d’une solution ne contenant qu’un seul soluté ionique $X$ donnant des ions monovalents est proportionnelle à sa concentration $[X]$ et vérifie la loi de Kohlrausch :
@@ -110,6 +115,22 @@ $$
 
 Cela permet de faire un dosage par étalonnage d’une solution contenant ce seul soluté.
 :::
+
+__Exemple :__ Soit une solution de $KCl$ de concentration apportée $C_{KCl}$. On suppose le soluté complètement dissous. On a alors $[K^+]=[Cl^-]=C_{KCl}$
+
+On peut alors écrire :
+
+$$
+\begin{align}
+σ_{solution} &= σ_{K^+} + σ_{Cl^-} \\
+&= λ_{K^+}\times[Cl^-] + λ_{Cl^-}\times[K^+] \\
+&= λ_{K^+}\times C_{KCl} + λ_{Cl^-}\times C_{KCl} \\
+&= (λ_{K^+} + λ_{Cl^-})\times C_{KCl} \\
+&= k \times C_{KCl}
+\end{align}
+$$
+
+#### Courbe d'étalonnage en conductimétrie
 
 - Courbe d’étalonnage : $σ=f([X])$
 - Le coefficient directeur de la droite correspond au coefficient de proportionnalité $k$ dans la loi de Kohlrausch.

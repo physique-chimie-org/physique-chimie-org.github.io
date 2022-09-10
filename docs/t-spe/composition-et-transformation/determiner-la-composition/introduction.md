@@ -1,3 +1,6 @@
+---
+prev: 'Chapitre précédent'
+---
 # Introduction
 
 ## Rappels

@@ -100,4 +100,29 @@ export const nav: DefaultTheme.NavItem[] = [
       },
     ],
   },
+  {
+    text: "Seconde",
+    activeMatch: "/seconde/",
+    items: [
+      {
+        text: "Composition et transformation de la matière",
+        items: [
+        ],
+      },
+      {
+        text: "Mouvements et interactions",
+        items: [
+        ],
+      },
+      {
+        text: "Ondes et signaux",
+        items: [
+          {
+            text: "Émission et perception des sons",
+            link: "/seconde/ondes-et-signaux/emission-perception-son/introduction.md",
+          }
+        ],
+      },
+    ],
+  },
 ];

@@ -39,4 +39,20 @@ export const sidebar: DefaultTheme.SidebarMulti = {
       ],
     },
   ],
+  "/seconde/": [
+    {
+      text: "Émission et perception des sons",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/seconde/ondes-et-signaux/emission-perception-son/introduction",
+        },
+        {
+          text: "Les sons et leurs propagation",
+          link: "/seconde/ondes-et-signaux/emission-perception-son/son-et-propagation",
+        },
+      ],
+    },
+  ],
 };
