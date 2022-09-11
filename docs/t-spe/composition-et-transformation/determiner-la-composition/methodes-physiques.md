@@ -11,7 +11,8 @@ outline: deep
 Un dosage par étalonnage consiste à déterminer la concentration $[X]_S$ d'une espèce chimique $X$ en solution en comparant une grandeur physique (conductivité, absorbance, tension électrique, etc.) de la solution avec la même grandeur physique mesurée pour des solutions étalons, de concentration $[X]$ connues
 
 On peut alors tracer une courbe d'étalonnage à partir des mesures, de la grandeur physique mesurée en fonction de la concentration.
-![Dosage par étalonnage](/images/cours/courbe-dosage-etalonnage.png)
+
+![courbe d'étalonnage](/images/cours/courbe-dosage-etalonnage.png "Courbe d'étalonnage")
 
 Pour déterminer la concentration $[X]_S$ :
 
@@ -141,10 +142,7 @@ Les composés organiques absorbent des radiations dans le domaine de l’UV-visi
 
 ### Présentation d’un spectre IR
 
-__Exemple: Spectre IR[^1] du 2-methyl-propan-1-ol__:
-[^1]:Réalisé à partir du Spectral Data Base System for Organic Compounds ([SDBS](https://sdbs.db.aist.go.jp/sdbs/cgi-bin/direct_frame_top.cgi)).
-
-![Spectre IR du 2-methyl-propan-1-ol](/images/cours/spectre-IR.png)
+![Spectre IR du 2-methyl-propan-1-ol](/images/cours/spectre-IR.png "Spectre IR du 2-methyl-propan-1-ol. [Source<IconExternalLink />](https://sdbs.db.aist.go.jp/sdbs/cgi-bin/direct_frame_top.cgi)")
 
 __En Ordonnées :__ transmittance $T$ (intensité lumineuse transmise par l’échantillon) : une transmittance de 1 (100%) signifie qu’il n’y a pas d’absorption. De ce fait, les bandes d’absorption d’un spectre IR pointent vers le bas.
 

@@ -52,6 +52,10 @@ export const sidebar: DefaultTheme.SidebarMulti = {
           text: "Les sons et leurs propagation",
           link: "/seconde/ondes-et-signaux/emission-perception-son/son-et-propagation",
         },
+        {
+          text: "Les sons périodiques",
+          link: "/seconde/ondes-et-signaux/emission-perception-son/sons-periodiques",
+        },
       ],
     },
   ],

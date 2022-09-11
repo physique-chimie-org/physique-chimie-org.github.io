@@ -79,8 +79,6 @@ La mesure du pH permet de classer les solutions en 3 catégories :
 - Neutre : pH = 7
 - Basique : pH > 7
 
-__Echelle de pH et quelques solutions associées__[^2]
-![échelle de pH](/images/cours/echelle-pH.png)
+![Echelle de pH et quelques solutions associées](/images/cours/echelle-pH.png "Echelle de pH et quelques solutions associées. [Source<IconExternalLink/>](https://www.smpga.fr/leau-chez-moi/qualite-controlee/ph-de-leau/)")
 
 [^1]: [https://phet.colorado.edu/sims/html/ph-scale/latest/ph-scale_fr.html](https://phet.colorado.edu/sims/html/ph-scale/latest/ph-scale_fr.html)
-[^2]: [https://www.smpga.fr/leau-chez-moi/qualite-controlee/ph-de-leau/](https://www.smpga.fr/leau-chez-moi/qualite-controlee/ph-de-leau/)
