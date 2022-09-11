@@ -56,7 +56,7 @@ Pour avoir une meilleure précision sur le dosage on doit régler la longueur d�
 
 #### Lien entre couleur perçue et longueurs d’onde absorbées
 
-![cercle-chromatique](/images/cours/cercle-chromatique.svg)
+![cercle-chromatique](/images/cours/cercle-chromatique.png "Cercle chromatique")
 
 Une espèce incolore n’absorbe aucune radiation du spectre visible.
 
@@ -66,7 +66,7 @@ __Exemple :__ les ions cuivre (II) absorbent dans le $\textcolor{red}{rouge}$ et
 
 Lorsqu’une espèce chimique absorbe dans plusieurs domaines de longueurs d’onde, sa couleur résulte de la synthèse additive des couleurs complémentaires des radiations absorbées.
 
-__Exemple :__ les ions chrome (III) qui absorbent dans le $\textcolor{purple}{violet}$ et dans l’$\textcolor{orange}{orange}$, donnent des solutions $\textcolor{green}{vertes}$.
+__Exemple :__ les ions chrome (III) qui absorbent dans le $\textcolor{purple}{violet}$ et dans l’$\textcolor{orange}{orange}$, donnent des solutions $\definecolor{light-blue}{rgb}{0,1,0.6} \textcolor{light-blue}{bleu-vert}$.
 
 ### Dosage par conductimétrie
 
