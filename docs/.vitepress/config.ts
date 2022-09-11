@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import mathjax3 from "markdown-it-mathjax3";
 import footnote from "markdown-it-footnote";
+import implicitFigures from "markdown-it-image-figures";
 
 import { nav, sidebar, head } from "./configs";
 
@@ -25,6 +26,12 @@ export default defineConfig({
     config: (md) => {
       md.use(mathjax3);
       md.use(footnote);
+      md.use(implicitFigures, {
+        dataType: true,
+        lazy: true,
+        figcaption: "title",
+        async: true,
+      });
     },
   },
 

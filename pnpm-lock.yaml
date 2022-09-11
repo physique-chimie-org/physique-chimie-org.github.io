@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   esno: ^0.16.3
   markdown-it-footnote: ^3.0.3
+  markdown-it-image-figures: ^2.1.0
   markdown-it-mathjax3: ^4.3.1
   medium-zoom: ^1.0.6
   sass: ^1.54.8
@@ -16,6 +17,7 @@ specifiers:
 devDependencies:
   esno: 0.16.3
   markdown-it-footnote: 3.0.3
+  markdown-it-image-figures: 2.1.0_markdown-it@13.0.1
   markdown-it-mathjax3: 4.3.1
   medium-zoom: 1.0.6
   sass: 1.54.9
@@ -1893,6 +1895,10 @@ packages:
       picomatch: 2.3.1
     dev: true
 
+  /argparse/2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
+    dev: true
+
   /async/3.2.4:
     resolution: {integrity: sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==}
     dev: true
@@ -2262,6 +2268,11 @@ packages:
 
   /entities/2.2.0:
     resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
+    dev: true
+
+  /entities/3.0.1:
+    resolution: {integrity: sha512-WiyBqoomrwMdFG1e0kqvASYfnlb0lp8M5o5Fw2OFq1hNZxxcNk8Ik0Xm7LxzBhuidnZB/UtBqVCgUz3kBOP51Q==}
+    engines: {node: '>=0.12'}
     dev: true
 
   /es-abstract/1.20.2:
@@ -3029,6 +3040,12 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
+  /linkify-it/4.0.1:
+    resolution: {integrity: sha512-C7bfi1UZmoj8+PQx22XyeXCuBlokoyWQL5pWSP+EI6nzRylyThouddufc2c1NDIcP9k5agmN9fLpA7VNJfIiqw==}
+    dependencies:
+      uc.micro: 1.0.6
+    dev: true
+
   /local-pkg/0.4.2:
     resolution: {integrity: sha512-mlERgSPrbxU3BP4qBqAvvwlgW4MTg78iwJdGGnv7kibKjWcJksrG3t6LB5lXI93wXRDvG4NpUgJFmTG4T6rdrg==}
     engines: {node: '>=14'}
@@ -3070,6 +3087,15 @@ packages:
     resolution: {integrity: sha512-YZMSuCGVZAjzKMn+xqIco9d1cLGxbELHZ9do/TSYVzraooV8ypsppKNmUJ0fVH5ljkCInQAtFpm8Rb3eXSrt5w==}
     dev: true
 
+  /markdown-it-image-figures/2.1.0_markdown-it@13.0.1:
+    resolution: {integrity: sha512-a5FIzzUlK65iGfQlNWH94cyxKpV+Qj8a+4Q3+wVseryHMCOfGaX0aCNtdEkCeb19uGDzVw3Az5tst2hXWAdJ1Q==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      markdown-it: '*'
+    dependencies:
+      markdown-it: 13.0.1
+    dev: true
+
   /markdown-it-mathjax3/4.3.1:
     resolution: {integrity: sha512-IkM3Cuk4rtjy9VwLzWpgeitcwnEmK2eYJrztNRv1v7mwZaOLMTkgjJGT71GdJADrpvAEWhNn43EKtjynhEsaIQ==}
     dependencies:
@@ -3077,6 +3103,17 @@ packages:
       mathjax-full: 3.2.2
     transitivePeerDependencies:
       - encoding
+    dev: true
+
+  /markdown-it/13.0.1:
+    resolution: {integrity: sha512-lTlxriVoy2criHP0JKRhO2VDG9c2ypWCsT237eDiLqi09rmbKoUetyGHq2uOIRoRS//kfoJckS0eUzzkDR+k2Q==}
+    hasBin: true
+    dependencies:
+      argparse: 2.0.1
+      entities: 3.0.1
+      linkify-it: 4.0.1
+      mdurl: 1.0.1
+      uc.micro: 1.0.6
     dev: true
 
   /mathjax-full/3.2.2:
@@ -3090,6 +3127,10 @@ packages:
 
   /mdn-data/2.0.28:
     resolution: {integrity: sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==}
+    dev: true
+
+  /mdurl/1.0.1:
+    resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: true
 
   /medium-zoom/1.0.6:
@@ -3703,6 +3744,10 @@ packages:
   /type-fest/0.16.0:
     resolution: {integrity: sha512-eaBzG6MxNzEn9kiwvtre90cXaNLkmadMWa1zQMs3XORCXNbsH/OewwbxC5ia9dCxIxnTAsSxXJaa/p5y8DlvJg==}
     engines: {node: '>=10'}
+    dev: true
+
+  /uc.micro/1.0.6:
+    resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
     dev: true
 
   /ufo/0.8.5:
