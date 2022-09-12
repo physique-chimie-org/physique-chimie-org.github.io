@@ -16,12 +16,12 @@
     "markdown-it-image-figures": "^2.1.0",
     "markdown-it-mathjax3": "^4.3.1",
     "medium-zoom": "^1.0.6",
-    "sass": "^1.54.8",
-    "unocss": "^0.45.18",
+    "sass": "^1.54.9",
+    "unocss": "^0.45.21",
     "vite": "^3.1.0",
     "vite-plugin-pwa": "^0.12.7",
-    "vitepress": "^1.0.0-alpha.12",
-    "vue": "^3.2.37",
+    "vitepress": "^1.0.0-alpha.13",
+    "vue": "^3.2.39",
     "workbox-window": "^6.5.4"
   },
   "scripts": {
