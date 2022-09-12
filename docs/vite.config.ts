@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import { splitVendorChunkPlugin } from 'vite'
 import { VitePWA } from "vite-plugin-pwa";
 import { presetAttributify, presetUno } from 'unocss'
 import Unocss from 'unocss/vite'
@@ -6,6 +7,8 @@ import Unocss from 'unocss/vite'
 
 export default defineConfig({
   plugins: [
+    // https://vitejs.dev/guide/build.html
+    [splitVendorChunkPlugin()],
     // https://github.com/unocss/unocss
     Unocss({
       presets: [presetUno(), presetAttributify()],
@@ -23,6 +26,8 @@ export default defineConfig({
       },
       manifest: {
         name: "classBot_",
+        lang: "fr",
+        orientation: "any",
         short_name: "classBot_",
         description: "Les cours accessibles partout",
         start_url: "/",
@@ -54,8 +59,6 @@ export default defineConfig({
             purpose: "maskable",
           },
         ],
-        orientation: "portrait-primary",
-        prefer_related_applications: false,
       },
     }),
   ],
