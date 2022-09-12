@@ -137,7 +137,22 @@ export const head: HeadConfig[] = [
   ["meta", { name: "msapplication-config", content: "/browserconfig.xml" }],
   ["meta", { name: "application-name", content: "classBot_" }],
   ["meta", { name: "apple-mobile-web-app-title", content: "classBot_" }],
-  ["meta", { name: "theme-color", content: "#3eaf7c" }],
+  [
+    "meta",
+    {
+      name: "theme-color",
+      media: "(prefers-color-scheme: light)",
+      content: "#ffffff",
+    },
+  ],
+  [
+    "meta",
+    {
+      name: "theme-color",
+      media: "(prefers-color-scheme: dark)",
+      content: "#242424",
+    },
+  ],
   [
     "meta",
     {
