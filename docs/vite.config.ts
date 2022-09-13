@@ -28,6 +28,7 @@ export default defineConfig({
         name: "classBot_",
         lang: "fr",
         orientation: "any",
+        display: "fullscreen",
         short_name: "classBot_",
         description: "Les cours accessibles partout",
         start_url: "/",
