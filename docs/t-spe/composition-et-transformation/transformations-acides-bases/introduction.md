@@ -20,6 +20,17 @@ $$
 
 avec $n_{X}$ la quantité de matière de $X$ présente effectivement dans la solution et $V_{solution}$ le volume de solution.
 
+- Méthode pour établir le du modèle de Lewis d'une molécule :
+
+  1. écrire la configuration électronique de chaque atome ;
+  2. déterminer le nombre total d’électrons de valence $n$ mis en jeu dans la molécule étudiée ;
+  3. déterminer le nombre de doublets d’électrons (impliqués dans des liaisons covalentes ou des doublets non liants) en divisant le nombre n par deux ;
+  4. répartir les doublets en respectant les règles du duet (pour H et de l’octet pour les autres atomes. Chaque atome forme un nombre de liaisons covalentes égal au nombre d’électrons manquant pour respecter la règle de l’octet ou du duet.
+
+- Polarité des liaisons
+
+  Dans une liaison covalente entre deux atomes $A$ et $B$, si l’atome $A$ est plus électronégatif que l’atome $B$, la liaison $A−B$ est dite polarisée. Elle est alors notée $A^{δ−}−B^{δ+}$
+
 :::
 
 ## Objectifs

@@ -16,6 +16,15 @@ C’est la durée du plus court « motif » qui se répète identique à lui-mê
 
 ![période](/images/cours/motif-periode.png "Motif et lecture de la période T sur un graphique")
 
+::: warning Attention
+Dans la réalité, les motifs ne sont généralement pas aussi nets, et la période ne coincide pas avec les graduations. Cela engendre des erreurs de lecture de la période.
+
+Dans ce cas, pour mesurer la période avec une plus grande précision il faut :
+
+- mesurer la durée $\Delta t$ de plusieurs motifs, donc plusieurs périodes $T$ (exemple : Si l'on mesure la durée de $10$ motifs, on aura $10$ périodes $T$ et donc $\Delta t = 10\times T$)
+- diviser la durée $\Delta t$ mesurée, par le nombre de périodes $T$ pour trouver la valeur d'une seule période $T$ (suite de l'exemple : $T = \frac{\Delta t}{10}$)
+:::
+
 __Question :__ Quelle est la période $T$ du signal représenté ci-dessus ?
 
 ::: details Afficher la réponse
@@ -30,6 +39,7 @@ $$
 
 La fréquence f du son représente le nombre de périodes de ce signal par seconde. Elle s’exprime en hertz (Hz).
 
+::: danger Important
 La fréquence et la période sont liées par les deux relations suivantes :
 
 $$
@@ -38,6 +48,8 @@ f &= \frac{1}{T} &(1) \\
 T &= \frac{1}{f} &(2)
 \end{align}
 $$
+
+:::
 
 __Question :__ Quelle est la fréquence $f$ du signal représenté ci-dessus ?
 
