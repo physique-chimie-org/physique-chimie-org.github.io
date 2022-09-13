@@ -6,6 +6,7 @@ prev: 'Chapitre précédent'
 ## Rappels
 
 ::: tip Vu en première
+
 - Absorbance :
 
   Lorsqu’une solution est traversée par de la lumière blanche. Certaines radiations sont absorbées et d’autres sont transmises. La couleur perçue d’une solution est complémentaire des radiations absorbées qui traversent la solution. Des couleurs complémentaires sont diamètralement opposées sur le cercle chromatique.
