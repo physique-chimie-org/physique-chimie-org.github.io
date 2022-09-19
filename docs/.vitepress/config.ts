@@ -48,6 +48,11 @@ export default defineConfig({
     logo: "/logo.svg",
     nav: nav,
     sidebar: sidebar,
+    algolia: {
+      appId: '9TE5KV94J0',
+      apiKey: '4f40b79730bb4640efb7472c21f28d4b',
+      indexName: 'physique-chimie'
+    },
     outlineTitle: "Sommaire",
     socialLinks: [
       {
