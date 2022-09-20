@@ -83,6 +83,10 @@ export const head: HeadConfig[] = [
   ["link", { rel: "shortcut icon", href: "/images/icons/favicon.ico" }],
   [
     "link",
+    { rel: "icon", type: "image/x-icon", href: "/images/icons/favicon.ico" },
+  ],
+  [
+    "link",
     {
       rel: "icon",
       type: "image/png",
