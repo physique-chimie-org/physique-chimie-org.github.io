@@ -1,8 +1,7 @@
 import { defineConfig } from "vite";
-import { splitVendorChunkPlugin } from 'vite'
-import { presetAttributify, presetUno } from 'unocss'
-import Unocss from 'unocss/vite'
-
+import { splitVendorChunkPlugin } from "vite";
+import { presetAttributify, presetUno } from "unocss";
+import Unocss from "unocss/vite";
 
 export default defineConfig({
   plugins: [
