@@ -13,14 +13,10 @@ export const pwa = () => {
     strategies: "generateSW",
     outDir: "docs/.vitepress/dist",
     registerType: "prompt",
-    includeAssets: fg.sync(["**/*.{png,svg,gif,ico,txt}", "**/**/*.{png,svg,gif,ico,txt}"], {
+    includeAssets: fg.sync("**/*.{png,svg,gif,ico,txt}", {
       cwd: resolve(__dirname, "../../public"),
     }),
     workbox: {
-      globIgnores:[
-          "sw.js",
-          "workbox-*.js"
-      ],
       sourcemap: true,
     },
     manifest: {
