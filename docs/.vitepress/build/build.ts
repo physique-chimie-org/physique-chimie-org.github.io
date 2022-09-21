@@ -1,10 +1,8 @@
 import { resolveConfig } from "vite";
 import type { VitePluginPWAAPI } from "vite-plugin-pwa";
-import { optimizePages } from "./assets";
 import { pwa } from "./pwa";
 
 export const buildEnd = async () => {
-  await optimizePages();
   const config = await resolveConfig(
     { plugins: [pwa()] },
     "build",
