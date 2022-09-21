@@ -1,4 +1,5 @@
 import { HeadConfig } from "vitepress";
+import { keywords, name, author } from "../meta";
 
 export const head: HeadConfig[] = [
   [
@@ -139,8 +140,6 @@ export const head: HeadConfig[] = [
   ],
   ["meta", { name: "msapplication-TileColor", content: "#3eaf7c" }],
   ["meta", { name: "msapplication-config", content: "/browserconfig.xml" }],
-  ["meta", { name: "application-name", content: "classBot_" }],
-  ["meta", { name: "apple-mobile-web-app-title", content: "classBot_" }],
   [
     "meta",
     {
@@ -157,6 +156,8 @@ export const head: HeadConfig[] = [
       content: "#242424",
     },
   ],
+  ["meta", { name: "mobile-web-app-capable", content: "yes" }],
+  ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
   [
     "meta",
     {
@@ -165,6 +166,9 @@ export const head: HeadConfig[] = [
         "width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes",
     },
   ],
-  ["meta", { name: "mobile-web-app-capable", content: "yes" }],
-  ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+  ["meta", { name: "application-name", content: name }],
+  ["meta", { name: "apple-mobile-web-app-title", content: name }],
+  ["meta", { name: "author", content: author }],
+  ["meta", { name: "generator", content: "VitePress" }],
+  ["meta", { name: "keywords", content: keywords }],
 ];
