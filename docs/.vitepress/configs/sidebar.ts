@@ -56,6 +56,10 @@ export const sidebar: DefaultTheme.SidebarMulti = {
           text: "Les sons périodiques",
           link: "/seconde/ondes-et-signaux/emission-perception-son/sons-periodiques",
         },
+        {
+          text: "Les sons et l'oreille",
+          link: "/seconde/ondes-et-signaux/emission-perception-son/sons-et-oreille",
+        },
       ],
     },
   ],

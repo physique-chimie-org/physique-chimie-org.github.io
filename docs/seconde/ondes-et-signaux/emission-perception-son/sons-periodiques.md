@@ -63,11 +63,3 @@ f &= \frac{1}{T} \\
 \end{align}
 $$
 :::
-
-## Hauteur d'un son et timbre
-
-Un son de fréquence élevée donne un son aigu, une fréquence basse donne un son grave. C’est la fréquence qui définit la hauteur d’un son.
-
-En musique, des sons de même hauteur représentent la même note (par exemple un La3 si la fréquence est de 440 Hz). Pourtant, même si deux instruments jouent la même note, ils sont différentiables et identifiables à l’oreille. Leur timbre est différent.
-
-Le timbre d’un son (et par extension, le timbre d’un instrument de musique) est l’ensemble des caractéristiques du signal permettant de distinguer ce son d’un autre son de même hauteur. Graphiquement le timbre est lié à la forme du signal.
