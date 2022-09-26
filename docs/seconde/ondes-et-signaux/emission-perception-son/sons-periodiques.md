@@ -1,3 +1,7 @@
+---
+titleTemplate: "Émission et perception des sons"
+---
+
 # Les sons périodiques
 
 Lorsqu'un émetteur vibre, il génère un signal sonore qui se propage. À l’aide d’un microphone, on peut transformer ce signal sonore en signal électrique. Ce signal converti est alors visualisable sur un oscilloscope ou sur un ordinateur, sous la forme d’un graphique en fonction du temps. Si la vibration de l'émetteur est régulière, le signal sonore est régulier ainsi que le signal électrique. On parle alors de signal périodique.

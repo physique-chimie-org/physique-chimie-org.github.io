@@ -1,3 +1,7 @@
+---
+titleTemplate: "Transformations acides-bases"
+---
+
 # Introduction
 
 ## Rappels

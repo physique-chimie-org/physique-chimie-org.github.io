@@ -1,3 +1,6 @@
+---
+titleTemplate: "Émission et perception des sons"
+---
 # Introduction
 
 ## Rappels

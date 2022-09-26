@@ -1,4 +1,5 @@
 ---
+titleTemplate: "Déterminer la composition d’un système chimique"
 prev: 'Chapitre précédent'
 ---
 # Introduction

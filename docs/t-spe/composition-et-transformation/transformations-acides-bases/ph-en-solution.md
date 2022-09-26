@@ -1,4 +1,5 @@
 ---
+titleTemplate: "Transformations acides-bases"
 next: 'Chapitre suivant'
 ---
 # Le pH en solution aqueuse

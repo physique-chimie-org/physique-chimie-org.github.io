@@ -1,3 +1,7 @@
+---
+titleTemplate: "Émission et perception des sons"
+---
+
 # Les sons et leurs propagation
 
 ## Création d'un son

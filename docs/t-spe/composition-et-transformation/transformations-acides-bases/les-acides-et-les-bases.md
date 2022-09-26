@@ -1,3 +1,7 @@
+---
+titleTemplate: "Transformations acides-bases"
+---
+
 # Transformations acides bases
 
 ## Théorie de Brönsted et couples acide/base

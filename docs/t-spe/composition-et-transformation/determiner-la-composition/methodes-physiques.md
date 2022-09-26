@@ -1,5 +1,5 @@
 ---
-outline: deep
+titleTemplate: "Déterminer la composition d’un système chimique"
 ---
 
 # Méthodes physiques

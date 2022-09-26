@@ -1,4 +1,8 @@
-# Le son et l'oreille
+---
+titleTemplate: "Émission et perception des sons"
+---
+
+# Les sons et l'oreille
 
 ## Domaine des fréquences audibles
 
