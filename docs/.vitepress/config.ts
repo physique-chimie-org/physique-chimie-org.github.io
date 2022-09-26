@@ -1,8 +1,10 @@
 import { defineConfig } from "vitepress";
+
 import { description, name } from "./meta";
-import { buildEnd, pwa } from "./build";
+import { regeneratePWA, pwa, generateSitemap } from "./build";
 import * as pageConfig from "./configs";
 
+export const sitemapLinks: Object[] = [];
 const customElements = ["mjx-container"];
 
 export default defineConfig({
@@ -29,5 +31,17 @@ export default defineConfig({
   vite: {
     plugins: [pwa()],
   },
-  buildEnd,
+  transformHtml: (_, id, { pageData }) => {
+    if (!/[\\/]404\.html$/.test(id) && !/[\\/]README\.html$/.test(id))
+      sitemapLinks.push({
+        // you might need to change this if not using clean urls mode
+        url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, "$2"),
+        lastmod: pageData.lastUpdated,
+      });
+  },
+
+  buildEnd: ({ outDir }) => {
+    generateSitemap({ outDir });
+    regeneratePWA();
+  }
 });
