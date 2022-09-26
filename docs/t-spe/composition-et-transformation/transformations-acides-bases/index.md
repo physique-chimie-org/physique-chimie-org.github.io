@@ -1,6 +1,8 @@
 ---
 titleTemplate: false
+outline: false
 ---
+
 # Transformations acides bases
 
 ## Table des matières

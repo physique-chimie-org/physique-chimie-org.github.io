@@ -1,5 +1,6 @@
 ---
 titleTemplate: false
+outline: false
 ---
 
 # Émission et perception des sons
