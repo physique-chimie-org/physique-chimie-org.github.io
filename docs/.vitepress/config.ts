@@ -32,7 +32,7 @@ export default defineConfig({
     plugins: [pwa()],
   },
   transformHtml: (_, id, { pageData }) => {
-    if (!/[\\/]404\.html$/.test(id) && !/[\\/]README\.html$/.test(id))
+    if (!/[\\/]404\.html$/.test(id) && !/[\\/]index\.html$/.test(id) && !/[\\/]README\.html$/.test(id) && !pageData.frontmatter.noSitemap)
       sitemapLinks.push({
         // you might need to change this if not using clean urls mode
         url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, "$2"),
