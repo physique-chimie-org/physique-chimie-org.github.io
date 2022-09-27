@@ -11,10 +11,10 @@ import { description, name } from "../meta";
  * can find more information on Workbox section.
  * @see https://vite-plugin-pwa.netlify.app/
  */
-export const pwa = () => {
+export const pwa = (outDir=".vitepress/dist") => {
   return VitePWA({
     strategies: "generateSW",
-    outDir: "docs/.vitepress/dist",
+    outDir: outDir,
     registerType: "prompt",
     includeAssets: fg.sync("**/*.{png,svg,gif,ico,txt}", {
       cwd: resolve(__dirname, "../../public"),
@@ -62,9 +62,9 @@ export const pwa = () => {
   });
 };
 
-export const regeneratePWA = async () => {
+export const regeneratePWA = async ({ outDir }) => {
   const config = await resolveConfig(
-    { plugins: [pwa()] },
+    { plugins: [pwa(outDir)] },
     "build",
     "production"
   );

@@ -42,6 +42,6 @@ export default defineConfig({
 
   buildEnd: ({ outDir }) => {
     generateSitemap({ outDir });
-    regeneratePWA();
+    regeneratePWA({ outDir });
   }
 });
