@@ -1,5 +1,5 @@
 import fg from "fast-glob";
-import { resolve } from 'pathe'
+import { resolve } from "pathe";
 import { resolveConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 import type { VitePluginPWAAPI } from "vite-plugin-pwa";
@@ -11,7 +11,7 @@ import { description, name } from "../meta";
  * can find more information on Workbox section.
  * @see https://vite-plugin-pwa.netlify.app/
  */
-export const pwa = (outDir=".vitepress/dist") => {
+export const pwa = (outDir = ".vitepress/dist") => {
   return VitePWA({
     strategies: "generateSW",
     outDir: outDir,
@@ -62,7 +62,7 @@ export const pwa = (outDir=".vitepress/dist") => {
   });
 };
 
-export const regeneratePWA = async ({ outDir }) => {
+export const regeneratePWA = async (outDir: string) => {
   const config = await resolveConfig(
     { plugins: [pwa(outDir)] },
     "build",

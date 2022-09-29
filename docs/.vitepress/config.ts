@@ -1,10 +1,10 @@
 import { defineConfig } from "vitepress";
-
 import { description, name } from "./meta";
 import { regeneratePWA, pwa, generateSitemap } from "./build";
 import * as pageConfig from "./configs";
+import { type SitemapLinks } from "./build/sitemap";
 
-export const sitemapLinks: Object[] = [];
+const sitemapLinks: SitemapLinks[] = [];
 const customElements = ["mjx-container"];
 
 export default defineConfig({
@@ -46,7 +46,7 @@ export default defineConfig({
   },
 
   buildEnd: ({ outDir }) => {
-    generateSitemap({ outDir });
-    regeneratePWA({ outDir });
+    generateSitemap(outDir, sitemapLinks);
+    regeneratePWA(outDir);
   },
 });
