@@ -107,6 +107,10 @@ export const nav: DefaultTheme.NavItem[] = [
       {
         text: "Composition et transformation de la matière",
         items: [
+          {
+            text: "Le noyau de l'atome et son cortège électronique",
+            link: "/seconde/composition-et-transformation/noyau-et-cortege/introduction.md",
+          }
         ],
       },
       {

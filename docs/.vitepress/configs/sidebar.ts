@@ -62,5 +62,27 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         },
       ],
     },
+    {
+      text: "Le noyau de l'atome et son cortège électronique",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/seconde/composition-et-transformation/noyau-et-cortege/introduction.md",
+        },
+        {
+          text: "Le modèle de l'atome",
+          link: "/seconde/composition-et-transformation/noyau-et-cortege/modele.md",
+        },
+        {
+          text: "Le noyau",
+          link: "/seconde/composition-et-transformation/noyau-et-cortege/noyau.md",
+        },
+        {
+          text: "Le cortège électronique",
+          link: "/seconde/composition-et-transformation/noyau-et-cortege/cortege.md",
+        },
+      ],
+    },
   ],
 };
