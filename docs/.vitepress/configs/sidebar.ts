@@ -38,6 +38,32 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         },
       ],
     },
+    {
+      text: "Cinématique",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/t-spe/mouvement-et-interactions/cinematique/introduction.md",
+        },
+        {
+          text: "Référentiel",
+          link: "/t-spe/mouvement-et-interactions/cinematique/referentiel.md",
+        },
+        {
+          text: "Vecteur position",
+          link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-position.md",
+        },
+        {
+          text: "Vecteur vitesse",
+          link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-vitesse.md",
+        },
+        {
+          text: "Vecteur accélération",
+          link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-acceleration.md",
+        },
+      ],
+    },
   ],
   "/seconde/": [
     {

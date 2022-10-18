@@ -44,11 +44,11 @@ export const nav: DefaultTheme.NavItem[] = [
       {
         text: "Mouvements et interactions",
         items: [
-          /*
           {
             text: "Cinématique",
-            link: "/t-spe/mouvements-et-interactions/cinematique/introduction.md",
+            link: "/t-spe/mouvement-et-interactions/cinematique/introduction.md",
           },
+                    /*
           {
             text: "Dynamique et mouvement dans un champ uniforme",
             link: "/t-spe/mouvements-et-interactions/champ-uniforme/introduction.md",
