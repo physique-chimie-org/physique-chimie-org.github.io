@@ -47,11 +47,11 @@ export const sidebar: DefaultTheme.SidebarMulti = {
           link: "/t-spe/composition-et-transformation/evolution-spontanee/introduction",
         },
         {
-          text: "Méthodes physiques",
+          text: "Équilibre chimique",
           link: "/t-spe/composition-et-transformation/evolution-spontanee/equilibre-chimique",
         },
         {
-          text: "Méthodes chimiques",
+          text: "Évolution spontanée d'un système hors équilibre chimique",
           link: "/t-spe/composition-et-transformation/evolution-spontanee/hors-equilibre-chimique",
         },
       ],
