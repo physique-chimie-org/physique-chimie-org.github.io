@@ -162,5 +162,27 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         },
       ],
     },
+    {
+      text: "Identification des espèces chimiques",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/seconde/composition-et-transformation/identification/introduction.md",
+        },
+        {
+          text: "Corps purs et mélanges",
+          link: "/seconde/composition-et-transformation/identification/corps-purs-et-melanges.md",
+        },
+        {
+          text: "Propriétés des espèces chimiques",
+          link: "/seconde/composition-et-transformation/identification/proprietes.md",
+        },
+        {
+          text: "Identification des espèces chimiques",
+          link: "/seconde/composition-et-transformation/identification/identification.md",
+        },
+      ],
+    },
   ],
 };
