@@ -12,19 +12,19 @@ $$
 ΔE=ΔE_M+ΔU=ΔU=W+Q
 $$
 
-- W :	Travail échangé
-- Q :	Chaleur échangée
+- W : Travail échangé
+- Q : Chaleur échangée
 
 Pour effectuer un bilan d’énergie, il faut :
+
 - Définir le système étudié.
-- Relever la nature des transferts énergétiques (Travail et/ou transfert thermique) 
+- Relever la nature des transferts énergétiques (Travail et/ou transfert thermique)
 - Déterminer le sens des transferts d’énergie en attribuant une valeur positive si le système reçoit de l’énergie et négative s’il cède de l’énergie.
 - Dtérminer si le système est à l'équilibre thermique ou non.
 
 ::: info Remarque
 Un système est dit isolé s’il n’effectue aucun transfert d’énergie avec le milieu extérieur.
 :::
-
 
 **Exemple :** Un système constitué d'un radiateur électrique reçoit un travail électrique $W_e$ et cède de la chaleur $Q$ à l'air intérieur d'une pièce.
 $$
@@ -41,7 +41,7 @@ $$
 
 $Q_{radiateur}$ est positif et $Q_{air ext}$ négatif.
 
-Dans cet exemple, $Q_{air int} = - Q_{radiateur}$. En effet, quand $Q_{air int}$ a été définit, il l'a été par rapport au système {radiateur} et il est donc négatif. Or $Q_{radiateur$ est définit par rapport au système {pièce} et il est donc positif.
+Dans cet exemple, $Q_{air int} = - Q_{radiateur}$. En effet, quand $Q_{air int}$ a été définit, il l'a été par rapport au système {radiateur} et il est donc négatif. Or $Q_{radiateur}$ est définit par rapport au système {pièce} et il est donc positif.
 
 Lorsque le radiateur a suffisemment chauffé, que la pièce à atteint la température du radiateur, l'équilibre thermique est atteint. Donc $\Delta U_{radiateur}=0$ et $\Delta U_{pièce}=0$.
 

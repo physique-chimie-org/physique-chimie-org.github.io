@@ -18,4 +18,3 @@ prev: "Chapitre précédent"
 - Exploiter l’expression de la variation d’énergie interne d’un système incompressible en fonction de sa capacité thermique et de la variation de sa température pour effectuer un bilan énergétique.
 - Caractériser qualitativement les trois modes de transfert thermique : conduction, convection, rayonnement.
 - Exploiter la relation entre flux thermique, résistance thermique et écart de température, l’expression de la résistance thermique étant donnée.
-

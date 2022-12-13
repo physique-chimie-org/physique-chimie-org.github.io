@@ -11,17 +11,17 @@ La conductivité thermique d’un matériau, notée $λ$, caractérise le transf
 ## Résistance thermique
 
 La résistance thermique d’une paroi traduit sa capacité à s’opposer au passage de la chaleur.
- 
+
 Elle est définie par :
 
 $$
 R_{th}=\frac{e}{λ.S}
 $$
 
-- $R_{th}$  :	Résistance thermique de la paroi en $K.W^{-1}$
-- $e$ : 	Epaisseur du matériau en mètre (m)
-- $λ$ : 	Conductivité thermique du matériau en $W.m^{-1}.K^{-1}$
-- $S$ :	Aire de la surface d’échange en $m^2$
+- $R_{th}$  : Résistance thermique de la paroi en $K.W^{-1}$
+- $e$ :  Epaisseur du matériau en mètre (m)
+- $λ$ :  Conductivité thermique du matériau en $W.m^{-1}.K^{-1}$
+- $S$ : Aire de la surface d’échange en $m^2$
 
 ::: info Remarque 1
 La résistance thermique de plusieurs parois accolées est la somme des résistances thermiques de chaque paroi.
@@ -41,8 +41,8 @@ $$
 \end{align}
 $$
 
-- $ϕ$ : 	Flux thermique à travers la paroi en Watts ($W$)
-- $e$ : 	Epaisseur du matériau en mètre ($m$)
-- $λ$ : 	Conductivité thermique du matériau en $W.m^{-1}.K^{-1}$
-- $R_{th}$  :	Résistance thermique de la paroi en $K.W^{-1}$
-- $T_1$ et $T_2$	Températures de part et d’autre de la paroi en K ou en °C
+- $ϕ$ : Flux thermique à travers la paroi en Watts ($W$)
+- $e$ : Epaisseur du matériau en mètre ($m$)
+- $λ$ : Conductivité thermique du matériau en $W.m^{-1}.K^{-1}$
+- $R_{th}$ : Résistance thermique de la paroi en $K.W^{-1}$
+- $T_1$ et $T_2$ Températures de part et d’autre de la paroi en K ou en °C

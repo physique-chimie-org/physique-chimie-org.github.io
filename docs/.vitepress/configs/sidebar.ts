@@ -179,8 +179,8 @@ export const sidebar: DefaultTheme.SidebarMulti = {
           link: "/seconde/composition-et-transformation/identification/proprietes.md",
         },
         {
-          text: "Identification des espèces chimiques",
-          link: "/seconde/composition-et-transformation/identification/identification.md",
+          text: "Méthodes d'identification",
+          link: "/seconde/composition-et-transformation/identification/methodes-identification.md",
         },
       ],
     },

@@ -8,7 +8,7 @@ titleTemplate: "Transferts macroscopiques d'énergie"
 
 La matière est constituée d’entités élémentaires très petites (atomes, ions, molécules). Le comportement individuel de chaque entité au niveau microscopique est inaccessible, mais on peut prévoir un comportement statistique et un comportement global macroscopique (à l’échelle humaine).
 
-## Système thermodynamique
+## Définition d'un système thermodynamique
 
 Un système thermodynamique est un ensemble constitué d’un nombre élevé de particules microscopiques. Si un système thermodynamique peut échanger de la matière avec l’extérieur, il échange le plus souvent de l’énergie avec lui.
 
@@ -28,7 +28,7 @@ $$
 p \times V=n \times R \times T
 $$
 
-Comme tout modèle, le gaz parfait ne permet pas de décrire avec justesse un gaz, quelles que soient les conditions. 
+Comme tout modèle, le gaz parfait ne permet pas de décrire avec justesse un gaz, quelles que soient les conditions.
 
 À haute pression, on ne peut plus négliger le volume occupé par les molécules devant le volume occupé par le gaz. Par ailleurs, pour certains gaz, il existe des interactions importantes entre les molécules du gaz. Enfin, à basse température, l’énergie cinétique devient trop faible : on ne peut plus négliger l’énergie d’interaction. D’autres modèles permettent alors une description plus adaptée.
 
