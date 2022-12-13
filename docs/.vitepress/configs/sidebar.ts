@@ -1,4 +1,4 @@
-import { DefaultTheme } from "vitepress/theme"
+import { DefaultTheme } from "vitepress/theme";
 
 export const sidebar: DefaultTheme.SidebarMulti = {
   "/t-spe/": [
@@ -39,6 +39,32 @@ export const sidebar: DefaultTheme.SidebarMulti = {
       ],
     },
     {
+      text: "Cinématique",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/t-spe/mouvement-et-interactions/cinematique/introduction.md",
+        },
+        {
+          text: "Référentiel",
+          link: "/t-spe/mouvement-et-interactions/cinematique/referentiel.md",
+        },
+        {
+          text: "Vecteur position",
+          link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-position.md",
+        },
+        {
+          text: "Vecteur vitesse",
+          link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-vitesse.md",
+        },
+        {
+          text: "Vecteur accélération",
+          link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-acceleration.md",
+        },
+      ],
+    },
+    {
       text: "Évolution spontanée d'un système chimique",
       collapsible: true,
       items: [
@@ -53,6 +79,10 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         {
           text: "Évolution spontanée d'un système hors équilibre chimique",
           link: "/t-spe/composition-et-transformation/evolution-spontanee/hors-equilibre-chimique",
+        },
+        {
+          text: "Force des acides et des bases",
+          link: "/t-spe/composition-et-transformation/evolution-spontanee/force-acides-bases",
         },
       ],
     },
