@@ -1,5 +1,6 @@
 ---
-order: 1
+titleTemplate: "Cinématique"
+prev: 'Chapitre précédent'
 ---
 
 # Introduction

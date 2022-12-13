@@ -1,3 +1,7 @@
+---
+titleTemplate: "Cinématique"
+---
+
 # Le référentiel
 
 Le choix du référentiel est une étape importante dans la description d'un mouvement. En effet, il permet de définir les coordonnées d'un point dans l'espace. Il est donc nécessaire de choisir un référentiel pour décrire un mouvement.

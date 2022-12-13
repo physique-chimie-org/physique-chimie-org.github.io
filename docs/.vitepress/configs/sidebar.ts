@@ -65,6 +65,36 @@ export const sidebar: DefaultTheme.SidebarMulti = {
       ],
     },
     {
+      text: "Transferts macroscopiques d’énergie",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/t-spe/energie-conversions-et-transferts/thermodynamique/introduction.md",
+        },
+        {
+          text: "Système thermodynamique",
+          link: "/t-spe/energie-conversions-et-transferts/thermodynamique/systeme-thermodynamique.md",
+        },
+        {
+          text: "Energie interne",
+          link: "/t-spe/energie-conversions-et-transferts/thermodynamique/energie-interne.md",
+        },
+        {
+          text: "Transmission de la chaleur",
+          link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transmission-chaleur.md",
+        },
+        {
+          text: "Transferts thermique par conduction",
+          link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transfert-thermique.md",
+        },
+        {
+          text: "Bilan d'énergie",
+          link: "/t-spe/energie-conversions-et-transferts/thermodynamique/bilan-energie.md",
+        },
+      ],
+    },
+    {
       text: "Évolution spontanée d'un système chimique",
       collapsible: true,
       items: [

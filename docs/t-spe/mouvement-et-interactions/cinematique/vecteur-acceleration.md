@@ -1,3 +1,8 @@
+---
+titleTemplate: "Cinématique"
+next: 'Chapitre suivant'
+---
+
 # Vecteur accélération
 
 ## Accélération moyenne

@@ -1,3 +1,7 @@
+---
+titleTemplate: "Cinématique"
+---
+
 # Vecteur vitesse
 
 ## Vitesse moyenne
