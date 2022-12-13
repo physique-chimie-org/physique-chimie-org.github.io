@@ -112,8 +112,13 @@ export const nav: DefaultTheme.NavItem[] = [
             text: "Le noyau de l'atome et son cortège électronique",
             link: "/seconde/composition-et-transformation/noyau-et-cortege/introduction.md",
           },
+          {
+            text: "Identification des espèces chimique",
+            link: "/seconde/composition-et-transformation/identification/introduction.md",
+          },
         ],
       },
+
       {
         text: "Mouvements et interactions",
         items: [],
