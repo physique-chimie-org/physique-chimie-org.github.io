@@ -1,5 +1,5 @@
 ---
-order: 4
+titleTemplate: "Cinématique"
 ---
 
 # Mouvements particuliers

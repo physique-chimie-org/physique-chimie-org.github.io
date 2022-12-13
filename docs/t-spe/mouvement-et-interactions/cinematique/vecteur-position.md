@@ -1,3 +1,7 @@
+---
+titleTemplate: "Cinématique"
+---
+
 # Vecteur position
 
 ## Définition
@@ -22,7 +26,7 @@ On définit les équations horaires comme les expressions des coordonnées du ve
 
 La trajectoire est définie par l'ensemble des positions occupées par le point matériel au cours du temps. L'équation de la trajectoire est obtenue en éliminant le temps dans les équations horaires, soit $x(y, z)$, $y(x, z)$ et $z(x, y)$.
 
-::: note Remarque
+::: info Remarque
 On étudie généralement des mouvements plans. Dans ce cas une des trois coordonées est nulle.
 :::
 

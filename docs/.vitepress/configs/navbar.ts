@@ -1,4 +1,4 @@
-import { DefaultTheme } from "vitepress/theme"
+import { DefaultTheme } from "vitepress/theme";
 
 export const nav: DefaultTheme.NavItem[] = [
   {
@@ -49,7 +49,7 @@ export const nav: DefaultTheme.NavItem[] = [
             text: "Cinématique",
             link: "/t-spe/mouvement-et-interactions/cinematique/introduction.md",
           },
-                    /*
+          /*
           {
             text: "Dynamique et mouvement dans un champ uniforme",
             link: "/t-spe/mouvements-et-interactions/champ-uniforme/introduction.md",
@@ -64,11 +64,11 @@ export const nav: DefaultTheme.NavItem[] = [
       {
         text: "Energie : conversions et transferts",
         items: [
-          /*
           {
-            text: "Décrire un système thermodynamique",
-            link: "/t-spe/energie-conversions-et-transferts/decrire-un-systeme-thermodynamique/introduction.md",
+            text: "Transferts macroscopiques d’énergie",
+            link: "/t-spe/energie-conversions-et-transferts/thermodynamique/introduction.md",
           },
+          /*
           {
             text: "Premier principe de la thermodynamique",
             link: "/t-spe/energie-conversions-et-transferts/premier-principe-de-la-thermodynamique/introduction.md",
@@ -111,13 +111,12 @@ export const nav: DefaultTheme.NavItem[] = [
           {
             text: "Le noyau de l'atome et son cortège électronique",
             link: "/seconde/composition-et-transformation/noyau-et-cortege/introduction.md",
-          }
+          },
         ],
       },
       {
         text: "Mouvements et interactions",
-        items: [
-        ],
+        items: [],
       },
       {
         text: "Ondes et signaux",
@@ -125,7 +124,7 @@ export const nav: DefaultTheme.NavItem[] = [
           {
             text: "Émission et perception des sons",
             link: "/seconde/ondes-et-signaux/emission-perception-son/introduction.md",
-          }
+          },
         ],
       },
     ],

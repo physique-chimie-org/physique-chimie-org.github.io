@@ -1,5 +1,6 @@
 ---
 titleTemplate: "Déterminer la composition d’un système chimique"
+next: 'Chapitre suivant'
 ---
 
 # Méthodes chimiques
