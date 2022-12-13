@@ -8,7 +8,7 @@ Afin d'identifier les espèces chimiques présentes dans un échantillon, il est
 
 ## Comparer les propriétés physique
 
-Il est possible de mesurer certaines propriétés physiques comme la masse volumiuqe ou la température de changement d'état et de la comparer à des valeurs de références.
+Les propriétés physiques d'une espèce chimique, telles que sa masse volumique, sa température de changement d'état, ou encore sa solubilité dans divers solvants, peuvent être mesurées et comparées à des valeurs de référence pour permettre son identification
 
 ## Effectuer des tests chimiques caractéristiques
 
