@@ -1,4 +1,4 @@
-import { DefaultTheme } from "vitepress/theme"
+import { DefaultTheme } from "vitepress/theme";
 
 export const sidebar: DefaultTheme.SidebarMulti = {
   "/t-spe/": [
@@ -79,6 +79,10 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         {
           text: "Évolution spontanée d'un système hors équilibre chimique",
           link: "/t-spe/composition-et-transformation/evolution-spontanee/hors-equilibre-chimique",
+        },
+        {
+          text: "Force des acides et des bases",
+          link: "/t-spe/composition-et-transformation/evolution-spontanee/force-acides-bases",
         },
       ],
     },

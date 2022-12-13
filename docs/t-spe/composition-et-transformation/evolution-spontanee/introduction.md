@@ -1,5 +1,6 @@
 ---
 titleTemplate: "Evolution spontanée d'un système chimique"
+prev: 'Chapitre précédent'
 ---
 
 # Introduction
@@ -34,4 +35,19 @@ $$
 | État final   | Au moins un réactif (limitant) a été consommé | Les réactifs sont tous encore présents |
 | Avancement final $x_f$ et avancement maximal $x_{max}$ | $x_{max} = x_f$ | $x_{max} > x_f$ |
 
+:::
+
+::: tip Vu au chapitre [Transformations acides bases](../transformations-acides-bases/introduction.md)
+
+Le pH d'une solution aqueuse est défini par la relation :
+
+$$
+pH=-log(\frac{[H_3O^+]}{c^0})
+$$
+avec $[H_3O^+]$ en $mol·L^{-1}$ et $c^0=1,0 mol·L^{-1}$ la concentration standard.
+
+On en déduit :
+$$
+[H_3O^+]=10^{-pH} \times c^0
+$$
 :::
