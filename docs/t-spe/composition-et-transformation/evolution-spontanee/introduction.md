@@ -1,7 +1,9 @@
 ---
-order: 1
-title: Introduction
+titleTemplate: "Evolution spontanée d'un système chimique"
 ---
+
+# Introduction
+
 ## Objectifs
 
 À l'issue de cette partie, vous devrez savoir :

@@ -1,7 +1,9 @@
 ---
-order: 2
-title: Équilibre chimique
+titleTemplate: "Evolution spontanée d'un système chimique"
 ---
+
+# Équilibre chimique
+
 ## Transformation non totale et équilibre chimique
 
 ::: danger

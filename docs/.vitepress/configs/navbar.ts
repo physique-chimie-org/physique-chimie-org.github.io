@@ -17,11 +17,12 @@ export const nav: DefaultTheme.NavItem[] = [
             text: "Déterminer la composition d’un système par des méthodes physiques et chimiques",
             link: "/t-spe/composition-et-transformation/determiner-la-composition/introduction.md",
           },
-          /*
+
           {
             text: "Evolution spontanée d'un système chimique",
             link: "/t-spe/composition-et-transformation/evolution-spontanee/introduction.md",
           },
+          /*
           {
             text: "Force des acides et des bases",
             link: "/t-spe/composition-et-transformation/force-acides-bases/introduction.md",

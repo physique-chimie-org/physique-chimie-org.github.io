@@ -64,6 +64,24 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         },
       ],
     },
+    {
+      text: "Évolution spontanée d'un système chimique",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/t-spe/composition-et-transformation/evolution-spontanee/introduction",
+        },
+        {
+          text: "Équilibre chimique",
+          link: "/t-spe/composition-et-transformation/evolution-spontanee/equilibre-chimique",
+        },
+        {
+          text: "Évolution spontanée d'un système hors équilibre chimique",
+          link: "/t-spe/composition-et-transformation/evolution-spontanee/hors-equilibre-chimique",
+        },
+      ],
+    },
   ],
   "/seconde/": [
     {
