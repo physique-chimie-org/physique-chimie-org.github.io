@@ -26,33 +26,46 @@ Pour effectuer un bilan d’énergie, il faut :
 Un système est dit isolé s’il n’effectue aucun transfert d’énergie avec le milieu extérieur.
 :::
 
-**Exemple :** Un système constitué d'un radiateur électrique reçoit un travail électrique $W_e$ et cède de la chaleur $Q$ à l'air intérieur d'une pièce.
+**Exemple :** Un système constitué d'un radiateur électrique, noté {radiateur}, reçoit un travail électrique $W_e$ et cède de la chaleur $Q$ à l'air intérieur d'une pièce.
 $$
-\Delta U_{radiateur}  = W_e + Q_{air int}
+\Delta U_{radiateur}  = W_e + Q_{air, int}
 $$
 
 $W_e$ est positif et $Q_{air int}$ négatif.
 
-Si le système étudié est l'air intérieur de la pièce, chauffé par le radiateur, qui à son tour cède de la chaleur à l'air extérieur :
+Lors de la mise sous tension du radiateur, sa température augmente, puis elle atteint une température constante. Lorsque le radiateur est à l'équilibre thermique, $\Delta U_{radiateur}=0$. On a :
 
 $$
-\Delta U_{pièce}  = Q_{radiateur} + Q_{air ext}
+\begin{align}
+\Delta U_{radiateur} &= 0 \\
+W_e + Q_{air, int} &= 0 \\
+Q_{air int} &= - W_e
+\end{align}
 $$
 
-$Q_{radiateur}$ est positif et $Q_{air ext}$ négatif.
+On peut voir ici, que l'énergie électrique nécessaire pour maintenir le radiateur à une température constante est égale à l'énergie thermique perdue par l'air du radiateur vers l'air intérieur.
 
-Dans cet exemple, $Q_{air int} = - Q_{radiateur}$. En effet, quand $Q_{air int}$ a été définit, il l'a été par rapport au système {radiateur} et il est donc négatif. Or $Q_{radiateur}$ est définit par rapport au système {pièce} et il est donc positif.
+Si on considère maintenant le système {pièce} qui contient l'air intérieur de la pièce. Ce système reçoit de la chaleur $Q_{radiateur}$ et cède de la chaleur $Q_{air, ext}$ à l'air extérieur.
 
-Lorsque le radiateur a suffisemment chauffé, que la pièce à atteint la température du radiateur, l'équilibre thermique est atteint. Donc $\Delta U_{radiateur}=0$ et $\Delta U_{pièce}=0$.
+$$
+\Delta U_{pièce}  = Q_{radiateur} + Q_{air, ext}
+$$
 
-On a :
+$Q_{radiateur}$ est positif et $Q_{air, ext}$ négatif.
+
+Dans cet exemple, $- Q_{air, int} = Q_{radiateur}$. En effet, quand $Q_{air, int}$ a été définit, il l'a été par rapport au système {radiateur} et il est donc négatif. Or $Q_{radiateur}$ est définit par rapport au système {pièce} et il est donc positif.
+
+Lorsque le radiateur a suffisemment chauffé, que la pièce à atteint une température constante, égale à celle du radiateur, la pièce a atteint l'équilibre thermique. Donc $\Delta U_{pièce}=0$.
+
+On peut alors, par exemple, calculer l'énergie électrique nécessaire pour maintenir la pièce à une température constante.
+
 $$
 \begin{align}
 \Delta U_{pièce} &= 0 \\
-Q_{radiateur} + Q_{air ext} &= 0 \\
-Q_{air ext} &= - Q_{radiateur} \\
-Q_{air ext} &= Q_{air int} \\
-Q_{air ext} &= - W_e
+Q_{radiateur} + Q_{air, ext} &= 0 \\
+Q_{radiateur} &= - Q_{air, ext} \\
+- Q_{air, int} &= - Q_{air, ext} \\
+W_e &= - Q_{air, ext}
 \end{align}
 $$
 
