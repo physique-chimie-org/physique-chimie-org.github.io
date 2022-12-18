@@ -8,7 +8,11 @@ Afin d'identifier les espèces chimiques présentes dans un échantillon, il est
 
 ## Comparer les propriétés physique
 
-Les propriétés physiques d'une espèce chimique, telles que sa masse volumique, sa température de changement d'état, ou encore sa solubilité dans divers solvants, peuvent être mesurées et comparées à des valeurs de référence pour permettre son identification
+Les propriétés physiques d'une espèce chimique, telles que sa masse volumique, sa température de changement d'état, ou encore sa solubilité dans divers solvants, peuvent être mesurées et comparées à des valeurs de référence pour permettre son identification.
+
+::: warning Attention
+Certaines propriétés comme la masse volumique sont par fois difficilement utilisables pour différencier des espèces chimiques. Par exemple, comme vu dans le tableau de la partie [Masse volumique des espèces chimiques](./proprietes.md#la-masse-volumique-et-la-densité), la masse volumique de l'acetone est de $0,790\ g/cm^3$ alors que celle de l'éthanol est de $0,789\ g/cm^3$. Il est donc difficile de différencier ces deux espèces chimiques en se basant uniquement sur leur masse volumique.
+:::
 
 ## Effectuer des tests chimiques caractéristiques
 

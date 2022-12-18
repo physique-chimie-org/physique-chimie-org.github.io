@@ -43,3 +43,5 @@ Les mélanges, quant à eux, contiennent plusieurs espèces chimiques différent
 Les mélanges homogènes sont des mélanges dans lesquels les différentes espèces chimiques sont uniformément réparties; on ne peut distinguer les différentes espèces chimiques composant le mélange. Par exemple, l'air est un mélange homogène d'oxygène, d'azote et d'autres gaz. Lorsque deux liquides forment un mélange homogène, on dit qu'ils sont **miscibles**.
 
 Les mélanges hétérogènes, quant à eux, sont des mélanges dans lesquels les différentes espèces chimiques ne sont pas uniformément réparties. Par exemple, l'eau et l'huile forment un mélange hétérogène, car on peut distinguer les deux espèces chimiques composant le mélange. Lorsque deux liquides forment un mélange hétérogène, on dit qu'ils sont **non miscibles**.
+
+*Exemple :* l'air est un mélange homogène. En effet, il est composé de $78\%$ de diazote $N_2$, de $21\%$ de dioxygène $O_2$ et $1\%$ d'autres gaz dont le dioxyde de carbone $CO_2$. En revanche on ne peut pas distinguer les différentes espèces chimiques composant l'air, car elles sont uniformément réparties.
