@@ -1,5 +1,5 @@
 ---
-titleTemplate: "Transferts macroscopiques d'énergie"
+titleTemplate: "Transferts macroscopiques d’énergie"
 ---
 
 # Energie interne
@@ -7,7 +7,7 @@ titleTemplate: "Transferts macroscopiques d'énergie"
 ## Définition microscopique
 
 Les particules constituant la matière possèdent une énergie cinétique. Ces particules sont, par ailleurs, soumises à des forces électriques engendrant une énergie potentielle d’interaction.
-L’énergie interne U d’un système thermodynamique rend compte de phénomènes ayant lieu à l’échelle microscopique : 
+L’énergie interne U d’un système thermodynamique rend compte de phénomènes ayant lieu à l’échelle microscopique :
 
 $$
 U=E_{(c,micro)} +E_{(p,micro)}
@@ -25,14 +25,16 @@ $$
 
 ## Transfert Thermique
 
-Les échanges d’énergie d’un système fermé avec l’extérieur peuvent être de plusieurs natures : transferts d’énergie électrique, mécanique, thermique, chimique, etc. Les transferts d’énergie mécanique ont lieu sous forme de travail W. Ils n’ont lieu que si le système est déformable (ou compressible) et résultent d’une action mécanique macroscopique exercée sur le système. Les transferts thermiques résultent de transferts d’énergie à l’échelle microscopique, de manière totalement désordonnée. Tout comme le travail W, l’énergie échangée Q est une grandeur algébrique qui est : 
+Les échanges d’énergie entre un système fermé et l’extérieur peuvent être de différentes nature, comme des transferts d’énergie électrique, mécanique, thermique, chimique, etc. Les transferts d’énergie mécanique prennent la forme de travail W et n’ont lieu que si le système est déformable (ou compressible). Ils résultent d’une action mécanique macroscopique exercée sur le système. Les transferts thermiques résultent de transferts d’énergie à l’échelle microscopique, de manière totalement désordonnée.
 
-- positive lorsque le système reçoit effectivement de l’énergie ;
-- négative lorsque le système cède effectivement de l’énergie.
+Tout comme le travail W, l’énergie échangée Q est une grandeur algébrique qui est :
 
-Le signe de Q permet de prévoir le sens du transfert thermique, qui spontanément s’effectue du corps qui a la température la plus élevée vers celui qui a la température la moins élevée.
+- positive lorsque le système reçoit effectivement de l’énergie ;
+- négative lorsque le système cède effectivement de l’énergie.
 
-L'équilibre thermique entre deux corps est atteint lorsque les deux corps atteingnent la même température. Il n'y a donc plus de transfert thermique entre les deux corps.
+Le signe de Q permet de prévoir le sens du transfert thermique, qui spontanément s’effectue du corps qui a la température la plus élevée vers celui qui a la température la moins élevée.
+
+L’équilibre thermique entre deux corps est atteint lorsque ces deux corps atteignent la même température. Il n’y a donc plus de transfert thermique entre ces deux corps.
 
 ## Capacité thermique
 

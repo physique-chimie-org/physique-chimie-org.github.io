@@ -1,6 +1,6 @@
 ---
 titleTemplate: "Déterminer la composition d’un système chimique"
-prev: 'Chapitre précédent'
+prev: "Chapitre précédent"
 ---
 # Introduction
 
@@ -47,7 +47,7 @@ prev: 'Chapitre précédent'
 - Connaître et exploiter la loi de Beer-Lambert, la loi de Kohlrausch pour déterminer une concentration ou une quantité de matière.
 - Citer les domaines de validité de ces relations.
 - Mesurer une conductance, conductivité ou une absorbance et tracer une courbe d’étalonnage pour déterminer une concentration.
-- Savoir exploiter, à partir de données tabulées, un spectre d'absorption infrarouge ou UV-visible pour identifier un groupe caractéristique ou une espèce chimique.
+- Savoir exploiter, à partir de données tabulées, un spectre d’absorption infrarouge ou UV-visible pour identifier un groupe caractéristique ou une espèce chimique.
 - Savoir réaliser une solution de concentration donnée en soluté apporté à partir d’une solution de titre massique et de densité fournis.
 - Réaliser un titrage avec suivi pH-métrique ou suivi conductimétrique
 - Savoir exploiter un titrage pour déterminer une quantité de matière, une concentration ou une masse.

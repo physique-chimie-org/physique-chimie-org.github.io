@@ -1,5 +1,5 @@
 ---
-titleTemplate: "Transferts macroscopiques d'énergie"
+titleTemplate: "Transferts macroscopiques d’énergie"
 ---
 
 # Transmission de la chaleur

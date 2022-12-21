@@ -21,7 +21,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
       ],
     },
     {
-      text: "Déterminer la composition d'un système par des méthodes physiques et chimiques",
+      text: "Déterminer la composition d’un système par des méthodes physiques et chimiques",
       collapsible: true,
       items: [
         {
@@ -35,6 +35,50 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         {
           text: "Méthodes chimiques",
           link: "/t-spe/composition-et-transformation/determiner-la-composition/methodes-chimiques",
+        },
+      ],
+    },
+    {
+      text: "Évolution spontanée d’un système chimique",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/t-spe/composition-et-transformation/evolution-spontanee/introduction",
+        },
+        {
+          text: "Équilibre chimique",
+          link: "/t-spe/composition-et-transformation/evolution-spontanee/equilibre-chimique",
+        },
+        {
+          text: "Évolution spontanée d’un système hors équilibre chimique",
+          link: "/t-spe/composition-et-transformation/evolution-spontanee/hors-equilibre-chimique",
+        },
+        {
+          text: "Force des acides et des bases",
+          link: "/t-spe/composition-et-transformation/evolution-spontanee/force-acides-bases",
+        },
+      ],
+    },
+    {
+      text: "Modéliser l’évolution temporelle d’un système chimique",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/t-spe/composition-et-transformation/evolution-temporelle/introduction",
+        },
+        {
+          text: "Évolution temporelle",
+          link: "/t-spe/composition-et-transformation/evolution-temporelle/evolution-temporelle",
+        },
+        {
+          text: "Suivi de l’évolution temporelle",
+          link: "/t-spe/composition-et-transformation/evolution-temporelle/suivi-evolution-temporelle",
+        },
+        {
+          text: "Modélisation de l’évolution temporelle",
+          link: "/t-spe/composition-et-transformation/evolution-spontanee/modelisation-evolution-temporelle",
         },
       ],
     },
@@ -89,30 +133,8 @@ export const sidebar: DefaultTheme.SidebarMulti = {
           link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transfert-thermique.md",
         },
         {
-          text: "Bilan d'énergie",
+          text: "Bilan d’énergie",
           link: "/t-spe/energie-conversions-et-transferts/thermodynamique/bilan-energie.md",
-        },
-      ],
-    },
-    {
-      text: "Évolution spontanée d'un système chimique",
-      collapsible: true,
-      items: [
-        {
-          text: "Introduction",
-          link: "/t-spe/composition-et-transformation/evolution-spontanee/introduction",
-        },
-        {
-          text: "Équilibre chimique",
-          link: "/t-spe/composition-et-transformation/evolution-spontanee/equilibre-chimique",
-        },
-        {
-          text: "Évolution spontanée d'un système hors équilibre chimique",
-          link: "/t-spe/composition-et-transformation/evolution-spontanee/hors-equilibre-chimique",
-        },
-        {
-          text: "Force des acides et des bases",
-          link: "/t-spe/composition-et-transformation/evolution-spontanee/force-acides-bases",
         },
       ],
     },
@@ -135,13 +157,13 @@ export const sidebar: DefaultTheme.SidebarMulti = {
           link: "/seconde/ondes-et-signaux/emission-perception-son/sons-periodiques",
         },
         {
-          text: "Les sons et l'oreille",
+          text: "Les sons et l’oreille",
           link: "/seconde/ondes-et-signaux/emission-perception-son/sons-et-oreille",
         },
       ],
     },
     {
-      text: "Le noyau de l'atome et son cortège électronique",
+      text: "Le noyau de l’atome et son cortège électronique",
       collapsible: true,
       items: [
         {
@@ -149,7 +171,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
           link: "/seconde/composition-et-transformation/noyau-et-cortege/introduction.md",
         },
         {
-          text: "Le modèle de l'atome",
+          text: "Le modèle de l’atome",
           link: "/seconde/composition-et-transformation/noyau-et-cortege/modele.md",
         },
         {
@@ -179,7 +201,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
           link: "/seconde/composition-et-transformation/identification/proprietes.md",
         },
         {
-          text: "Méthodes d'identification",
+          text: "Méthodes d’identification",
           link: "/seconde/composition-et-transformation/identification/methodes-identification.md",
         },
       ],

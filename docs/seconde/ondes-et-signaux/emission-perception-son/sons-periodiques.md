@@ -1,14 +1,15 @@
 ---
 titleTemplate: "Émission et perception des sons"
+next: "Chapitre suivant"
 ---
 
 # Les sons périodiques
 
-Lorsqu'un émetteur vibre, il génère un signal sonore qui se propage. À l’aide d’un microphone, on peut transformer ce signal sonore en signal électrique. Ce signal converti est alors visualisable sur un oscilloscope ou sur un ordinateur, sous la forme d’un graphique en fonction du temps. Si la vibration de l'émetteur est régulière, le signal sonore est régulier ainsi que le signal électrique. On parle alors de signal périodique.
+Lorsqu’un émetteur vibre, il génère un signal sonore qui se propage. À l’aide d’un microphone, on peut transformer ce signal sonore en signal électrique. Ce signal converti est alors visualisable sur un oscilloscope ou sur un ordinateur, sous la forme d’un graphique en fonction du temps. Si la vibration de l’émetteur est régulière, le signal sonore est régulier ainsi que le signal électrique. On parle alors de signal périodique.
 
 ![animation onde sonore périodique](/images/cours/signal-periodique.gif "Son périodique")
 
-L'amplitude du signal électrique observé, représente les compressions et dilations du milieu matériel. Il est proportionnelle à l'amplitude de la vibration de l'émetteur.
+L’amplitude du signal électrique observé, représente les compressions et dilations du milieu matériel. Il est proportionnelle à l’amplitude de la vibration de l’émetteur.
 
 On observe sur le signal un « motif » qui se répète.
 
@@ -25,8 +26,8 @@ Dans la réalité, les motifs ne sont généralement pas aussi nets, et la péri
 
 Dans ce cas, pour mesurer la période avec une plus grande précision il faut :
 
-- mesurer la durée $\Delta t$ de plusieurs motifs, donc plusieurs périodes $T$ (exemple : Si l'on mesure la durée de $10$ motifs, on aura $10$ périodes $T$ et donc $\Delta t = 10\times T$)
-- diviser la durée $\Delta t$ mesurée, par le nombre de périodes $T$ pour trouver la valeur d'une seule période $T$ (suite de l'exemple : $T = \frac{\Delta t}{10}$)
+- mesurer la durée $\Delta t$ de plusieurs motifs, donc plusieurs périodes $T$ (exemple : Si l’on mesure la durée de $10$ motifs, on aura $10$ périodes $T$ et donc $\Delta t = 10\times T$)
+- diviser la durée $\Delta t$ mesurée, par le nombre de périodes $T$ pour trouver la valeur d’une seule période $T$ (suite de l’exemple : $T = \frac{\Delta t}{10}$)
 :::
 
 __Question :__ Quelle est la période $T$ du signal représenté ci-dessus ?

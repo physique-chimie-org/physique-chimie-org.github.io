@@ -1,11 +1,11 @@
 ---
 titleTemplate: "Déterminer la composition d’un système chimique"
-next: 'Chapitre suivant'
+next: "Chapitre suivant"
 ---
 
 # Méthodes chimiques
 
-Les méthodes chimiques, notamment les titrages, sont basées sur des réactions chimiques qui permettent de déterminer la quantité de matière d'une espèce chimique dans un système. L'espèce chimique dont on souhaite déterminer la quantité de matière est donc consommée. Les méthodes chimiques sont des méthodes destructives.
+Les méthodes chimiques, notamment les titrages, sont basées sur des réactions chimiques qui permettent de déterminer la quantité de matière d’une espèce chimique dans un système. L’espèce chimique dont on souhaite déterminer la quantité de matière est donc consommée. Les méthodes chimiques sont des méthodes destructives.
 
 ## Principe du titrage
 
@@ -40,14 +40,14 @@ $$
 :::
 
 ::: info Remarque
-Avant l’équivalence, le réactif limitant est le réactif titrant ; après l’équivalence, le réactif limitant est le réactif titré. A l'équivalence les deux réactifs sont limitant.
+Avant l’équivalence, le réactif limitant est le réactif titrant ; après l’équivalence, le réactif limitant est le réactif titré. A l’équivalence les deux réactifs sont limitant.
 :::
 
-Voici un exemple d'évolution des quantités de matière pour une réaction quelconque $\ce{A + B -> C + D}$
+Voici un exemple d’évolution des quantités de matière pour une réaction quelconque $\ce{A + B -> C + D}$
 
-![Evolution des quantités de matière](/images/cours/evolution-quantites-matiere-titrage.png "Exemple d'évolution des quantités de matière lors d'un titrage")
+![Evolution des quantités de matière](/images/cours/evolution-quantites-matiere-titrage.png "Exemple d’évolution des quantités de matière lors d’un titrage")
 
-Si l'on peut repérer l'équivalence, on peut alors déterminer la quantité de matière initiale du réactif titré $n_i(A)$ ou sa concentration initiale $[A]_i$. Il faut pour cela pouvoir repérer le volume de réactif titrant $V_E$ versé à l'équivalence. En effet connaissant $V_E$ et $[B]$, on peut calculer $n_E(B)$ et donc $n_i(A)$. Si l'on connaît en plus le volume initialement présent $V_A$, on peut calculer la concentration initiale $[A]_i$.
+Si l’on peut repérer l’équivalence, on peut alors déterminer la quantité de matière initiale du réactif titré $n_i(A)$ ou sa concentration initiale $[A]_i$. Il faut pour cela pouvoir repérer le volume de réactif titrant $V_E$ versé à l’équivalence. En effet connaissant $V_E$ et $[B]$, on peut calculer $n_E(B)$ et donc $n_i(A)$. Si l’on connaît en plus le volume initialement présent $V_A$, on peut calculer la concentration initiale $[A]_i$.
 
 $$
 \begin{aligned}
@@ -58,16 +58,16 @@ n_i(A) &= [B] \times V_E \times \frac{a}{b} \\
 \end{aligned}
 $$
 
-__Exercice :__ Soit la réaction support du titrage $\ce{A + B -> C + D}$. On introduit progressivement 25 mL du solution de réactif titrant $\ce{B}$, de concentration $[B]=0,10 mol.L^{-1}$, dans un volume $V_A=10 mL$ contenant le réactif titré $\ce{A}$. L'évolution des quantités de matière est présentée dans le graphique précédent.
+__Exercice :__ Soit la réaction support du titrage $\ce{A + B -> C + D}$. On introduit progressivement 25 mL du solution de réactif titrant $\ce{B}$, de concentration $[B]=0,10 mol.L^{-1}$, dans un volume $V_A=10 mL$ contenant le réactif titré $\ce{A}$. L’évolution des quantités de matière est présentée dans le graphique précédent.
 
-1. Déterminer, graphiquement, le volume de réactif titrant $V_E$ versé à l'équivalence.
+1. Déterminer, graphiquement, le volume de réactif titrant $V_E$ versé à l’équivalence.
 2. Déterminer, par le calcul, la quantité de matière $n_i(A)$ du réactif titré $\ce{A}$, présente initialement dans le volume $V_A$. Comparer à la valeur initiale de $n(A)$ sur le graphique.
 3. Déterminer la concentration initiale $[A]_i$ du réactif titré $\ce{A}$, dans le volume $V_A$.
 
 ::: details Afficher les réponse
 
 1. On observe que les réactifs A et B sont tous les deux limitant pour $V_E=12 mL$
-2. On calcule $n_i(A)$ en utilisant la relation à l'équivalence :
+2. On calcule $n_i(A)$ en utilisant la relation à l’équivalence :
    $$
    \begin{align}
     n_i(A) &= [B] \times V_E \\
@@ -75,7 +75,7 @@ __Exercice :__ Soit la réaction support du titrage $\ce{A + B -> C + D}$. On in
     &= 1,2 \times 10^{-3} mol
     \end{align}
    $$
-   Sur le graphique, on observe bien que $n_i(A)=1,2 \times 10^{-3} mol$. (_Attention, il est indiqué que l'unité sur l'axe des ordonnées est $10^{-3} mol$_)
+   Sur le graphique, on observe bien que $n_i(A)=1,2 \times 10^{-3} mol$. (_Attention, il est indiqué que l’unité sur l’axe des ordonnées est $10^{-3} mol$_)
 
 3. On calcule $[A]_i$ :
    $$
@@ -90,11 +90,11 @@ __Exercice :__ Soit la réaction support du titrage $\ce{A + B -> C + D}$. On in
 
 ### Montage général
 
-Le montage d'un titrage est le même pour tous les titrages.
+Le montage d’un titrage est le même pour tous les titrages.
 
-![Montage d'un titrage](/images/cours/montage-titrage.png "Montage d'un titrage (savoir légender)")
+![Montage d’un titrage](/images/cours/montage-titrage.png "Montage d’un titrage (savoir légender)")
 
-Un __titrage par suivi__ permet d'exploiter d'exploiter l'évolution d'une grandeur physique au cours du titrage qui présente une brusque varation au passage par l'équivalence.
+Un __titrage par suivi__ permet d’exploiter d’exploiter l’évolution d’une grandeur physique au cours du titrage qui présente une brusque varation au passage par l’équivalence.
 
 - On place un conductimètre dans le bécher contenant la solution titrée s’il s’agit d’un titrage conductimétrique.
 - On place un pH-mètre dans le bécher contenant la solution titrée s’il s’agit d’un titrage pH-métrique.
@@ -118,12 +118,12 @@ $$
 \sigma_{solution}=\sum_i \lambda_i \times [X]_i
 $$
  
-| Ions | Conductivité molaire ionique ($mS.m^2.mol^{-1}$) |
-|:----:|:-----------------------------------------:|
-| $\ce{H3O+}$ | 35 |
-| $\ce{OH-}$ | 20  |
-| $\ce{Na+}$ | 5,0 |
-| $\ce{Cl-}$ | 7,6  |
+|    Ions     | Conductivité molaire ionique ($mS.m^2.mol^{-1}$) |
+| :---------: | :----------------------------------------------: |
+| $\ce{H3O+}$ |                        35                        |
+| $\ce{OH-}$  |                        20                        |
+| $\ce{Na+}$  |                       5,0                        |
+| $\ce{Cl-}$  |                       7,6                        |
 
 ## Titrage pH-métrique
 
@@ -136,12 +136,12 @@ Lors d’un titrage pH-métrique, on trace une courbe représentant le $pH$ en f
 Pour déterminer le volume équivalent à partir de la courbe pH-métrique on peut utiliser :
 
 - __La méthode des tangentes__:
-  Tracer deux tangentes parallèles de part et d'autre du saut de pH, puis de tracer une troisième droite équidistante et parallèle aux deux premières. Le volume équivalent $V_E$ est le volume pour lequel la droite présente un point d'intersection avec la courbe $pH=f(V)$.
+  Tracer deux tangentes parallèles de part et d’autre du saut de pH, puis de tracer une troisième droite équidistante et parallèle aux deux premières. Le volume équivalent $V_E$ est le volume pour lequel la droite présente un point d’intersection avec la courbe $pH=f(V)$.
 
 ![Méthodes pour le titrage pH-métrique](/images/cours/methodes-titrage-pH-tangentes.png "Méthodes des tangentes")
 
 - __La méthode de la dérivée__:
-  A l'aide d'un logiciel, la courbe dérivée de la courbe de titrage $\frac{d(pH)}{d(V)}$. Le volume équivalent $V_E$ est le volume pour lequel on observe un pic sur la courbe dérivée.
+  A l’aide d’un logiciel, la courbe dérivée de la courbe de titrage $\frac{d(pH)}{d(V)}$. Le volume équivalent $V_E$ est le volume pour lequel on observe un pic sur la courbe dérivée.
 
 ![Méthodes pour le titrage pH-métrique](/images/cours/methodes-titrage-pH-derivee.png "Méthodes de la dérivée")
 
@@ -149,7 +149,7 @@ Pour déterminer le volume équivalent à partir de la courbe pH-métrique on pe
 
 ### Principe du titrage colorimétrique
 
-Lors d’un titrage colorimétrique, l’équivalence est repérée grâce à un changement de couleur du milieu réactionnel. Cela peut être du à un réactif coloré qui disparaît ou un produit coloré qui apparait au cours de la réaction suuport du titrage. Si ce n'est pas le cas, on peut également ajouter espèce chimique appelée indicateur colorée de fin de réaction. Dans le cas d'une réaction support du titrage acide-base, on utilise un indicateur coloré acide-base.
+Lors d’un titrage colorimétrique, l’équivalence est repérée grâce à un changement de couleur du milieu réactionnel. Cela peut être du à un réactif coloré qui disparaît ou un produit coloré qui apparait au cours de la réaction suuport du titrage. Si ce n’est pas le cas, on peut également ajouter espèce chimique appelée indicateur colorée de fin de réaction. Dans le cas d’une réaction support du titrage acide-base, on utilise un indicateur coloré acide-base.
 
 ### Choix de l’indicateur coloré acide-base
 

@@ -8,26 +8,26 @@ titleTemplate: "Déterminer la composition d’un système chimique"
 
 ### Principe
 
-Un dosage par étalonnage consiste à déterminer la concentration $[X]_S$ d'une espèce chimique $X$ en solution en comparant une grandeur physique (conductivité, absorbance, tension électrique, etc.) de la solution avec la même grandeur physique mesurée pour des solutions étalons, de concentration $[X]$ connues
+Un dosage par étalonnage consiste à déterminer la concentration $[X]_S$ d’une espèce chimique $X$ en solution en comparant une grandeur physique (conductivité, absorbance, tension électrique, etc.) de la solution avec la même grandeur physique mesurée pour des solutions étalons, de concentration $[X]$ connues
 
-On peut alors tracer une courbe d'étalonnage à partir des mesures, de la grandeur physique mesurée en fonction de la concentration.
+On peut alors tracer une courbe d’étalonnage à partir des mesures, de la grandeur physique mesurée en fonction de la concentration.
 
-![courbe d'étalonnage](/images/cours/courbe-dosage-etalonnage.png "Courbe d'étalonnage")
+![courbe d’étalonnage](/images/cours/courbe-dosage-etalonnage.png "Courbe d’étalonnage")
 
 Pour déterminer la concentration $[X]_S$ :
 
 - on mesurer la grandeur physique pour la solution de concentration $[X]_S$
 - on détermine la concentration $[X]_S$ :
-  - graphiquement en lisant directement la courbe d'étalonnage
-  - par le calcul à partir de l'équation de la courbe d'étalonnage
+  - graphiquement en lisant directement la courbe d’étalonnage
+  - par le calcul à partir de l’équation de la courbe d’étalonnage
 
-Il n'y a pas de réaction chimique lors d'un dosage par étalonnage. Ainsi l'espèce chimique $X$ dont on mesure la concentration $[X]$ n'est pas modifiée par le dosage. Le dosage par étalonnage n'est donc pas une méthode destructive.
+Il n’y a pas de réaction chimique lors d’un dosage par étalonnage. Ainsi l’espèce chimique $X$ dont on mesure la concentration $[X]$ n’est pas modifiée par le dosage. Le dosage par étalonnage n’est donc pas une méthode destructive.
 
 ### Dosage par spectrophotométrie UV-Visible
 
 #### Principe du dosage
 
-Lorsqu'une lumière UV-Visible traverse une solution, une partie de la lumière est absorbée par les espèces chimiques en solution. L’absorbance notée $A$, est une grandeur sans unité. Elle caractérise la capacité d’une solution colorée à absorber des radiations monochromatiques du spectre du visible. Plus l’absorbance est grande, plus la quantité de lumière absorbée est importante.
+Lorsqu’une lumière UV-Visible traverse une solution, une partie de la lumière est absorbée par les espèces chimiques en solution. L’absorbance notée $A$, est une grandeur sans unité. Elle caractérise la capacité d’une solution colorée à absorber des radiations monochromatiques du spectre du visible. Plus l’absorbance est grande, plus la quantité de lumière absorbée est importante.
 
 ::: danger Important
 Dans un spectrophotomètre, la largeur de la cuve et la longueur d’onde étant fixées, on peut écrire pour une espèce chimique donnée de concentration $[X]$, la loi de Beer-Lambert :
@@ -49,7 +49,7 @@ $A$ sans unité, $k$ en $L·mol^{-1}$ (ou $L·g^{-1}$), $[X]$ en $mol·L^{-1}$ (
 Pour avoir une meilleure précision sur le dosage on doit régler la longueur d’onde du spectrophotomètre sur la longueur d’onde d’absorption maximale de l’espèce chimique analysée.
 :::
 
-#### Courbe d'étalonnage en spectrophotométrie
+#### Courbe d’étalonnage en spectrophotométrie
 
 - Courbe d’étalonnage : $A = f([X])$
 - Le coefficient directeur de la droite correspond au coefficient de proportionnalité $k$ dans la loi de Beer-Lambert.
@@ -99,7 +99,7 @@ $$
 :::
 
 ::: warning Attention
-Les unités peuvent être source d'erreur en conductivité. En effet, les volumes sont souvent exprimés en $m^3$.
+Les unités peuvent être source d’erreur en conductivité. En effet, les volumes sont souvent exprimés en $m^3$.
 
 On peut retenir :
 
@@ -131,7 +131,7 @@ $$
 \end{align}
 $$
 
-#### Courbe d'étalonnage en conductimétrie
+#### Courbe d’étalonnage en conductimétrie
 
 - Courbe d’étalonnage : $σ=f([X])$
 - Le coefficient directeur de la droite correspond au coefficient de proportionnalité $k$ dans la loi de Kohlrausch.
@@ -156,4 +156,4 @@ Ainsi un spectre infrarouge renseigne sur la nature des liaisons présentes dans
 ### Bandes d’absorption caractéristiques
 
 Les bandes d’absorption associées à chacune des liaisons rencontrées correspondent à un domaine de nombre d’ondes σ.
-Pour les consulter et s'entrainer à identifier des molécules, vous pouvez utiliser le site [http://chimie.ostralo.net/spectreIR/](http://chimie.ostralo.net/spectreIR/).
+Pour les consulter et s’entrainer à identifier des molécules, vous pouvez utiliser le site [http://chimie.ostralo.net/spectreIR/](http://chimie.ostralo.net/spectreIR/).

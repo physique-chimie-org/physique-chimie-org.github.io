@@ -8,7 +8,7 @@ titleTemplate: "Transformations acides-bases"
 
 ::: tip Vu en première
 
-- __Concentration en soluté apporté :__ La concentration en soluté apporté est la _concentration de fabrication_ : c'est celle qui figure sur l'étiquette du produit chimique. Même si l'espèce introduite ne se trouve plus sous la forme initiale, d'autres espèces produites par la mise en solution peuvent l'avoir remplacée partiellement ou totalement dans la solution.
+- __Concentration en soluté apporté :__ La concentration en soluté apporté est la _concentration de fabrication_ : c’est celle qui figure sur l’étiquette du produit chimique. Même si l’espèce introduite ne se trouve plus sous la forme initiale, d’autres espèces produites par la mise en solution peuvent l’avoir remplacée partiellement ou totalement dans la solution.
 
 $$
 C=\frac{n_{soluté}}{V_{solution}}
@@ -16,7 +16,7 @@ $$
 
 avec $n_{soluté}$ la quantité de matière de soluté introduite (sans se préocupper de son devenir) et $V_{solution}$ le volume de solution.
 
-- __Concentration d'une espèce $X$ effectivement présente dans la solution :__ La concentration en $X$ est la _concentration effective_. C'est celle qui est mesurée par un appareil de mesure. Elle peut être différente de la concentration en soluté apporté si l'espèce $X$ a subi des transformations chimiques dans la solution.
+- __Concentration d’une espèce $X$ effectivement présente dans la solution :__ La concentration en $X$ est la _concentration effective_. C’est celle qui est mesurée par un appareil de mesure. Elle peut être différente de la concentration en soluté apporté si l’espèce $X$ a subi des transformations chimiques dans la solution.
 
 $$
 [X]=\frac{n_{X}}{V_{solution}}
@@ -24,7 +24,7 @@ $$
 
 avec $n_{X}$ la quantité de matière de $X$ présente effectivement dans la solution et $V_{solution}$ le volume de solution.
 
-- Méthode pour établir le du modèle de Lewis d'une molécule :
+- Méthode pour établir le du modèle de Lewis d’une molécule :
 
   1. écrire la configuration électronique de chaque atome ;
   2. déterminer le nombre total d’électrons de valence $n$ mis en jeu dans la molécule étudiée ;
@@ -39,7 +39,7 @@ avec $n_{X}$ la quantité de matière de $X$ présente effectivement dans la sol
 
 ## Objectifs
 
-À l'issue de cette partie, vous devrez savoir :
+À l’issue de cette partie, vous devrez savoir :
 
 - Définir un acide et base selon Brönsted.
 - Connaître les couples acide-base de l’eau, de l’acide carbonique, d’acides carboxyliques, d’amines.

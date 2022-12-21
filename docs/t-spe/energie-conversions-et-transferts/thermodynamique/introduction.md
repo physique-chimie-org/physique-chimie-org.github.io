@@ -1,5 +1,5 @@
 ---
-titleTemplate: "Transferts macroscopiques d'énergie"
+titleTemplate: "Transferts macroscopiques d’énergie"
 prev: "Chapitre précédent"
 ---
 
@@ -7,7 +7,7 @@ prev: "Chapitre précédent"
 
 ## Objectifs
 
-À l'issue de cette partie, vous devrez savoir :
+À l’issue de cette partie, vous devrez savoir :
 
 - Relier qualitativement les valeurs des grandeurs macroscopiques mesurées aux propriétés du système à l’échelle microscopique.
 - Exploiter l’équation d’état du gaz parfait pour décrire le comportement d’un gaz.

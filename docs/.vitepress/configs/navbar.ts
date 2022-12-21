@@ -19,8 +19,12 @@ export const nav: DefaultTheme.NavItem[] = [
           },
 
           {
-            text: "Evolution spontanée d'un système chimique",
+            text: "Évolution spontanée d'un système chimique",
             link: "/t-spe/composition-et-transformation/evolution-spontanee/introduction.md",
+          },
+          {
+            text: "Modéliser l’évolution temporelle d’un système chimique",
+            link: "/t-spe/composition-et-transformation/evolution-temporelle/introduction.md",
           },
           /*
           {
@@ -30,10 +34,6 @@ export const nav: DefaultTheme.NavItem[] = [
           {
             text: "Piles et électrolyse",
             link: "/t-spe/composition-et-transformation/piles-et-electrolyse/introduction.md",
-          },
-          {
-            text: "Modéliser l’évolution temporelle d’un système chimique",
-            link: "/t-spe/composition-et-transformation/evolution-temporelle/README.md",
           },
           {
             text: "Élaborer des stratégies en synthèse organique",

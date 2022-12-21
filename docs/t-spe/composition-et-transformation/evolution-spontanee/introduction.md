@@ -1,13 +1,13 @@
 ---
-titleTemplate: "Evolution spontanée d'un système chimique"
-prev: 'Chapitre précédent'
+titleTemplate: "Evolution spontanée d’un système chimique"
+prev: "Chapitre précédent"
 ---
 
 # Introduction
 
 ## Objectifs
 
-À l'issue de cette partie, vous devrez savoir :
+À l’issue de cette partie, vous devrez savoir :
 
 - Relier le caractère non total d’une transformation à la présence, à l’état final du système, de tous les réactifs et de tous les produits.
 - Mettre en évidence la présence de tous les réactifs dans l’état final d’un système siège d’une transformation non totale, par un nouvel ajout de réactifs.
@@ -19,9 +19,9 @@ prev: 'Chapitre précédent'
 
 ::: tip Vu en première
 
-- Un système chimique atteint l'état final si les quantités de matière des réactifs et des produits n'évoluent plus à l'échelle macroscopique.
-- Une transformation est totale si, à l'état final, au moins un réactif (appelé réactif limitant) est totalement consommé
-- L'avancement d’une réaction, noté $x$ et exprimé en moles, permet de caractériser l'évolution des quantités de matière, des réactifs et des produits au cours de la transformation chimique.
+- Un système chimique atteint l’état final si les quantités de matière des réactifs et des produits n’évoluent plus à l’échelle macroscopique.
+- Une transformation est totale si, à l’état final, au moins un réactif (appelé réactif limitant) est totalement consommé
+- L’avancement d’une réaction, noté $x$ et exprimé en moles, permet de caractériser l’évolution des quantités de matière, des réactifs et des produits au cours de la transformation chimique.
 
 Pour une réaction $a A + b B ⇌c C + d D$ on a, à temps t de la transformation chimique :
 $$
@@ -30,16 +30,16 @@ $$
 
 **Avancement suivant la nature de la réaction :**
 
-| Transformation | Totale | Non Totale |
-| -------------- | ------ | -----------|
-| État final   | Au moins un réactif (limitant) a été consommé | Les réactifs sont tous encore présents |
-| Avancement final $x_f$ et avancement maximal $x_{max}$ | $x_{max} = x_f$ | $x_{max} > x_f$ |
+| Transformation                                         | Totale                                        | Non Totale                             |
+| ------------------------------------------------------ | --------------------------------------------- | -------------------------------------- |
+| État final                                             | Au moins un réactif (limitant) a été consommé | Les réactifs sont tous encore présents |
+| Avancement final $x_f$ et avancement maximal $x_{max}$ | $x_{max} = x_f$                               | $x_{max} > x_f$                        |
 
 :::
 
 ::: tip Vu au chapitre [Transformations acides bases](../transformations-acides-bases/introduction.md)
 
-Le pH d'une solution aqueuse est défini par la relation :
+Le pH d’une solution aqueuse est défini par la relation :
 
 $$
 pH=-log(\frac{[H_3O^+]}{c^0})

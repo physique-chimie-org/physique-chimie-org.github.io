@@ -27,7 +27,7 @@ $$
 
 le couple acido-basique acide éthanoïque/ion éthanoate $CH3COOH_{(aq)}/CH3COO^-_{(aq)}$ :
 
-On peut identifier une analogie avec les réactions d'oxydo-réduction, vues en classe de première :
+On peut identifier une analogie avec les réactions d’oxydo-réduction, vues en classe de première :
 
 |                   | Oxydo-réduction                            | Acide-base                         |
 | ----------------- | ------------------------------------------ | ---------------------------------- |
@@ -86,11 +86,11 @@ Représenter le schéma de Lewis et la formule semi-développée de l’acide é
 Une réaction acido-basique est un transfert d’ion hydrogène $H^+$ de l’acide d’un couple vers la base d’un autre couple acido-basique. La réaction peut être totale (→) ou non totale (⇄) suivant les couples mis en jeu.
 :::
 
-Pour établir l'équation de la réaction acide-base, on peut :
+Pour établir l’équation de la réaction acide-base, on peut :
 
 - Identifier les réactifs de la réaction et les couples acide/base mis en jeu
 - Écrire les demi-équations de chaque couple de façon à placer les réactifs à gauche et les produits à droite.
-- Additionner membre à membre les demi-équations pour obtenir l'équation de réaction acide-base.
+- Additionner membre à membre les demi-équations pour obtenir l’équation de réaction acide-base.
 
 **Application :**
 
@@ -115,7 +115,7 @@ Il y a transfert d’un ion hydrogène $H^+$ de l’acide éthanoïque (acide) v
 
 :::
 
-## Cas de l'eau et espèces amphotères
+## Cas de l’eau et espèces amphotères
 
 ::: danger Important
 Une espèce amphotère est à la fois l’acide d’un couple et la base d’un autre couple.

@@ -17,12 +17,12 @@ $$
 $$
 
 ::: info Remarque
-On remarque que $\vec{v_{i,moy}}$ est un vecteur de même direction que $\vec{M_{i-1}M_{i+1}}$. La norme de $\vec{v_{i,moy}}$, notée $v_{i,moy}$, est égale à $v_{i,moy}=\frac{M_{i-1}M_{i+1}}{t_{i+1} - t_{i-1}}$ et s'exprime dans le Système International en $m·s^{-1}$.
+On remarque que $\vec{v_{i,moy}}$ est un vecteur de même direction que $\vec{M_{i-1}M_{i+1}}$. La norme de $\vec{v_{i,moy}}$, notée $v_{i,moy}$, est égale à $v_{i,moy}=\frac{M_{i-1}M_{i+1}}{t_{i+1} - t_{i-1}}$ et s’exprime dans le Système International en $m·s^{-1}$.
 :::
 
 ::: warning Attention
-Cette méthode n'est pas valable pour les points extrêmes. En effet, il n'y a pas de point précédent $i-1$ pour le premier point, et pas de point suivant $i+1$ pour le dernier point.
-Dans ce cas, on fera l'approximation suivante pour le premier point $M_0$ à la date $t_0$ :
+Cette méthode n’est pas valable pour les points extrêmes. En effet, il n’y a pas de point précédent $i-1$ pour le premier point, et pas de point suivant $i+1$ pour le dernier point.
+Dans ce cas, on fera l’approximation suivante pour le premier point $M_0$ à la date $t_0$ :
 $$
 \vec{v_{0,moy}} = \frac{\vec{M_{0}M_{1}}}{t_{1} - t_{0}}
 $$
@@ -34,7 +34,7 @@ $$
 
 ## Vitesse instantanée
 
-Dans un référentiel donné, le vecteur vitesse instantanée $\vec{v}$, en un point $M$ à la date $t$, est définit comme la limite du vecteur $\vec{v_{moy}}$, lorsque $\Delta t$ tend vers 0. Il s'agit de la vitesse moyenne pour des points adjacents "aussi proche que possible" dans le temps. On obtient donc :
+Dans un référentiel donné, le vecteur vitesse instantanée $\vec{v}$, en un point $M$ à la date $t$, est définit comme la limite du vecteur $\vec{v_{moy}}$, lorsque $\Delta t$ tend vers 0. Il s’agit de la vitesse moyenne pour des points adjacents "aussi proche que possible" dans le temps. On obtient donc :
 
 $$
 \begin{align}
@@ -64,4 +64,4 @@ v_z(t) = \frac{dz(t)}{dt}
 \end{align}
 $$
 
-La norme du vecteur vitesse instantanée $\vec{v}$ est égale à $v=\sqrt{v_x^2 + v_y^2 + v_z^2}$ et s'exprime dans le Système International en $m·s^{-1}$.
+La norme du vecteur vitesse instantanée $\vec{v}$ est égale à $v=\sqrt{v_x^2 + v_y^2 + v_z^2}$ et s’exprime dans le Système International en $m·s^{-1}$.
