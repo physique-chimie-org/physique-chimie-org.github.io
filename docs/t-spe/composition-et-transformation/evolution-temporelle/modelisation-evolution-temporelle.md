@@ -27,7 +27,7 @@ La vitesse volumique est une grandeur positive. Au lieu d’utiliser une seule r
 Expérimentalement, on peut donc approcher la vitesse volumique $v_X(t_i)$ à partir de $n$ mesures de la concentration $[X]$ de l’espèce chimique $X_{(aq)}$ :
 
 $$
-v_X(t_i) = \Dfrac{[X]_{i+1} - [X]_{i-1}}{t_{i+1} - t_{i-1}}
+v_X(t_i) = \frac{[X]_{i+1} - [X]_{i-1}}{t_{i+1} - t_{i-1}}
 $$
 
 Graphiquement on peut mesurer la vitesse volumique en tracant la tangente à la courbe représentant l’évolution temporelle de la concentration de $X_{(aq)}$, à un instant $t_i$, et en calculant le coefficient directeur de la tangente.

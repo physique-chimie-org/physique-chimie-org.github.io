@@ -78,7 +78,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         },
         {
           text: "Modélisation de l’évolution temporelle",
-          link: "/t-spe/composition-et-transformation/evolution-spontanee/modelisation-evolution-temporelle",
+          link: "/t-spe/composition-et-transformation/evolution-temporelle/modelisation-evolution-temporelle",
         },
       ],
     },
