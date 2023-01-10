@@ -109,6 +109,24 @@ export const sidebar: DefaultTheme.SidebarMulti = {
       ],
     },
     {
+      text: "Mouvement dans un champ non uniforme",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/introduction.md",
+        },
+        {
+          text: "Lois de Kepler",
+          link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/lois-de-kepler.md",
+        },
+        {
+          text: "Mouvement circulaire uniforme",
+          link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/circulaire-uniforme.md",
+        },
+      ],
+    },
+    {
       text: "Transferts macroscopiques d’énergie",
       collapsible: true,
       items: [
