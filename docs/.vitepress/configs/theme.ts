@@ -18,7 +18,46 @@ export const themeConfig: DefaultTheme.Config = {
     appId: "9TE5KV94J0",
     apiKey: "4f40b79730bb4640efb7472c21f28d4b",
     indexName: "physique-chimie",
-    buttonText: "Rechercher",
+    placeholder: "Rechercher",
+    translations: {
+      button: {
+        buttonText: "Rechercher",
+        buttonAriaLabel: "Rechercher",
+      },
+      modal: {
+        searchBox: {
+          resetButtonTitle: "Réinitialiser la recherche",
+          resetButtonAriaLabel: "Réinitialiser la recherche",
+          cancelButtonText: "Annuler",
+          cancelButtonAriaLabel: "Annuler",
+        },
+        startScreen: {
+          recentSearchesTitle: "Recherches récentes",
+          noRecentSearchesText: "Aucune recherche récente",
+          saveRecentSearchButtonTitle: "Enregistrer la recherche récente",
+          removeRecentSearchButtonTitle: "Supprimer la recherche récente",
+          favoriteSearchesTitle: "Recherches favorites",
+          removeFavoriteSearchButtonTitle: "Supprimer la recherche favorite",
+        },
+        errorScreen: {
+          titleText: "Une erreur s'est produite",
+          helpText:
+            "Essayez de rechercher à nouveau ou de modifier votre recherche",
+        },
+        footer: {
+          selectText: "Sélectionner",
+          navigateText: "Naviguer",
+          closeText: "Fermer",
+          searchByText: "Rechercher par",
+        },
+        noResultsScreen: {
+          noResultsText: "Aucun résultat trouvé",
+          suggestedQueryText: "Recherche suggérée",
+          reportMissingResultsText: "Signaler les résultats manquants",
+          reportMissingResultsLinkText: "Signaler les résultats manquants",
+        },
+      },
+    },
   },
   outline: "deep",
   outlineTitle: "Sommaire",
@@ -36,11 +75,6 @@ export const themeConfig: DefaultTheme.Config = {
   ],
   footer: {
     message: "Fait avec ❤️ par vos professeurs",
-  },
-  editLink: {
-    pattern:
-    github + "/edit/main/docs/:path",
-    text: "Contribuer à cette page",
   },
   lastUpdatedText: "Dernière contribution",
   docFooter: {
