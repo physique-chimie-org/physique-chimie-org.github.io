@@ -116,6 +116,10 @@ export const nav: DefaultTheme.NavItem[] = [
             text: "Identification des espèces chimique",
             link: "/seconde/composition-et-transformation/identification/introduction.md",
           },
+          {
+            text: "Les solutions",
+            link: "/seconde/composition-et-transformation/solutions/introduction.md",
+          },
         ],
       },
 
