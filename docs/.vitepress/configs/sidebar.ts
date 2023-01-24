@@ -224,5 +224,23 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         },
       ],
     },
+    {
+      text: "Les solutions",
+      collapsible: true,
+      items: [
+        {
+          text: "Introduction",
+          link: "/seconde/composition-et-transformation/solutions/introduction.md",
+        },
+        {
+          text: "Vocabulaire et outils",
+          link: "/seconde/composition-et-transformation/solutions/vocabulaire.md",
+        },
+        {
+          text: "Réaliser une solution",
+          link: "/seconde/composition-et-transformation/solutions/realisation.md",
+        },
+      ],
+    },
   ],
 };
