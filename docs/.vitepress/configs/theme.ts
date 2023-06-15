@@ -1,7 +1,7 @@
 import type { DefaultTheme } from "vitepress";
+import { github } from "../meta";
 import { nav } from "./navbar";
 import { sidebar } from "./sidebar";
-import { github } from "../meta";
 
 /**
  * Theme configs let you customize your theme.
@@ -74,7 +74,7 @@ export const themeConfig: DefaultTheme.Config = {
     },
   ],
   footer: {
-    message: "Fait avec ❤️ par vos professeurs",
+    message: "Fait avec ❤️ par Aliosha Padovani",
   },
   lastUpdatedText: "Dernière contribution",
   docFooter: {
