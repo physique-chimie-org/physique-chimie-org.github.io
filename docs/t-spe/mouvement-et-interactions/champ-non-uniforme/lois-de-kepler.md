@@ -79,7 +79,7 @@ En revanche la force d'attraction de l'astre sur l'objet en orbite doit être la
 On peut citer par exemple le satellite SOHO chargé d’observer en continu le Soleil afin d’en étudier la structure
 interne, les processus produisant le vent solaire ainsi que la couronne solaire.
 
-![Trajectoires de la Terre et SOHO dans le référentiel héliocentrique](/images/cours/kepler-soho.png "Trajectoires de la Terre et SOHO dans le référentiel héliocentrique")
+![Lois des aires](/images/cours/kepler-soho.png "Lois des aires - source : Maxicours")
 
 Le satellite est placé sur une orbite autour du Soleil ; le Soleil, le satellite et la Terre sont alignés à tout instant, afin que la Terre ne vienne jamais éclipser la lumière du Soleil par rapport au satellite. Celui-ci possède alors la même période de révolution que la Terre, alors que l'éllipse qu'il parcourt n'a pas le même demi grand-axe que celle de la Terre.
 
