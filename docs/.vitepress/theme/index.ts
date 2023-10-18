@@ -28,7 +28,7 @@ export default {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
       'nav-bar-content-before': () => h(Documate, {
         endpoint: 'https://n88gzkwb84.us.aircode.run/ask',
-        buttonLabel: 'Demander à classBot_',
+        buttonLabel: 'Une question ?',
         placeholder: 'Poser une question à classBot_',
         predefinedQuestions: [
           "Quelle est la composition d'un atome ?",
