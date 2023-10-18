@@ -1,47 +1,47 @@
 {
-  "hash": "4b2dd497",
-  "browserHash": "09b86a3e",
+  "hash": "2badbe85",
+  "browserHash": "0320e76e",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.3.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "ba243b60",
+      "fileHash": "1b3a08bb",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@6.5.1/node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "d471f825",
+      "fileHash": "4ab6bffb",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/.pnpm/@vueuse+integrations@10.5.0_focus-trap@7.5.4+vue@3.3.4/node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "c4681ed0",
+      "fileHash": "4f48de81",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "53e3485b",
+      "fileHash": "0b1b6e96",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/.pnpm/minisearch@6.1.0/node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "51d32166",
+      "fileHash": "39c74790",
       "needsInterop": false
     },
     "@documate/vue": {
       "src": "../../../../node_modules/.pnpm/@documate+vue@0.3.1_oxp5scexwaikhhsf4x47kudwiq/node_modules/@documate/vue/dist/documate.js",
       "file": "@documate_vue.js",
-      "fileHash": "6258865c",
+      "fileHash": "be23df3a",
       "needsInterop": false
     },
     "medium-zoom": {
       "src": "../../../../node_modules/.pnpm/medium-zoom@1.0.8/node_modules/medium-zoom/dist/medium-zoom.esm.js",
       "file": "medium-zoom.js",
-      "fileHash": "acf729b4",
+      "fileHash": "0c5794e8",
       "needsInterop": false
     }
   },
