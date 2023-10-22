@@ -200,6 +200,10 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                     text: "Le cortège électronique",
                     link: "/seconde/composition-et-transformation/noyau-et-cortege/cortege.md",
                 },
+                {
+                    text: "Le périodique des éléments",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/tableau-periodique.md",
+                },
             ],
         },
         {

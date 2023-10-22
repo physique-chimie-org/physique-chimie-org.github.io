@@ -11,3 +11,4 @@ outline: false
 2. [Modèle de l’atome](modele.md)
 3. [Le noyau](noyau.md)
 4. [Le cortège électronique](cortege.md)
+5. [Le tableau périodique des éléments](tableau-periodique.md)
