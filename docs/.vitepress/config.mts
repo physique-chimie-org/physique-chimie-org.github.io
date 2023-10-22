@@ -148,13 +148,5 @@ export default withPwa(defineConfig({
       sourcemap: true,
     },
   },
-  vite: {
-    build: {
-      rollupOptions: {
-        external: [
-          'workbox-window',
-        ],
-      }
-    },
-  },
+  vite: {},
 }))

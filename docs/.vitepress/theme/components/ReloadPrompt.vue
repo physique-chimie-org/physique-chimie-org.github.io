@@ -42,7 +42,7 @@ onBeforeMount(async () => {
       aria-labelledby="pwa-message"
     >
       <div id="pwa-message" class="mb-3">
-        {{ offlineReady ? 'App ready to work offline' : 'New content available, click the reload button to update.' }}
+        {{ offlineReady ? 'App prête à fonctionner hors ligne' : 'Nouveau contenu disponible, cliquer sur "Recharger" pour mettre à jour' }}
       </div>
       <button
         v-if="needRefresh"
@@ -50,14 +50,14 @@ onBeforeMount(async () => {
         class="pwa-refresh"
         @click="updateServiceWorker?.()"
       >
-        Reload
+      Recharger
       </button>
       <button
         type="button"
         class="pwa-cancel"
         @click="close"
       >
-        Close
+        Fermer
       </button>
     </div>
   </template>
