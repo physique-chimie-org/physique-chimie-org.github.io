@@ -1,6 +1,5 @@
 ---
 titleTemplate: "Cinématique"
-next: "Chapitre suivant"
 ---
 
 # Vecteur accélération
@@ -10,6 +9,7 @@ next: "Chapitre suivant"
 Dans un référentiel donné, le vecteur accélération moyenne $\vec{a_{moy}}$, en un point $M$ à la date $t$, est définit comme la variation du vecteur vitesse $\Delta \vec{v}$ par rapport au temps écoulé $\Delta t$, soit $\vec{a_{moy}} = \frac{\Delta\vec{v_{moy}}}{\Delta t}$.
 
 Pour déterminer le vecteur accélération moyenne en un point $M_i$, utilise la méthode des points adjacents, soit :
+
 $$
 \vec{a_{i,moy}} = \frac{\vec{v_{i+1}} - \vec{v_{i-1}}}{t_{i+1} - t_{i-1}}
 $$
@@ -38,6 +38,7 @@ L’accélération est souvent perçue comme une augmentation de la valeur de la
 :::
 
 On peut noter de façon plus synthétique les coordonnées du vecteur accélération instantanée $\vec{a}$ dans le repère $(O; \vec{i}; \vec{j}; \vec{k})$ :
+
 $$
 \begin{align}
 \vec{a} &= a_x(t)·\vec{i} + a_y(t)·\vec{j} + a_z(t)·\vec{k} \\

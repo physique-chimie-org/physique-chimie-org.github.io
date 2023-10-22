@@ -106,6 +106,10 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                     text: "Vecteur accélération",
                     link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-acceleration.md",
                 },
+                {
+                    text: "Numérique et programmation",
+                    link: "/t-spe/mouvement-et-interactions/cinematique/python.md",
+                },
             ],
         },
         {
