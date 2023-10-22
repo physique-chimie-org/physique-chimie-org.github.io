@@ -73,27 +73,51 @@ export default withPwa(defineConfig({
     returnToTopLabel: 'Retour en haut',
     externalLinkIcon: true,
     search: {
-      provider: 'local',
+      provider: 'algolia',
       options: {
+        appId: "9TE5KV94J0",
+        apiKey: "4f40b79730bb4640efb7472c21f28d4b",
+        indexName: "physique-chimie",
+        placeholder: "Rechercher",
         translations: {
           button: {
-            buttonText: 'Rechercher',
-            buttonAriaLabel: 'Rechercher'
+            buttonText: "Rechercher",
+            buttonAriaLabel: "Rechercher",
           },
           modal: {
-            noResultsText: 'Aucun résultat trouvé pour',
-            resetButtonTitle: 'Réinitialiser la recherche',
-            displayDetails: 'Afficher les détails',
+            searchBox: {
+              resetButtonTitle: "Réinitialiser la recherche",
+              resetButtonAriaLabel: "Réinitialiser la recherche",
+              cancelButtonText: "Annuler",
+              cancelButtonAriaLabel: "Annuler",
+            },
+            startScreen: {
+              recentSearchesTitle: "Recherches récentes",
+              noRecentSearchesText: "Aucune recherche récente",
+              saveRecentSearchButtonTitle: "Enregistrer la recherche récente",
+              removeRecentSearchButtonTitle: "Supprimer la recherche récente",
+              favoriteSearchesTitle: "Recherches favorites",
+              removeFavoriteSearchButtonTitle: "Supprimer la recherche favorite",
+            },
+            errorScreen: {
+              titleText: "Une erreur s'est produite",
+              helpText:
+                "Essayez de rechercher à nouveau ou de modifier votre recherche",
+            },
             footer: {
-              selectText: 'Selectionner',
-              selectKeyAriaLabel: 'Espace ou Entrée pour sélectionner',
-              navigateText: 'Naviguer',
-              navigateUpKeyAriaLabel: 'Flèche haut ou flèche bas pour naviguer',
-              closeText: 'Fermer',
-              closeKeyAriaLabel: 'Echap pour fermer la boîte de dialogue',
-            }
-          }
-        }
+              selectText: "Sélectionner",
+              navigateText: "Naviguer",
+              closeText: "Fermer",
+              searchByText: "Rechercher par",
+            },
+            noResultsScreen: {
+              noResultsText: "Aucun résultat trouvé",
+              suggestedQueryText: "Recherche suggérée",
+              reportMissingResultsText: "Signaler les résultats manquants",
+              reportMissingResultsLinkText: "Signaler les résultats manquants",
+            },
+          },
+        },
       }
     }
   },
