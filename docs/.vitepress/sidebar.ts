@@ -205,7 +205,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                     link: "/seconde/composition-et-transformation/noyau-et-cortege/cortege.md",
                 },
                 {
-                    text: "Le périodique des éléments",
+                    text: "Le tableau périodique",
                     link: "/seconde/composition-et-transformation/noyau-et-cortege/tableau-periodique.md",
                 },
             ],
