@@ -88,27 +88,27 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/t-spe/mouvement-et-interactions/cinematique/.md",
+                    link: "/t-spe/mouvement-et-interactions/cinematique/",
                 },
                 {
                     text: "Référentiel",
-                    link: "/t-spe/mouvement-et-interactions/cinematique/referentiel.md",
+                    link: "/t-spe/mouvement-et-interactions/cinematique/referentiel",
                 },
                 {
                     text: "Vecteur position",
-                    link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-position.md",
+                    link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-position",
                 },
                 {
                     text: "Vecteur vitesse",
-                    link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-vitesse.md",
+                    link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-vitesse",
                 },
                 {
                     text: "Vecteur accélération",
-                    link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-acceleration.md",
+                    link: "/t-spe/mouvement-et-interactions/cinematique/vecteur-acceleration",
                 },
                 {
                     text: "Numérique et programmation",
-                    link: "/t-spe/mouvement-et-interactions/cinematique/python.md",
+                    link: "/t-spe/mouvement-et-interactions/cinematique/python",
                 },
             ],
         },
@@ -118,15 +118,15 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/.md",
+                    link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/",
                 },
                 {
                     text: "Lois de Kepler",
-                    link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/lois-de-kepler.md",
+                    link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/lois-de-kepler",
                 },
                 {
                     text: "Mouvement circulaire uniforme",
-                    link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/circulaire-uniforme.md",
+                    link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/circulaire-uniforme",
                 },
             ],
         },
@@ -136,27 +136,27 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/.md",
+                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/",
                 },
                 {
                     text: "Système thermodynamique",
-                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/systeme-thermodynamique.md",
+                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/systeme-thermodynamique",
                 },
                 {
                     text: "Energie interne",
-                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/energie-interne.md",
+                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/energie-interne",
                 },
                 {
                     text: "Transmission de la chaleur",
-                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transmission-chaleur.md",
+                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transmission-chaleur",
                 },
                 {
                     text: "Transferts thermique par conduction",
-                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transfert-thermique.md",
+                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transfert-thermique",
                 },
                 {
                     text: "Bilan d’énergie",
-                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/bilan-energie.md",
+                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/bilan-energie",
                 },
             ],
         },
@@ -190,23 +190,23 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/.md",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/",
                 },
                 {
                     text: "Le modèle de l’atome",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/modele.md",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/modele",
                 },
                 {
                     text: "Le noyau",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/noyau.md",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/noyau",
                 },
                 {
                     text: "Le cortège électronique",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/cortege.md",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/cortege",
                 },
                 {
                     text: "Le tableau périodique",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/tableau-periodique.md",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/tableau-periodique",
                 },
             ],
         },
@@ -216,19 +216,19 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/seconde/composition-et-transformation/identification/.md",
+                    link: "/seconde/composition-et-transformation/identification/",
                 },
                 {
                     text: "Corps purs et mélanges",
-                    link: "/seconde/composition-et-transformation/identification/corps-purs-et-melanges.md",
+                    link: "/seconde/composition-et-transformation/identification/corps-purs-et-melanges",
                 },
                 {
                     text: "Propriétés des espèces chimiques",
-                    link: "/seconde/composition-et-transformation/identification/proprietes.md",
+                    link: "/seconde/composition-et-transformation/identification/proprietes",
                 },
                 {
                     text: "Méthodes d’identification",
-                    link: "/seconde/composition-et-transformation/identification/methodes-identification.md",
+                    link: "/seconde/composition-et-transformation/identification/methodes-identification",
                 },
             ],
         },
