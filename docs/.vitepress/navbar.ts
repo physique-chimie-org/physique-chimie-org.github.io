@@ -10,30 +10,30 @@ export const nav: DefaultTheme.NavItem[] = [
                 items: [
                     {
                         text: "Transformations acides bases",
-                        link: "/t-spe/composition-et-transformation/transformations-acides-bases/index",
+                        link: "/t-spe/composition-et-transformation/transformations-acides-bases/",
                     },
 
                     {
                         text: "Déterminer la composition d’un système par des méthodes physiques et chimiques",
-                        link: "/t-spe/composition-et-transformation/determiner-la-composition/index",
+                        link: "/t-spe/composition-et-transformation/determiner-la-composition/",
                     },
 
                     {
                         text: "Évolution spontanée d'un système chimique",
-                        link: "/t-spe/composition-et-transformation/evolution-spontanee/index",
+                        link: "/t-spe/composition-et-transformation/evolution-spontanee/",
                     },
                     {
                         text: "Modéliser l’évolution temporelle d’un système chimique",
-                        link: "/t-spe/composition-et-transformation/evolution-temporelle/index",
+                        link: "/t-spe/composition-et-transformation/evolution-temporelle/",
                     },
                     /*
                     {
                       text: "Force des acides et des bases",
-                      link: "/t-spe/composition-et-transformation/force-acides-bases/index",
+                      link: "/t-spe/composition-et-transformation/force-acides-bases/",
                     },
                     {
                       text: "Piles et électrolyse",
-                      link: "/t-spe/composition-et-transformation/piles-et-electrolyse/index",
+                      link: "/t-spe/composition-et-transformation/piles-et-electrolyse/",
                     },
                     {
                       text: "Élaborer des stratégies en synthèse organique",
@@ -47,16 +47,16 @@ export const nav: DefaultTheme.NavItem[] = [
                 items: [
                     {
                         text: "Cinématique",
-                        link: "/t-spe/mouvement-et-interactions/cinematique/index",
+                        link: "/t-spe/mouvement-et-interactions/cinematique/",
                     },
                     {
                         text: "Mouvement dans un champ non uniforme",
-                        link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/index",
+                        link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/",
                     },
                     /*
                     {
                       text: "Dynamique et mouvement dans un champ uniforme",
-                      link: "/t-spe/mouvements-et-interactions/champ-uniforme/index",
+                      link: "/t-spe/mouvements-et-interactions/champ-uniforme/",
                     },
                     */
                 ],
@@ -66,16 +66,16 @@ export const nav: DefaultTheme.NavItem[] = [
                 items: [
                     {
                         text: "Transferts macroscopiques d’énergie",
-                        link: "/t-spe/energie-conversions-et-transferts/thermodynamique/index",
+                        link: "/t-spe/energie-conversions-et-transferts/thermodynamique/",
                     },
                     /*
                     {
                       text: "Premier principe de la thermodynamique",
-                      link: "/t-spe/energie-conversions-et-transferts/premier-principe-de-la-thermodynamique/index",
+                      link: "/t-spe/energie-conversions-et-transferts/premier-principe-de-la-thermodynamique/",
                     },
                     {
                       text: "Transferts thermiques",
-                      link: "/t-spe/energie-conversions-et-transferts/transferts-thermiques/index",
+                      link: "/t-spe/energie-conversions-et-transferts/transferts-thermiques/",
                     },
                     */
                 ],
@@ -86,15 +86,15 @@ export const nav: DefaultTheme.NavItem[] = [
                     /*
                     {
                       text: "Lunette astronomique",
-                      link: "/t-spe/ondes-et-signaux/lunette-astronomique/index",
+                      link: "/t-spe/ondes-et-signaux/lunette-astronomique/",
                     },
                     {
                       text: "Caractériser les phénomènes ondulatoires",
-                      link: "/t-spe/ondes-et-signaux/caracteriser-les-phenomenes-ondulatoires/index",
+                      link: "/t-spe/ondes-et-signaux/caracteriser-les-phenomenes-ondulatoires/",
                     },
                     {
                       text: "Dynamique d'un système électrique",
-                      link: "/t-spe/ondes-et-signaux/dynamique-dun-systeme-electrique/index",
+                      link: "/t-spe/ondes-et-signaux/dynamique-dun-systeme-electrique/",
                     },
                     */
                 ],
@@ -110,11 +110,11 @@ export const nav: DefaultTheme.NavItem[] = [
                 items: [
                     {
                         text: "Le noyau de l'atome et son cortège électronique",
-                        link: "/seconde/composition-et-transformation/noyau-et-cortege/index",
+                        link: "/seconde/composition-et-transformation/noyau-et-cortege/",
                     },
                     {
                         text: "Identification des espèces chimique",
-                        link: "/seconde/composition-et-transformation/identification/index",
+                        link: "/seconde/composition-et-transformation/identification/",
                     },
                 ],
             },
@@ -128,7 +128,7 @@ export const nav: DefaultTheme.NavItem[] = [
                 items: [
                     {
                         text: "Émission et perception des sons",
-                        link: "/seconde/ondes-et-signaux/emission-perception-son/index",
+                        link: "/seconde/ondes-et-signaux/emission-perception-son/",
                     },
                 ],
             },
