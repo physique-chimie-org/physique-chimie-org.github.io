@@ -32,6 +32,7 @@ export default withPwa(defineConfig({
   sitemap: {
     hostname: site,
   },
+  cleanUrls: true,
   themeConfig: {
     logo: {
       src: "/logo.svg",
