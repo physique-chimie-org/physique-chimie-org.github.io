@@ -63,13 +63,16 @@ export default withPwa(defineConfig({
       text: 'Dernière contribution',
       formatOptions: {
         dateStyle: 'full',
-        timeStyle: 'medium'
+        timeStyle: 'short',
+        forceLocale: true,
       }
     },
     docFooter: {
       prev: 'Précédent',
       next: 'Suivant',
     },
+    darkModeSwitchLabel: 'Apparence',
+    sidebarMenuLabel: 'Plan de cours',
     returnToTopLabel: 'Retour en haut',
     externalLinkIcon: true,
     search: {
