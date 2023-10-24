@@ -1,5 +1,6 @@
 ---
 titleTemplate: "Transferts macroscopiques d’énergie"
+next: false
 ---
 
 # Bilan d’énergie
@@ -27,6 +28,7 @@ Un système est dit isolé s’il n’effectue aucun transfert d’énergie avec
 :::
 
 **Exemple :** Un système constitué d’un radiateur électrique, noté {radiateur}, reçoit un travail électrique $W_e$ et cède de la chaleur $Q$ à l’air intérieur d’une pièce.
+
 $$
 \Delta U_{radiateur}  = W_e + Q_{air, int}
 $$

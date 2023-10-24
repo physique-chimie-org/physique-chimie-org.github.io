@@ -1,6 +1,5 @@
 ---
 titleTemplate: "Identification des espèces chimiques"
-prev: "Chapitre précédent"
 ---
 
 # Corps pur et mélanges
@@ -11,9 +10,9 @@ La matière est constituée d’**entités chimiques** (molécules, atomes, ions
 
 Une **espèce chimique** est un ensemble d’entités chimiques identiques.
 
-Une espèce chimique est caractérisée par sa formule, son aspect physique (état physique à température ambiante, couleur, odeur, etc.) et ses  propriétés physiques (température de fusion, d’ébullition, masse  volumique, indice de réfraction, etc.) et ses propriétés chimiques.
+Une espèce chimique est caractérisée par sa formule, son aspect physique (état physique à température ambiante, couleur, odeur, etc.) et ses propriétés physiques (température de fusion, d’ébullition, masse volumique, indice de réfraction, etc.) et ses propriétés chimiques.
 
-*Exemples d’espèces chimiques* : l’eau, l’acide acétique, le cuivre, le chlorure de sodium.
+_Exemples d’espèces chimiques_ : l’eau, l’acide acétique, le cuivre, le chlorure de sodium.
 
 La différence entre une **espèce chimique** et une **entité chimique** réside dans le fait qu’une **espèce chimique** est un groupe d’**entités chimiques** identiques, tandis qu’une **entité chimique** est un élément constitutif des **espèces chimiques**.
 
@@ -32,9 +31,9 @@ Un **corps pur simple** est constitué d’un seul type d’atomes. On distingue
 
 Ainsi, l’or par exemple est un corps pur simple élémentaire, puisqu’il est constitué d’atomes d’or isolés. L’eau, quant à elle, est un corps pur composé, puisqu’elle est constituée de molécules d’eau formées d’atomes d’oxygène et d’hydrogène.
 
-Un **corps pur composé** est un corps pur qui est constitué de plusieurs types d’atomes. Ces  atomes différents restent dans des proportions bien définies dans le corps pur considéré.
+Un **corps pur composé** est un corps pur qui est constitué de plusieurs types d’atomes. Ces atomes différents restent dans des proportions bien définies dans le corps pur considéré.
 
-*Exemples* : l’eau $H_2 O$, l’éthanol $C_2 H_6 O$, le chlorure de sodium ($Na^+ ; Cl^-$ )
+_Exemples_ : l’eau $H_2 O$, l’éthanol $C_2 H_6 O$, le chlorure de sodium ($Na^+ ; Cl^-$ )
 
 ### Mélanges
 
@@ -44,4 +43,4 @@ Les mélanges homogènes sont des mélanges dans lesquels les différentes espè
 
 Les mélanges hétérogènes, quant à eux, sont des mélanges dans lesquels les différentes espèces chimiques ne sont pas uniformément réparties. Par exemple, l’eau et l’huile forment un mélange hétérogène, car on peut distinguer les deux espèces chimiques composant le mélange. Lorsque deux liquides forment un mélange hétérogène, on dit qu’ils sont **non miscibles**.
 
-*Exemple :* l’air est un mélange homogène. En effet, il est composé de $78\%$ de diazote $N_2$, de $21\%$ de dioxygène $O_2$ et $1\%$ d’autres gaz dont le dioxyde de carbone $CO_2$. En revanche on ne peut pas distinguer les différentes espèces chimiques composant l’air, car elles sont uniformément réparties.
+_Exemple :_ l’air est un mélange homogène. En effet, il est composé de $78\%$ de diazote $N_2$, de $21\%$ de dioxygène $O_2$ et $1\%$ d’autres gaz dont le dioxyde de carbone $CO_2$. En revanche on ne peut pas distinguer les différentes espèces chimiques composant l’air, car elles sont uniformément réparties.

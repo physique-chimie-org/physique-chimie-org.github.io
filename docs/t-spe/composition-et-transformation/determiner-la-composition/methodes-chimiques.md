@@ -1,6 +1,6 @@
 ---
 titleTemplate: "Déterminer la composition d’un système chimique"
-next: "Chapitre suivant"
+next: false
 ---
 
 # Méthodes chimiques
@@ -22,7 +22,7 @@ $$
 \ce{aA + bB -> cC + dD}
 $$
 
-Cette réaction est appelée réaction support du titrage. Elle doit être __rapide, totale et unique__.
+Cette réaction est appelée réaction support du titrage. Elle doit être **rapide, totale et unique**.
 :::
 
 Exemple : Le titrage de $\ce{H3O+}$ par $\ce{HO-}$ a comme réaction support du titrage $\ce{H3O+_{(aq)} + OH-_{(aq)} -> 2H2O_{(l)}}$
@@ -37,6 +37,7 @@ A l’équivalence, la quantité de matière du réactif titré $n_i(A)$ initial
 $$
 \frac{n_i(A)}{a}=\frac{n_E(B)}{b}
 $$
+
 :::
 
 ::: info Remarque
@@ -58,7 +59,7 @@ n_i(A) &= [B] \times V_E \times \frac{a}{b} \\
 \end{aligned}
 $$
 
-__Exercice :__ Soit la réaction support du titrage $\ce{A + B -> C + D}$. On introduit progressivement 25 mL du solution de réactif titrant $\ce{B}$, de concentration $[B]=0,10 mol.L^{-1}$, dans un volume $V_A=10 mL$ contenant le réactif titré $\ce{A}$. L’évolution des quantités de matière est présentée dans le graphique précédent.
+**Exercice :** Soit la réaction support du titrage $\ce{A + B -> C + D}$. On introduit progressivement 25 mL du solution de réactif titrant $\ce{B}$, de concentration $[B]=0,10 mol.L^{-1}$, dans un volume $V_A=10 mL$ contenant le réactif titré $\ce{A}$. L’évolution des quantités de matière est présentée dans le graphique précédent.
 
 1. Déterminer, graphiquement, le volume de réactif titrant $V_E$ versé à l’équivalence.
 2. Déterminer, par le calcul, la quantité de matière $n_i(A)$ du réactif titré $\ce{A}$, présente initialement dans le volume $V_A$. Comparer à la valeur initiale de $n(A)$ sur le graphique.
@@ -68,6 +69,7 @@ __Exercice :__ Soit la réaction support du titrage $\ce{A + B -> C + D}$. On in
 
 1. On observe que les réactifs A et B sont tous les deux limitant pour $V_E=12 mL$
 2. On calcule $n_i(A)$ en utilisant la relation à l’équivalence :
+
    $$
    \begin{align}
     n_i(A) &= [B] \times V_E \\
@@ -75,6 +77,7 @@ __Exercice :__ Soit la réaction support du titrage $\ce{A + B -> C + D}$. On in
     &= 1,2 \times 10^{-3} mol
     \end{align}
    $$
+
    Sur le graphique, on observe bien que $n_i(A)=1,2 \times 10^{-3} mol$. (_Attention, il est indiqué que l’unité sur l’axe des ordonnées est $10^{-3} mol$_)
 
 3. On calcule $[A]_i$ :
@@ -94,7 +97,7 @@ Le montage d’un titrage est le même pour tous les titrages.
 
 ![Montage d’un titrage](/images/cours/montage-titrage.png "Montage d’un titrage (savoir légender)")
 
-Un __titrage par suivi__ permet d’exploiter d’exploiter l’évolution d’une grandeur physique au cours du titrage qui présente une brusque varation au passage par l’équivalence.
+Un **titrage par suivi** permet d’exploiter d’exploiter l’évolution d’une grandeur physique au cours du titrage qui présente une brusque varation au passage par l’équivalence.
 
 - On place un conductimètre dans le bécher contenant la solution titrée s’il s’agit d’un titrage conductimétrique.
 - On place un pH-mètre dans le bécher contenant la solution titrée s’il s’agit d’un titrage pH-métrique.
@@ -117,7 +120,7 @@ La valeur de la conductivité $σ$ peut être calculée à partir des conductivi
 $$
 \sigma_{solution}=\sum_i \lambda_i \times [X]_i
 $$
- 
+
 |    Ions     | Conductivité molaire ionique ($mS.m^2.mol^{-1}$) |
 | :---------: | :----------------------------------------------: |
 | $\ce{H3O+}$ |                        35                        |
@@ -135,12 +138,12 @@ Lors d’un titrage pH-métrique, on trace une courbe représentant le $pH$ en f
 
 Pour déterminer le volume équivalent à partir de la courbe pH-métrique on peut utiliser :
 
-- __La méthode des tangentes__:
+- **La méthode des tangentes**:
   Tracer deux tangentes parallèles de part et d’autre du saut de pH, puis de tracer une troisième droite équidistante et parallèle aux deux premières. Le volume équivalent $V_E$ est le volume pour lequel la droite présente un point d’intersection avec la courbe $pH=f(V)$.
 
 ![Méthodes pour le titrage pH-métrique](/images/cours/methodes-titrage-pH-tangentes.png "Méthodes des tangentes")
 
-- __La méthode de la dérivée__:
+- **La méthode de la dérivée**:
   A l’aide d’un logiciel, la courbe dérivée de la courbe de titrage $\frac{d(pH)}{d(V)}$. Le volume équivalent $V_E$ est le volume pour lequel on observe un pic sur la courbe dérivée.
 
 ![Méthodes pour le titrage pH-métrique](/images/cours/methodes-titrage-pH-derivee.png "Méthodes de la dérivée")

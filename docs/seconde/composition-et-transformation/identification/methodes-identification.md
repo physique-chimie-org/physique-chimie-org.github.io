@@ -1,5 +1,6 @@
 ---
 titleTemplate: "Identification des espèces chimiques"
+next: false
 ---
 
 # Méthodes d’identification

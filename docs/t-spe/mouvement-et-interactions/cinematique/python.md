@@ -1,6 +1,6 @@
 ---
 titleTemplate: "Cinématique"
-next: "Chapitre suivant"
+next: false
 ---
 
 # Utiliser des outils numériques et le langage de programmation Python pour étudier un mouvement

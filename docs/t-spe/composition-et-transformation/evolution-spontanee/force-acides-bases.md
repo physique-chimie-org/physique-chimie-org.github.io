@@ -1,6 +1,6 @@
 ---
 titleTemplate: "Evolution spontanée d’un système chimique"
-next: "Chapitre suivant"
+next: false
 ---
 
 # Force des acides et des bases
@@ -102,7 +102,9 @@ pH-pkA &= log(\frac{[A^-]_{eq}}{[AH]_{eq}}) \quad (1) \\
 10^{pH-pkA} &= \frac{[A^-]_{eq}}{[AH]_{eq}} \quad (2)
 \end{align}
 
+
 $$
+
 :::
 
 On remarque alors que :

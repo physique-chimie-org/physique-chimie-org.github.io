@@ -1,6 +1,6 @@
 ---
 titleTemplate: "Transformations acides-bases"
-next: "Chapitre suivant"
+next: false
 ---
 
 # Le pH en solution aqueuse
@@ -15,7 +15,7 @@ La mesure de la concentration molaire en ions oxonium $H_3O^+$ nous aide donc à
 
 ## Définition du pH
 
-Le pH est une grandeur sans unité, comprise entre 1 et 14, liée à la concentration molaire en ions oxonium $H_3 O^+$  en solution aqueuse. Le pH quantifie l’acidité d’une solution aqueuse.
+Le pH est une grandeur sans unité, comprise entre 1 et 14, liée à la concentration molaire en ions oxonium $H_3 O^+$ en solution aqueuse. Le pH quantifie l’acidité d’une solution aqueuse.
 
 ::: danger Important
 Le pH d’une solution aqueuse est défini par la relation :
@@ -23,12 +23,15 @@ Le pH d’une solution aqueuse est défini par la relation :
 $$
 pH=-log(\frac{[H_3O^+]}{c^0})
 $$
+
 avec $[H_3O^+]$ en $mol·L^{-1}$ et $c^0=1,0 mol·L^{-1}$ la concentration standard.
 
 On en déduit :
+
 $$
 [H_3O^+]=10^{-pH} \times c^0
 $$
+
 :::
 
 ::: info
@@ -36,10 +39,13 @@ Le concentration standard $c^0$ en $mol·L^{-1}$ permet à la relation d’être
 :::
 
 Par souci de simplification, on calculera généralement :
+
 $$
 pH=-log([H_3O^+])
 $$
+
 On en déduit :
+
 $$
 [H_3O^+]=10^{-pH}
 $$
@@ -47,7 +53,7 @@ $$
 - Le pH d’une solution est d’autant plus faible, est donc d’autant plus acide, que la concentration en ion oxonium $H_3O^+$ est élevée.
 - Le pH d’une solution est d’autant plus élevé, est donc d’autant plus basique, que la concentration en ion oxonium $H_3O^+$ est faible.
 
-__Application :__
+**Application :**
 
 1. On mesure $[H_3O^+]=1,0×10^{-3} mol·L^{-1}$. Quelle est la valeur du pH ?
 2. Le pH d’une solution aqueuse est de 9,5. Quelle est la concentration en ions $H_3O^+$ ?

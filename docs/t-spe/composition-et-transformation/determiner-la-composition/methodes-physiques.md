@@ -62,11 +62,11 @@ Une espèce incolore n’absorbe aucune radiation du spectre visible.
 
 Lorsqu’une espèce chimique n’absorbe que dans un seul domaine de longueurs d’onde du visible, sa couleur est la couleur complémentaire de celle des radiations absorbées.
 
-__Exemple :__ les ions cuivre (II) absorbent dans le $\textcolor{red}{rouge}$ et apparaissent $\textcolor{cyan}{cyan}$.
+**Exemple :** les ions cuivre (II) absorbent dans le $\textcolor{red}{rouge}$ et apparaissent $\textcolor{cyan}{cyan}$.
 
 Lorsqu’une espèce chimique absorbe dans plusieurs domaines de longueurs d’onde, sa couleur résulte de la synthèse additive des couleurs complémentaires des radiations absorbées.
 
-__Exemple :__ les ions chrome (III) qui absorbent dans le $\textcolor{purple}{violet}$ et dans l’$\textcolor{orange}{orange}$, donnent des solutions $\definecolor{light-blue}{rgb}{0,1,0.6} \textcolor{light-blue}{bleu-vert}$.
+**Exemple :** les ions chrome (III) qui absorbent dans le $\textcolor{purple}{violet}$ et dans l’$\textcolor{orange}{orange}$, donnent des solutions $\definecolor{light-blue}{rgb}{0,1,0.6} \textcolor{light-blue}{bleu-vert}$.
 
 ### Dosage par conductimétrie
 
@@ -96,6 +96,7 @@ $$
 &= \sum_i λ_i\times[X_i]
 \end{align}
 $$
+
 :::
 
 ::: warning Attention
@@ -105,7 +106,7 @@ On peut retenir :
 
 - $1 mol·L^{-1} = 10^3 mol·m^{-3}$ et $1 mol·m^{-3} = 10^{-3} mol·L^{-1}$
 - $1 L = 10^{-3} m^3$ et $1 m^3 = 10^{3} L$
-:::
+  :::
 
 ::: danger Important
 La conductivité d’une solution ne contenant qu’un seul soluté ionique $X$ donnant des ions monovalents est proportionnelle à sa concentration $[X]$ et vérifie la loi de Kohlrausch :
@@ -117,7 +118,7 @@ $$
 Cela permet de faire un dosage par étalonnage d’une solution contenant ce seul soluté.
 :::
 
-__Exemple :__ Soit une solution de $KCl$ de concentration apportée $C_{KCl}$. On suppose le soluté complètement dissous. On a alors $[K^+]=[Cl^-]=C_{KCl}$
+**Exemple :** Soit une solution de $KCl$ de concentration apportée $C_{KCl}$. On suppose le soluté complètement dissous. On a alors $[K^+]=[Cl^-]=C_{KCl}$
 
 On peut alors écrire :
 
@@ -144,14 +145,14 @@ Les composés organiques absorbent des radiations dans le domaine de l’UV-visi
 
 ![Spectre IR du 2-methyl-propan-1-ol](/images/cours/spectre-IR.png "Spectre IR du 2-methyl-propan-1-ol. [Source<IconExternalLink />](https://sdbs.db.aist.go.jp/sdbs/cgi-bin/direct_frame_top.cgi)")
 
-__En Ordonnées :__ transmittance $T$ (intensité lumineuse transmise par l’échantillon) : une transmittance de 1 (100%) signifie qu’il n’y a pas d’absorption. De ce fait, les bandes d’absorption d’un spectre IR pointent vers le bas.
+**En Ordonnées :** transmittance $T$ (intensité lumineuse transmise par l’échantillon) : une transmittance de 1 (100%) signifie qu’il n’y a pas d’absorption. De ce fait, les bandes d’absorption d’un spectre IR pointent vers le bas.
 
-__En Abscisses :__ nombre d’ondes $σ$ ($σ = 1/λ$), orienté de droite à gauche généralement en $cm^{-1}$.
+**En Abscisses :** nombre d’ondes $σ$ ($σ = 1/λ$), orienté de droite à gauche généralement en $cm^{-1}$.
 
 ### Types de vibration
 
-Les vibrations des liaisons d’une molécule sont à l’origine de son spectre infrarouge (IR). 
-Ainsi un spectre infrarouge renseigne sur la nature des liaisons présentes dans une molécule et sur ses groupes caractéristiques. 
+Les vibrations des liaisons d’une molécule sont à l’origine de son spectre infrarouge (IR).
+Ainsi un spectre infrarouge renseigne sur la nature des liaisons présentes dans une molécule et sur ses groupes caractéristiques.
 
 ### Bandes d’absorption caractéristiques
 

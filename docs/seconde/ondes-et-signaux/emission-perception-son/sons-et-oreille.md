@@ -1,5 +1,6 @@
 ---
 titleTemplate: "Émission et perception des sons"
+next: false
 ---
 
 # Les sons et l’oreille

@@ -13,6 +13,7 @@ $$
 $$
 
 On note de façon synthétique ses coordonées dans le repère $(O; \vec{i}; \vec{j}; \vec{k})$ :
+
 $$
 \vec{OM}=
 \begin{Bmatrix}

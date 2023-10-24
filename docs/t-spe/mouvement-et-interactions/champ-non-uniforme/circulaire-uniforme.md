@@ -1,6 +1,6 @@
 ---
 titleTemplate: "Mouvement dans un champ non uniforme"
-next: "Chapitre suivant"
+next: false
 ---
 
 # Mouvement circulaire uniforme
@@ -23,6 +23,7 @@ $$
 $$
 
 On le noter de façon synthétique :
+
 $$
 \vec{a}=
 \begin{Bmatrix}
@@ -36,6 +37,7 @@ Le paramètre $a$ dans $\dfrac{v^2}{a}$ correspond au demi grand-axe de l'ellips
 :::
 
 Dans le cadre d'un mouvement circulaire, le demi grand-axe $a$ est égale au rayon du cercle $R$. L'accélération devient :
+
 $$
 \vec{a}=
 \begin{Bmatrix}

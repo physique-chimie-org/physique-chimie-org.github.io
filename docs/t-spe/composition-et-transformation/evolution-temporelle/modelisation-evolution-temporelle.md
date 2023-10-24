@@ -1,6 +1,6 @@
 ---
 titleTemplate: "Modéliser l’évolution temporelle d’un système chimique"
-next: "Chapitre suivant"
+next: false
 ---
 
 # Modéliser l’évolution temporelle

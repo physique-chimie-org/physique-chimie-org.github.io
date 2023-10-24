@@ -8,7 +8,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/t-spe/composition-et-transformation/transformations-acides-bases/introduction",
+                    link: "/t-spe/composition-et-transformation/transformations-acides-bases/",
                 },
                 {
                     text: "Les acides et les bases",
@@ -26,7 +26,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/t-spe/composition-et-transformation/determiner-la-composition/introduction",
+                    link: "/t-spe/composition-et-transformation/determiner-la-composition/",
                 },
                 {
                     text: "Méthodes physiques",
@@ -44,7 +44,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/t-spe/composition-et-transformation/evolution-spontanee/introduction",
+                    link: "/t-spe/composition-et-transformation/evolution-spontanee/",
                 },
                 {
                     text: "Équilibre chimique",
@@ -66,7 +66,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/t-spe/composition-et-transformation/evolution-temporelle/introduction",
+                    link: "/t-spe/composition-et-transformation/evolution-temporelle/",
                 },
                 {
                     text: "Évolution temporelle",
@@ -88,7 +88,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/t-spe/mouvement-et-interactions/cinematique/introduction.md",
+                    link: "/t-spe/mouvement-et-interactions/cinematique/.md",
                 },
                 {
                     text: "Référentiel",
@@ -118,7 +118,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/introduction.md",
+                    link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/.md",
                 },
                 {
                     text: "Lois de Kepler",
@@ -136,7 +136,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/introduction.md",
+                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/.md",
                 },
                 {
                     text: "Système thermodynamique",
@@ -168,7 +168,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/seconde/ondes-et-signaux/emission-perception-son/introduction",
+                    link: "/seconde/ondes-et-signaux/emission-perception-son/",
                 },
                 {
                     text: "Les sons et leurs propagation",
@@ -190,7 +190,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/introduction.md",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/.md",
                 },
                 {
                     text: "Le modèle de l’atome",
@@ -216,7 +216,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             items: [
                 {
                     text: "Introduction",
-                    link: "/seconde/composition-et-transformation/identification/introduction.md",
+                    link: "/seconde/composition-et-transformation/identification/.md",
                 },
                 {
                     text: "Corps purs et mélanges",

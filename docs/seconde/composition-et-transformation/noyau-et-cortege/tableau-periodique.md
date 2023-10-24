@@ -1,6 +1,6 @@
 ---
 titleTemplate: "Le noyau de l’atome et son cortège électronique"
-next: "Chapitre suivant"
+next: false
 ---
 
 # Le tableau périodique des éléments chimiques
