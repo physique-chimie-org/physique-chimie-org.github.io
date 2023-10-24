@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matière
+## Table des matières
 
 1. [Lois de Kepler](lois-de-kepler.md)
 2. [Mouvement circulaire uniforme](circulaire-uniforme.md)
