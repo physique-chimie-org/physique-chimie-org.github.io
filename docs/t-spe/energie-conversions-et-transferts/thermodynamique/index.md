@@ -9,8 +9,8 @@ prev: false
 
 1. [Systeme thermodynamique](systeme-thermodynamique.md)
 2. [Énergie interne](energie-interne.md)
-3. [Transmission de la chaleur par conduction](transmission-chaleur.md)
-4. [Transferts thermiques](transferts-thermiques.md)
+3. [Transmission de la chaleur](transmission-chaleur.md)
+4. [Transfert thermique par conduction](transfert-thermique.md)
 5. [Bilan d'énergie](bilan-energie.md)
 
 ## Objectifs
