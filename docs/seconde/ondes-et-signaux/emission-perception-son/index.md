@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matières
+## Plan du cours
 
 1. [Les sons et leurs propagation](son-et-propagation.md)
 2. [Les sons périodiques](sons-periodiques.md)

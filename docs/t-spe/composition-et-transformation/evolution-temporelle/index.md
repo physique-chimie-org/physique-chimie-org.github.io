@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matières
+## Plan du cours
 
 1. [Évolution temporelle](evolution-temporelle.md)
 2. [Suivi de l’évolution temporelle](suivi-evolution-temporelle.md)

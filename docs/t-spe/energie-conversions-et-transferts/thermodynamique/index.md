@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matières
+## Plan du cours
 
 1. [Systeme thermodynamique](systeme-thermodynamique.md)
 2. [Énergie interne](energie-interne.md)

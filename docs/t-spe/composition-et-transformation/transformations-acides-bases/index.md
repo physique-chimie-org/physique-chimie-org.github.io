@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matières
+## Plan du cours
 
 1. [Les acides et les bases](les-acides-et-les-bases.md)
 2. [Le pH en solution aqueuse](ph-en-solution.md)

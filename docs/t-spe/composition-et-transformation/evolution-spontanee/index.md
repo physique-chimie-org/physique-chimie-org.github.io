@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matières
+## Plan du cours
 
 1. [Équilibre chimique](equilibre-chimique.md)
 2. [Évolution spontanée d’un système hors équilibre chimique](hors-equilibre-chimique.md)

@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matières
+## Plan du cours
 
 1. [Le référentiel](referentiel.md)
 2. [Vecteur position](vecteur-position.md)

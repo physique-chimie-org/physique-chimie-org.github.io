@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matière
+## Plan du cours
 
 1. [Corps purs et mélanges](corps-purs-et-melanges.md)
 2. [Propriétés des espèces chimiques](proprietes.md)

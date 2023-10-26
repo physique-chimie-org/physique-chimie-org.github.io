@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matière
+## Plan du cours
 
 1. [Modèle de l’atome](modele.md)
 2. [Le noyau](noyau.md)

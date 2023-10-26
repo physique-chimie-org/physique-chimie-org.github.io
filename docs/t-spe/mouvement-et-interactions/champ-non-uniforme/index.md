@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matières
+## Plan du cours
 
 1. [Lois de Kepler](lois-de-kepler.md)
 2. [Mouvement circulaire uniforme](circulaire-uniforme.md)

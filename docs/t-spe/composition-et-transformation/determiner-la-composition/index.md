@@ -5,7 +5,7 @@ prev: false
 
 # Introduction
 
-## Table des matières
+## Plan du cours
 
 1. [Méthodes physiques](methodes-physiques.md)
 2. [Méthodes chimiques](methodes-chimiques.md)
