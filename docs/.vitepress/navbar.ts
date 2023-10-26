@@ -54,6 +54,10 @@ export const nav: DefaultTheme.NavItem[] = [
                         link: "/t-spe/mouvement-et-interactions/cinematique/",
                     },
                     {
+                        text: "Mouvement dans un champ uniforme",
+                        link: "/t-spe/mouvement-et-interactions/champ-uniforme/",
+                    },
+                    {
                         text: "Mouvement dans un champ non uniforme",
                         link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/",
                     },

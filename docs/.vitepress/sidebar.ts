@@ -117,6 +117,28 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             ],
         },
         {
+            text: "Mouvement dans un champ uniforme",
+            collapsed: false,
+            items: [
+                {
+                    text: "Introduction",
+                    link: "/t-spe/mouvement-et-interactions/champ-uniforme/",
+                },
+                {
+                    text: "Vocabulaire et outils",
+                    link: "/t-spe/mouvement-et-interactions/champ-uniforme/vocabulaire-et-outils",
+                },
+                {
+                    text: "Lois de Newton",
+                    link: "/t-spe/mouvement-et-interactions/champ-uniforme/deuxieme-loi-de-newton",
+                },
+                {
+                    text: "Aspects énergétiques",
+                    link: "/t-spe/mouvement-et-interactions/champ-uniforme/aspect-energetique",
+                }
+            ],
+        },
+        {
             text: "Mouvement dans un champ non uniforme",
             collapsed: false,
             items: [
