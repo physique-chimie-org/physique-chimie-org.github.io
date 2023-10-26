@@ -6,6 +6,10 @@ export const nav: DefaultTheme.NavItem[] = [
         activeMatch: "/t-spe/",
         items: [
             {
+                text: "Le programme (Bulletin Officiel)",
+                link: "/t-spe/programme-terminale",
+            },
+            {
                 text: "Composition et transformation de la matière",
                 items: [
                     {

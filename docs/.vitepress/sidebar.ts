@@ -3,6 +3,10 @@ import { DefaultTheme } from "vitepress/theme";
 export const sidebar: DefaultTheme.SidebarMulti = {
     "/t-spe/": [
         {
+            text: "Le programme (Bulletin Officiel)",
+            link: "/t-spe/programme-terminale",
+        },
+        {
             text: "Transformations acides bases",
             collapsed: false,
             items: [
