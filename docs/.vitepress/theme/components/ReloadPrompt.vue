@@ -70,7 +70,7 @@ onBeforeMount(async () => {
         bottom: 0;
         margin: 16px;
         padding: 12px;
-        border: 1px solid var(--vp-c-bg-soft);
+        border: 1px solid var(--vp-button-brand-hover-bg);
         border-radius: 4px;
         z-index: 100;
         text-align: left;
@@ -80,7 +80,8 @@ onBeforeMount(async () => {
         margin-bottom: 8px;
     }
     .pwa-toast button {
-        border: 1px solid var(--vp-c-bg-soft);
+        border: 1px solid var(--vp-button-brand-border);
+        background-color: var(--vp-button-brand-bg);
         outline: none;
         margin-right: 5px;
         border-radius: 2px;
