@@ -24,7 +24,7 @@ $$
 
 ## Le champ de pesanteur
 
-En physique, le champ de pesanteur $\vec{g}$ est le champ, attractif, vectoriel créé par un corps possédant une masse. Si un autre corps se trouve dans ce champ, il subira l'action de la force de pesanteur $\vec{F}$ exercée à distance par le corps : le champ de pesanteur est en quelque sorte le "médiateur" de cette action à distance.
+En physique, le champ de pesanteur $\vec{g}$ est le champ, attractif, vectoriel créé par un corps possédant une masse. Si un autre corps, possédant une masse, se trouve dans ce champ, il subira l'action de la force de pesanteur $\vec{F}$ exercée à distance par le corps : le champ de pesanteur est en quelque sorte le "médiateur" de cette action à distance.
 
 $$
 \vec{F} = m \vec{g}
@@ -36,19 +36,24 @@ $$
 \vec{g} = \frac{G M}{r^2} \vec{u}
 $$
 
-A proximité de la surface de la Terre, à une altitude $h$ devant le rayon de la Terre $R_T$, la relation précédente devient
+avec $G$ la constante de gravitation universelle, $M$ la masse du corps qui crée le champ, $r$ la distance à ce corps et $\vec{u}$ le vecteur unitaire dirigé vers le centre de masse du corps qui crée le champ.
+
+A proximité de la surface de la Terre, à une altitude $h$ de la surface de la Terre, donc à une distance $R_T + h$ du centre de masse de la Terre, la relation précédente devient :
 
 $$
-\vec{g} = \frac{G M_T}{(R_T +h)^2} \vec{u}
+\vec{g} = \frac{G M_T}{(R_T + h)^2} \vec{u}
 $$
 
-Si $h$ est petit devant $R_T$, on peut faire l'approximation suivante :
+avec $R_T$ le rayon de la Terre.
+
+Si $h$ est petit devant $R_T$, et donc négligeable, on peut faire l'approximation suivante :
 
 $$
 \vec{g} = \frac{G M_T}{R_T^2} \vec{u}
 $$
 
-De plus si dans une région de l'espace, la direction et le sens du champ de pesanteur sont constants, on dit que le champ de pesanteur est uniforme.
+La norme du champ de pesanteur à la surface de la Terre, notée $g$, est alors constante et vaut : $g = 9,81 \rm{m.s^{-2}}$. De plus, si l'on peut faire l'approximation que le vecteur $\vec{u}$ est vertical et dirigé vers le bas, alors le champ de pesanteur est vertical et dirigé vers le bas. La norme, la direction et le sens du champ de pesanteur étant constants, le champ de pesanteur est uniforme.
+
 
 ## Référentiel galiléen
 

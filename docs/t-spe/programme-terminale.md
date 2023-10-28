@@ -50,21 +50,6 @@ La mise en œuvre des programmes doit aussi être l’occasion d’aborder avec 
 
 Comme tous les enseignements, cette spécialité contribue au développement des compétences orales à travers notamment la pratique de l’argumentation. Celle-ci conduit à préciser sa pensée et à expliciter son raisonnement de manière à convaincre. Elle permet à chacun de faire évoluer sa pensée, jusqu’à la remettre en cause si nécessaire, pour accéder progressivement à la vérité par la preuve. Elle prend un relief particulier pour ceux qui choisiront de préparer l’épreuve orale terminale du baccalauréat en l'adossant à cet enseignement de spécialité.
 
-### Repères pour l’enseignement
-
-Le professeur est invité à :
-
-- privilégier la mise en activité des élèves en évitant tout dogmatisme ;
-- permettre et encadrer l’expression par les élèves de leurs conceptions initiales ;
-- valoriser **l’approche expérimentale** ;
-- contextualiser les apprentissages pour leur donner du sens ;
-- procéder régulièrement à des **synthèses** pour expliciter et structurer les savoirs et savoir-faire et les réinvestir dans des contextes différents ;
-- tisser des liens aussi bien entre les notions du programme qu’avec les autres enseignements, notamment les mathématiques, les sciences de la vie et de la Terre, les sciences de l’ingénieur et l’enseignement scientifique commun à tous les élèves de la voie générale ;
-- favoriser l'acquisition d'automatismes et développer l'autonomie des élèves en proposant des temps de travail personnel ou en groupe, dans et hors la classe.
-
-
-Dès qu’elle est possible, une mise en perspective des savoirs avec l’**histoire des sciences** et l’**actualité scientifique** est fortement recommandée. En particulier, les limites des modèles étudiés en classe peuvent être abordées, ce qui peut offrir l’occasion d’évoquer des théories plus récentes, comme la physique quantique ou la relativité, que les élèves pourront être amenés à approfondir dans le cadre de leurs études supérieures. Le recours régulier à des « **résolutions de problèmes** » est encouragé, ces activités contribuant efficacement à l’acquisition des compétences de la démarche scientifique et au développement de l’autonomie et de l’initiative.
-
 ### Mesure et incertitudes
 
 Les concepts de mesure et d’incertitude ont été introduits en classe de seconde. En complément du programme de la classe de première, celui de la classe terminale introduit la notion d’incertitude-type composée, ajoute une compétence numérique visant à illustrer une situation de mesure avec incertitudes composées et propose d’utiliser un critère quantitatif pour comparer, le cas échéant, le résultat de la mesure d’une grandeur à une valeur de référence.
