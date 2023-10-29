@@ -135,6 +135,14 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                 {
                     text: "Aspects énergétiques",
                     link: "/t-spe/mouvement-et-interactions/champ-uniforme/aspect-energetique",
+                },
+                {
+                    text: "Numérique et programmation",
+                    link: "/t-spe/mouvement-et-interactions/champ-uniforme/python",
+                },
+                {
+                    text: "Méthode de résolution de problème",
+                    link: "/t-spe/mouvement-et-interactions/champ-uniforme/methode-de-resolution-de-probleme",
                 }
             ],
         },

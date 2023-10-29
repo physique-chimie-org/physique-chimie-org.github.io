@@ -6,9 +6,23 @@ titleTemplate: "Mouvement dans un champ uniforme"
 
 ## Centre de masse d'un système
 
+::: danger Important
 Un système est un ensemble de points matériels. Le centre de masse d'un système est le point matériel qui se comporte comme si toute la masse du système était concentrée en ce point. Le mouvement d'un système peut être étudié en considérant le mouvement du centre de masse du système.
+:::
 
-## Le champ électrique
+::: info Remarque
+En considérant seulement le mouvement du centre de masse du système, on ne se préocupe pas des mouvements de rotation du système. De ce fait on perd des informations sur le mouvement du système.
+:::
+
+## Champ uniforme
+
+Un champ vectoriel permet de décrire les modifications de propriétés de l'espace du fait de la présence d'un objet. Par exemple, le champ de pesanteur permet de décrire les modifications de propriétés de l'espace du fait de la présence d'un objet possédant une masse. Le champ électrique permet de décrire les modifications de propriétés de l'espace du fait de la présence d'un objet possédant une charge électrique.
+
+::: danger Important
+Un champ est **uniforme** s'il est identique en tout point de l'espace considéré. Pour un champ vectoriel, cela signifie que la norme, la direction et le sens du vecteur champ sont identiques en tout point de l'espace considéré.
+:::
+
+### Le champ électrique
 
 En physique, le champ électrique $\vec{E}$ est le champ vectoriel créé par des particules électriquement chargées. Si une autre charge se trouve dans ce champ, elle subira l'action de la force électrique $\vec{F_e}$ exercée à distance par la particule : le champ électrique est en quelque sorte le "médiateur" de cette action à distance.
 
@@ -22,7 +36,7 @@ $$
 E = \frac{U}{d}
 $$
 
-## Le champ de pesanteur
+### Le champ de pesanteur
 
 En physique, le champ de pesanteur $\vec{g}$ est le champ, attractif, vectoriel créé par un corps possédant une masse. Si un autre corps, possédant une masse, se trouve dans ce champ, il subira l'action de la force de pesanteur $\vec{F}$ exercée à distance par le corps : le champ de pesanteur est en quelque sorte le "médiateur" de cette action à distance.
 
@@ -57,10 +71,12 @@ La norme du champ de pesanteur à la surface de la Terre, notée $g$, est alors 
 
 ## Référentiel galiléen
 
+::: danger Important
 En physique, un référentiel galiléen (nommé ainsi en hommage à Galilée), se définit comme un référentiel dans lequel le principe d'inertie (première loi de Newton) est vérifié, c'est-à-dire que tout corps ponctuel libre (i. e. sur lequel ne s’exerce aucune force ou sur lequel la résultante des forces est nulle) est en mouvement de translation rectiligne uniforme, ou au repos (qui est un cas particulier de mouvement rectiligne uniforme).
 
 Tout référentiel en mouvement de translation rectiligne et uniforme par rapport à un référentiel galiléen est lui-même galiléen : il existe donc une infinité de référentiels galiléens.
+:::
 
 ::: info Remarque
-En réalité, il n'existe par de référentiel galiléen parfait, car la Terre tourne sur elle-même et autour du Soleil, le Soleil tourne autour du centre de la Galaxie, etc. Cependant on peut les considérer comme galiéléen pendant une durée limitée. Par exemple, la Terre tourne sur elle-même et donc le référentiel terrestre n’est pas rigoureusement galiléen. Mais, pour des expériences qui n'excèdent pas quelques minutes, les effets de la rotation terrestre peuvent être négligés.
+En réalité, il n'existe pas de référentiel réel strictement galiléen, en raison du mouvement non rectiligne uniforme de la totalité des objets de l'univers les uns par rapport aux autres (la Terre tourne sur elle-même et autour du Soleil, le Soleil tourne autour du centre de la Galaxie, etc.) Cependant on peut se contenter de référentiel "suffisamment" galiléen pour le problème traité. Cela suppose que le principe d'inertie est valide pendant une durée supérieure à celle du problème traité. Par exemple, la Terre tourne sur elle-même et donc le référentiel terrestre n’est pas rigoureusement galiléen. Mais, pour des expériences qui n'excèdent pas quelques minutes, les effets de la rotation terrestre peuvent être négligés.
 :::

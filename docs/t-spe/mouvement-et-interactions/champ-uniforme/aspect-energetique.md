@@ -1,6 +1,5 @@
 ---
 titleTemplate: "Mouvement dans un champ uniforme"
-next: false
 ---
 
 # Aspect énergétique
@@ -9,6 +8,7 @@ next: false
 
 ### Travail d'une force de norme constante
 
+::: danger Important
 Le travail $W(\vec{F})_{A \rightarrow B}$ d'une force $\vec{F}$ s'exerçant sur un système lors d'un déplacement de A à B est égal au produit scalaire de la force $\vec{F}$ par le vecteur déplacement $\vec{AB}$.
 
 $$
@@ -17,6 +17,7 @@ W(\vec{F})_{A \rightarrow B} &= \vec{F} \cdot \vec{AB} \\
 &= F \times AB \times \cos(\vec{F}, \vec{AB})
 \end{aligned}
 $$
+:::
 
 - W>0, Le travail est moteur : La force agit dans le sens du déplacement
 - W<0, Le travail est résistant : La force s’oppose au déplacement
@@ -73,25 +74,35 @@ Le travail d’une force de frottement est toujours résistant, il est donc touj
 
 ## Conservation de l'énergie mécanique
 
-En physique, l'énergie mécanique d'un système est la somme de l'énergie cinétique et de l'énergie potentielle de ce système. Lorsque les forces non conservatives s’exerçant sur un système sont négligeables ou nulles, l’énergie mécanique de ce système se conserve. Il y a une conversion entre les formes cinétique et potentielle de l’énergie mécanique.
+En physique, l'énergie mécanique d'un système est la somme de l'énergie cinétique et de l'énergie potentielle de ce système.
 
-La variation d’énergie mécanique ΔE_m au cours d’un déplacement est nulle :
+::: danger Important
+Lorsque le **travail des forces non conservatives** s’exerçant sur un système est **négligeable ou nul**, l’énergie mécanique de ce système se conserve.
+
+La variation d’énergie mécanique $\Delta E_m$ d’un système se déplaçant d’un point A à un point B est nulle :
 
 $$
-\Delta E_m = \Delta E_c + \Delta E_p = 0
+\begin{aligned}
+\Delta E_m &= E_m(B) - E_m(A) = 0 \\
+&= \Delta E_c + \Delta E_p = 0 \\
+&= E_c(B) - E_c(A) + E_p(B) - E_p(A) = 0
+\end{aligned}
 $$
+:::
 
 ::: warning Important
-L'énergie potentielle n'est pas seulement l'énergie potentielle de pesanteur. Elle peut être électrique, élastique, etc. $\Delta E_p$ est donc la variation de toutes les formes d'énergie potentielle.
+L'énergie potentielle $E_p$ n'est pas seulement l'énergie potentielle de pesanteur $E_{pp}$. Elle peut être électrique, élastique, etc. $\Delta E_p$ est donc la variation de toutes les formes d'énergie potentielle.
 :::
 
 ## Théorème de l'énergie cinétique
 
+::: danger Important
 La variation d’énergie cinétique d’un système se déplaçant d’un point A à un point B est égal à la somme du travail des forces s’exerçant sur le système.
 
 $$
-\Delta E_c = \sum W_{A \rightarrow B}
+\Delta E_c = E_c(B) - E_c(A) = \sum W_{A \rightarrow B}
 $$
+:::
 
 ::: warning Important
 Il est important de remarquer que toutes les forces qui s'exercent sur le système sont prises en compte dans le théorème de l'énergie cinétique. Cela inclut donc les forces conservatives et les forces non conservatives.

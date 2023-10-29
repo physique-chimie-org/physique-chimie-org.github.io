@@ -10,6 +10,8 @@ prev: false
 1. [Vocabulaire et outils](vocabulaire-et-outils.md)
 2. [Lois de Newton](deuxieme-loi-de-newton.md)
 3. [Aspects énergétiques](aspect-energetique.md)
+4. [Numérique et programmation](python.md)
+5. [Méthode de résolution de problème](methode-de-resolution-de-probleme.md)
 
 ## Rappels
 

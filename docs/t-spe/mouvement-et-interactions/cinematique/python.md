@@ -5,6 +5,8 @@ next: false
 
 # Utiliser des outils numériques et le langage de programmation Python pour étudier un mouvement
 
+Pour étudier un mouvement, il est possible d'utiliser des outils numériques et le langage de programmation Python. Ces outils permettent de tracer des graphiques, de calculer des vitesses et accélérations, de déterminer des équations horaires et des équations de trajectoires.
+
 ## Pointage vidéo
 
 Pour étudier un mouvement et notamment déterminer les vitesses et accélérations, il faut disposer de données expérimentales de position. Ces données peuvent être obtenues à l'aide d'un logiciel de pointage vidéo. Une solution en ligne est disponible à l'adresse suivante : [MecaChrono](https://www.eleves.online/MecaChrono/index.php?A=7&B=0&C=0&D=1&E=132&H=-1767820891&lang=fr).
@@ -34,7 +36,7 @@ $$
 
 Voici un exemple de code permettant de calculer les coordonnées des vecteurs vitesse moyenne en chaque point, à partir des données de position et de temps précédentes.
 
-```python:line-numbers {1}
+```python:line-numbers
 # Initialisation des listes de coordonnées des vecteurs vitesse
 vx = []
 vy = []
@@ -63,7 +65,7 @@ C'est pour cette raison que dans la boucle `for`, l'indice `i` va prendre toutes
 
 Une première approche serait de simplement réutiliser la boucle `for` précédente en remplaçant les coordonnées des points par les coordonnées des vecteurs vitesses.
 
-```python:line-numbers {1}
+```python:line-numbers
 # Initialisation des listes de coordonnées des vecteurs accélération
 ax = []
 ay = []
@@ -91,7 +93,7 @@ Ainsi lorsque l'on veut calculer l'accélération à la date d'indice `i`, il fa
 
 Le code précédent, corrigé, devient :
 
-```python:line-numbers {1}
+```python:line-numbers
 # Initialisation des listes de coordonnées des vecteurs accélération
 ax = []
 ay = []
@@ -152,4 +154,4 @@ for i in range(2, len(t)-2):
     a.append(a_i)
 ```
 
-Il est possible de visualiser les vecteurs vitesse et accélération moyenne en chaque point à l'aide de la bibliothèque `matplotlib`.
+Il est ensuite possible de visualiser les vecteurs vitesse et accélération moyenne en chaque point à l'aide de la bibliothèque `matplotlib`.

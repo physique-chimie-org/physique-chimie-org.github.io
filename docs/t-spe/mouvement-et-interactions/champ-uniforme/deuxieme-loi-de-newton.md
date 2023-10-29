@@ -22,6 +22,8 @@ $$
 
 ## La deuxième loi de Newton
 
+::: danger Important
+
 **Formulation moderne :**
 
 Dans un **référentiel galiléen**, la somme vectorielle des forces extérieures appliquées à un système, de masse $m$ constante, assimilé à son centre d’inertie est égale à sa masse multipliée par le vecteur accélération de son centre de masse.
@@ -29,16 +31,25 @@ Dans un **référentiel galiléen**, la somme vectorielle des forces extérieure
 **Formulation mathématique :**
 
 $$
-\sum \vec{F} = m \vec{a}
+\sum \vec{F_{ext}} = m \vec{a}
 $$
+:::
 
 Si la somme des forces extérieures est nulle, le vecteur accélération est nul et le système est en mouvement rectiligne uniforme ou au repos. De la même manière, si le système est en mouvement rectiligne uniforme ou au repos, le vecteur accélération est nul et la somme des forces extérieures est nulle (principe d'inertie, première loi de Newton).
 
-::: info Important
-La deuxième loi de Newton permet de déduire :
+::: info Remarque
+La notion de forces extérieures n'a de sens que pour un système dont les dimensions ne sont pas nulles. Pour un point matériel, les forces sont forcément extérieures.
+:::
 
-- le mouvement d'un système à partir des forces qui lui sont appliquées.
-- les forces qui s'appliquent à un système à partir de son mouvement.
+::: warning Important
+La deuxième loi de Newton :
+
+- relie **la cause** (les forces qui s'appliquent à un système) à **l'effet** (modification du mouvement du système, c'est-à-dire modification de la vitesse du centre de masse du système) en fonction de **l'inertie** du système (masse du système) ou inversement, relier **l'effet** (modification du mouvement du système) à **la cause** (les forces qui s'appliquent à un système) en fonction de **l'inertie** du système (masse du système).
+- montre que pour une même **cause** (les forces qui s'appliquent à un système), l'**effet** (modification du mouvement du système) est d'autant plus grand que l'**inertie** du système (masse du système) est faible.
+- contient la première loi de Newton (principe d'inertie) comme cas particulier.
+  $$
+  \sum \vec{F_{ext}} = m \vec{a} = 0 \Leftrightarrow \vec{v} = \vec{cste}
+  $$
 :::
 
 ## La troisième loi de Newton
