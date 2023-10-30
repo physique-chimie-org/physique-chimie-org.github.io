@@ -44,7 +44,7 @@ $$
 
 :::
 
-::: tip Vu au chapitre [Transformations acides bases](../transformations-acides-bases/introduction.md)
+::: tip Vu au chapitre [Transformations acides bases](../transformations-acides-bases/)
 
 Le pH d’une solution aqueuse est défini par la relation :
 

@@ -29,7 +29,7 @@ Une fois les données de position obtenues, il est possible de calculer les éne
 Voici un exemple de code permettant de calculer l'énergie cinétique en chaque point, à partir des données de vitesses et de la masse du système. On suppose ici que les vitesses sont stockées dans une liste `v` et que la masse du système est stockée dans une variable `m`.
 
 ::: info Remarque
-Les données de vitesses peuvent être calculées par la méthode des points adjacents comme vu dans la partie [Vecteur vitesse moyenne](../cinematique/python#vecteur-vitesse-moyenne) du cours [Utiliser des outils numériques et le langage de programmation Python pour étudier un mouvement](../cinematique/python) du chapitre [Cinématique](../cinematique).
+Les données de vitesses peuvent être calculées par la méthode des points adjacents comme vu dans la partie [Vecteur vitesse moyenne](../cinematique/python#vecteur-vitesse-moyenne) du cours [Utiliser des outils numériques et le langage de programmation Python pour étudier un mouvement](../cinematique/python) du chapitre [Cinématique](../cinematique/).
 :::
 
 ```python:line-numbers

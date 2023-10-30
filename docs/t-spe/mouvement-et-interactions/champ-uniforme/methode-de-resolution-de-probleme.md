@@ -11,6 +11,7 @@ Le problème qui suit se veut volontairement complexe, sur le nombres de forces 
 
 ## Énoncé du problème
 
+::: info Exercice
 *Extrtait modifié de l'épreuve de spécialité de physique-chimie, Amérique du Nord, jour 2, 2023.*
 
 Le BMX (Bicycle Moto Cross) est une discipline cycliste née aux USA et importée en France dans les années 1980. La « Race », sport olympique depuis 2008, est une course qui se déroule sur une piste bosselée de longueur comprise entre 270 et 400 m. Huit pilotes partent d’une butte de départ surélevée et doivent terminer le tour le plus rapidement possible en franchissant plusieurs types d’obstacles.
@@ -24,6 +25,7 @@ Pendant cette descente, on considère que le système {pilote + bicyclette}, ass
 **Données :**
 - intensité de la pesanteur : $g = 9,81 \rm{m.s^{-2}}$
 - théorème de l’énergie cinétique : la variation d’énergie cinétique d’un système entre deux positions A et B est égale à la somme des travaux des forces appliquées à ce système entre les deux positions A et B.
+:::
 
 ## Poser le problème
 
@@ -243,7 +245,7 @@ Lors de l'exploitation des résultats, on peut être amené à :
 - commenter, comparer des résultats (influence réelles des frotttements, etc.)
 
 ::: info Exercice
-- Le mouvement est rectiligne uniformément varié car l'accélération est constante.
+- Le mouvement est **uniformément varié** car l'accélération est constante, non nulle $(|\vec{a}| = \sqrt{a_x^2 + a_z^2} \neq 0)$. Il est **rectiligne** car la trajectoire est une droite $(z(x) = a \cdot x + b)$.
 - **Déterminer la durée $\Delta t$ du parcours $AB$ :**
 
     On sait que $t_A = 0 s$, et donc $\Delta t = t_B$. De plus $z(t_B) = 0 m$. On peut donc déterminer $t_B$ en résolvant l'équation $z(t_B) = 0 m$.
