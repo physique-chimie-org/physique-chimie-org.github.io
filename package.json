@@ -1,19 +1,35 @@
 {
+  "name": "classbot",
+  "description": "Site de cours de physique-chimie, pour les lycéens. Accessible partout, même hors connexion.",
+  "keywords": [
+    "physique-chimie",
+    "cours",
+    "pwa"
+  ],
+  "homepage": "https://physique-chimie-org.github.io/",
+  "bugs": {
+    "url": "https://github.com/physique-chimie-org/physique-chimie-org.github.io/issues"
+  },
+  "repository": "github:physique-chimie-org/physique-chimie-org.github.io",
+  "license": "MIT",
+  "author": "Aliosha Padovani",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@vite-pwa/vitepress": "^0.5.0",
+    "@vite-pwa/vitepress": "^0.5.1",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-image-figures": "^2.1.1",
     "markdown-it-mathjax3": "^4.3.2",
     "medium-zoom": "^1.1.0",
     "vite": "^5.4.2",
-    "vite-plugin-pwa": "^0.20.2",
+    "vite-plugin-pwa": "^0.20.3",
     "vitepress": "1.3.4",
     "vue": "^3.4.38",
     "workbox-window": "^7.1.0"
-  }
+  },
+  "packageManager": "pnpm@9.9.0"
 }
