@@ -126,6 +126,7 @@ export default withPwa(defineConfig({
     }
   },
   pwa: {
+    mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
     manifest: {
       name: siteTitle,
       lang: "fr",
@@ -174,6 +175,11 @@ export default withPwa(defineConfig({
     },
     workbox: {
       sourcemap: true,
+    },
+    devOptions: {
+      enabled: true,
+      suppressWarnings: true,
+      navigateFallback: '/',
     },
   },
   vite: {},

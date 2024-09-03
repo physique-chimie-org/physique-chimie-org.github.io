@@ -4,3 +4,4 @@ dist
 .cache
 docs/.vitepress/dist
 docs/.vitepress/cache
+docs/dev-dist/
