@@ -73,6 +73,8 @@ export default withPwa(defineConfig({
       next: 'Suivant',
     },
     darkModeSwitchLabel: 'Apparence',
+    lightModeSwitchTitle: "Activer le thème clair",
+    darkModeSwitchTitle: "Activer le thème sombre",
     sidebarMenuLabel: 'Plan de cours',
     returnToTopLabel: 'Retour en haut',
     externalLinkIcon: true,
