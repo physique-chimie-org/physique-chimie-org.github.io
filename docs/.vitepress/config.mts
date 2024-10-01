@@ -133,14 +133,22 @@ export default withPwa(defineConfig({
       name: siteTitle,
       lang: "fr",
       orientation: "any",
-      display: "fullscreen",
+      display: "standalone",
       short_name: siteTitle,
       description: siteDescription,
-      start_url: "/",
-      scope: "/",
-      id: "/",
+      start_url: "https://classbot.fr/",
+      scope: "https://classbot.fr/",
+      id: "classbot",
       theme_color: "#3eaf7c",
       background_color: "#3eaf7c",
+      dir: "ltr",
+      categories: [
+        "education"
+      ],
+      display_override: [
+        "window-controls-overlay",
+        "standalone"
+      ],
       icons: [
         {
           src: "/images/icons/android-chrome-192x192.png",
