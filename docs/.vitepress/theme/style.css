@@ -145,7 +145,7 @@
  * -------------------------------------------------------------------------- */
 
  :root {
-  --medium-zoom-z-index: 20;
+  --medium-zoom-z-index: 26;
   --medium-zoom-bg-color: var(--vp-c-bg);
   --medium-zoom-opacity: 1;
 }
