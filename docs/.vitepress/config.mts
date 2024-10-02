@@ -134,6 +134,10 @@ export default withPwa(defineConfig({
       lang: "fr",
       orientation: "any",
       display: "standalone",
+      display_override: [
+        "window-controls-overlay",
+        "standalone"
+      ],
       short_name: siteTitle,
       description: siteDescription,
       start_url: "/",
@@ -145,10 +149,9 @@ export default withPwa(defineConfig({
       categories: [
         "education"
       ],
-      display_override: [
-        "window-controls-overlay",
-        "standalone"
-      ],
+      launch_handler: {
+        "client_mode": ["navigate-existing", "auto"]
+      },
       icons: [
         {
           src: "/images/icons/android-chrome-192x192.png",
