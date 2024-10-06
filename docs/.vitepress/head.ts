@@ -116,34 +116,15 @@ export const head: HeadConfig[] = [
     [
         "link",
         {
-            rel: "icon",
-            type: "image/png",
-            sizes: "192x192",
-            href: "/images/icons/android-chrome-192x192.png",
-        },
-    ],
-    [
-        "link",
-        {
             rel: "manifest",
             type: "application/manifest+json",
             href: "/manifest.webmanifest",
         },
     ],
     [
-        "link",
-        {
-            rel: "mask-icon",
-            href: "/images/icons/safari-pinned-tab.svg",
-            color: "#3eaf7c",
-        },
-    ],
-    ["meta", { name: "msapplication-TileColor", content: "#3eaf7c" }],
-    ["meta", { name: "msapplication-config", content: "/browserconfig.xml" }],
-    [
         "meta",
         {
-            name:"theme-color",
+            name: "theme-color",
             media: "(prefers-color-scheme: light)",
             content: "#f6f6f7",
         },
@@ -151,7 +132,7 @@ export const head: HeadConfig[] = [
     [
         "meta",
         {
-            name:"theme-color",
+            name: "theme-color",
             media: "(prefers-color-scheme: dark)",
             content: "#161618",
         },
