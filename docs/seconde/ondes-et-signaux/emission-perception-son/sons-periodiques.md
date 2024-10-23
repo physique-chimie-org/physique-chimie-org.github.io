@@ -1,6 +1,5 @@
 ---
 titleTemplate: "Émission et perception des sons"
-next: "Chapitre suivant"
 ---
 
 # Les sons périodiques
@@ -28,18 +27,20 @@ Dans ce cas, pour mesurer la période avec une plus grande précision il faut :
 
 - mesurer la durée $\Delta t$ de plusieurs motifs, donc plusieurs périodes $T$ (exemple : Si l’on mesure la durée de $10$ motifs, on aura $10$ périodes $T$ et donc $\Delta t = 10\times T$)
 - diviser la durée $\Delta t$ mesurée, par le nombre de périodes $T$ pour trouver la valeur d’une seule période $T$ (suite de l’exemple : $T = \frac{\Delta t}{10}$)
-:::
+  :::
 
-__Question :__ Quelle est la période $T$ du signal représenté ci-dessus ?
+**Question :** Quelle est la période $T$ du signal représenté ci-dessus ?
 
 ::: details Afficher la réponse
 La période est :
+
 $$
 \begin{align}
 T &= 0,025(s)-0,005(s) \\
 T &= 0,020 s
 \end{align}
 $$
+
 :::
 
 La fréquence f du son représente le nombre de périodes de ce signal par seconde. Elle s’exprime en hertz (Hz).
@@ -56,10 +57,11 @@ $$
 
 :::
 
-__Question :__ Quelle est la fréquence $f$ du signal représenté ci-dessus ?
+**Question :** Quelle est la fréquence $f$ du signal représenté ci-dessus ?
 
 ::: details Afficher la réponse
 On utilise la relation $f = \frac{1}{T}$ en vérifiant bien que $T$ est en seconde !
+
 $$
 \begin{align}
 f &= \frac{1}{T} \\
@@ -67,4 +69,5 @@ f &= \frac{1}{T} \\
 &= 50 Hz
 \end{align}
 $$
+
 :::
