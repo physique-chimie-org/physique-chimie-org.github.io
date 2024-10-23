@@ -3,7 +3,7 @@ titleTemplate: "Identification des espèces chimiques"
 prev: false
 ---
 
-# Introduction
+# Identification des espèces chimiques
 
 ## Plan du cours
 

@@ -3,7 +3,7 @@ titleTemplate: "Le noyau de l’atome et son cortège électronique"
 prev: false
 ---
 
-# Introduction
+# Le noyau de l’atome et son cortège électronique
 
 ## Plan du cours
 

@@ -3,7 +3,7 @@ titleTemplate: "Émission et perception des sons"
 prev: false
 ---
 
-# Introduction
+# Émission et perception des sons
 
 ## Plan du cours
 
