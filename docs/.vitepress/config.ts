@@ -58,7 +58,7 @@ export default withPwa(defineConfig({
       },
     ],
     footer: {
-      message: "Fait avec ❤️ par Aliosha Padovani",
+      message: "Fait avec ❤️ à Pantin",
     },
     lastUpdated: {
       text: 'Dernière contribution',

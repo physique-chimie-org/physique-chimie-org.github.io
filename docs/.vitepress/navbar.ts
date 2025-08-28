@@ -116,24 +116,33 @@ export const nav: DefaultTheme.NavItem[] = [
             {
                 text: "Composition et transformation de la matière",
                 items: [
+                    /**
                     {
                         text: "Le noyau de l'atome et son cortège électronique",
                         link: "/seconde/composition-et-transformation/noyau-et-cortege/",
                     },
+                    */
                     {
-                        text: "Identification des espèces chimique",
+                        text: "Corps purs, mélanges et identification",
                         link: "/seconde/composition-et-transformation/identification/",
                     },
+                    /** 
                     {
                         text: "Les solutions",
                         link: "/seconde/composition-et-transformation/solutions/",
                     },
+                    */
                 ],
             },
 
             {
                 text: "Mouvements et interactions",
-                items: [],
+                items: [
+                    {
+                        text: "Description du mouvement",
+                        link: "/seconde/mouvements-et-interactions/description-du-mouvement/",
+                    },
+                ],
             },
             {
                 text: "Ondes et signaux",

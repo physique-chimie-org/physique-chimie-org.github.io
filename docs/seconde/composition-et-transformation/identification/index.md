@@ -1,9 +1,9 @@
 ---
-titleTemplate: "Identification des espèces chimiques"
+titleTemplate: "Corps purs, mélanges et identification"
 prev: false
 ---
 
-# Identification des espèces chimiques
+# Corps purs, mélanges et identification
 
 ## Plan du cours
 

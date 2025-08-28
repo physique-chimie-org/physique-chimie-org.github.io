@@ -196,28 +196,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         },
     ],
     "/seconde/": [
-        {
-            text: "Émission et perception des sons",
-            collapsed: false,
-            items: [
-                {
-                    text: "Introduction",
-                    link: "/seconde/ondes-et-signaux/emission-perception-son/",
-                },
-                {
-                    text: "Les sons et leurs propagation",
-                    link: "/seconde/ondes-et-signaux/emission-perception-son/son-et-propagation",
-                },
-                {
-                    text: "Les sons périodiques",
-                    link: "/seconde/ondes-et-signaux/emission-perception-son/sons-periodiques",
-                },
-                {
-                    text: "Les sons et l’oreille",
-                    link: "/seconde/ondes-et-signaux/emission-perception-son/sons-et-oreille",
-                },
-            ],
-        },
+        /**
         {
             text: "Le noyau de l’atome et son cortège électronique",
             collapsed: false,
@@ -244,8 +223,9 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                 },
             ],
         },
+        */
         {
-            text: "Identification des espèces chimiques",
+            text: "Corps purs, mélanges et identification",
             collapsed: false,
             items: [
                 {
@@ -266,6 +246,39 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                 },
             ],
         },
+        {
+            text: "Émission et perception des sons",
+            collapsed: false,
+            items: [
+                {
+                    text: "Introduction",
+                    link: "/seconde/ondes-et-signaux/emission-perception-son/",
+                },
+                {
+                    text: "Les sons et leurs propagation",
+                    link: "/seconde/ondes-et-signaux/emission-perception-son/son-et-propagation",
+                },
+                {
+                    text: "Les sons périodiques",
+                    link: "/seconde/ondes-et-signaux/emission-perception-son/sons-periodiques",
+                },
+                {
+                    text: "Les sons et l’oreille",
+                    link: "/seconde/ondes-et-signaux/emission-perception-son/sons-et-oreille",
+                },
+            ],
+        },
+        {
+            text: "Description du mouvement",
+            collapsed: false,
+            items: [
+                {
+                    text: "Introduction",
+                    link: "/seconde/mouvements-et-interactions/description-du-mouvement/",
+                },
+            ],
+        },
+        /**
         {
             text: "Les solutions",
             collapsed: false,
@@ -288,5 +301,6 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                 },
             ],
         },
+        */
     ],
 };
