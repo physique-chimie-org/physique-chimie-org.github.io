@@ -11,6 +11,9 @@ importers:
       '@vite-pwa/vitepress':
         specifier: ^1.0.0
         version: 1.0.0(vite-plugin-pwa@1.0.3(vite@7.1.3(less@4.4.1)(terser@5.43.1))(workbox-build@7.3.0)(workbox-window@7.3.0))
+      esbuild:
+        specifier: ^0.25.9
+        version: 0.25.9
       markdown-it-footnote:
         specifier: ^4.0.0
         version: 4.0.0
