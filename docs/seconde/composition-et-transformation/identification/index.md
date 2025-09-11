@@ -5,6 +5,8 @@ prev: false
 
 # Corps purs, mélanges et identification
 
+La matière qui nous entoure est constituée d’espèces chimiques, définies par des propriétés physiques et chimiques. L’étude de ces propriétés permet d’identifier et de distinguer les substances présentes.
+
 ## Plan du cours
 
 1. [Corps purs et mélanges](corps-purs-et-melanges.md)

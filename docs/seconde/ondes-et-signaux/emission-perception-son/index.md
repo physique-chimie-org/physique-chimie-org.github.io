@@ -5,6 +5,9 @@ prev: false
 
 # Émission et perception des sons
 
+Le son est partout autour de nous : dans la parole, la musique, les bruits du quotidien… Mais qu’est-ce qu’un son exactement, qu’est-ce qu’il le caractérise ?
+Dans ce chapitre, nous allons découvrir comment un son naît grâce à des vibrations, comment il peut être enregistré et analysé. Nous verrons aussi pourquoi certains sons peuvent être dangereux pour l’audition, et comment s’en protéger. Enfin, nous apprendrons à générer un son à l’aide d’un microcontrôleur.
+
 ## Plan du cours
 
 1. [Les sons et leurs propagation](son-et-propagation.md)

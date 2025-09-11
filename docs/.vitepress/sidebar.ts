@@ -276,6 +276,14 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                     text: "Introduction",
                     link: "/seconde/mouvements-et-interactions/description-du-mouvement/",
                 },
+                {
+                    text: "Système et référentiel",
+                    link: "/seconde/mouvements-et-interactions/description-du-mouvement/systeme-et-referentiel",
+                },
+                {
+                    text: "Décrire le mouvement d’un système",
+                    link: "/seconde/mouvements-et-interactions/description-du-mouvement/description-du-mouvement",
+                }
             ],
         },
         /**
