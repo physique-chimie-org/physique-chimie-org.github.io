@@ -36,6 +36,7 @@ La nature géométrique de la trajectoire permet de qualifier le mouvement du po
 | ------------------------ | ------------------- |
 | Droite                   | Rectiligne          |
 | Cercle                   | Circulaire          |
+| Ellipse                  | Elliptique          |
 | Parabole                 | Parabolique         |
 | Courbe quelconque        | Curviligne          |
 
@@ -71,6 +72,7 @@ Pour décrire le mouvement du point M, il faut combiner la nature de la trajecto
 | Cercle                   | Vitesse constante       | Mouvement circulaire uniforme      |
 | Cercle                   | Vitesse croissante      | Mouvement circulaire non uniforme  |
 | Cercle                   | Vitesse décroissante    | Mouvement circulaire non uniforme  |
+| Parabole                 | Vitesse constante       | Mouvement parabolique uniforme     |
 | Parabole                 | Vitesse croissante      | Mouvement parabolique non uniforme |
 | Parabole                 | Vitesse décroissante    | Mouvement parabolique non uniforme |
 | Courbe quelconque        | Vitesse constante       | Mouvement curviligne uniforme      |
