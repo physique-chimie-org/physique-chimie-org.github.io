@@ -3,7 +3,7 @@ titleTemplate: "Déterminer la composition d’un système chimique"
 prev: false
 ---
 
-# Introduction
+# Déterminer la composition d’un système chimique
 
 ## Plan du cours
 

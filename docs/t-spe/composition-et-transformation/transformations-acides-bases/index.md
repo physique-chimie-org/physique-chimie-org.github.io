@@ -3,7 +3,7 @@ titleTemplate: "Transformations acides-bases"
 prev: false
 ---
 
-# Introduction
+# Transformations acides-bases
 
 ## Plan du cours
 

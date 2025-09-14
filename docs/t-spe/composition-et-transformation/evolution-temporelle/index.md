@@ -3,7 +3,7 @@ titleTemplate: "Modéliser l’évolution temporelle d’un système chimique"
 prev: false
 ---
 
-# Introduction
+# Modéliser l’évolution temporelle d’un système chimique
 
 ## Plan du cours
 

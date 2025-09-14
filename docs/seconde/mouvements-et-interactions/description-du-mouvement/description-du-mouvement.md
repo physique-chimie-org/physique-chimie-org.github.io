@@ -15,7 +15,7 @@ Pour décrire le mouvement d'un système, il faut :
 
 :::
 
-Afin de décrire ce mouvement, on partira d'une vidéo ou d'une chronophotographie du système en mouvement. On pourra aussi utiliser des outils numériques pour analyser ce mouvement.
+Afin de décrire ce mouvement, on partira d'une vidéo ou d'une chronophotographie du système en mouvement. On pourra utiliser des outils numériques pour analyser ce mouvement.
 
 ## Trajectoire
 

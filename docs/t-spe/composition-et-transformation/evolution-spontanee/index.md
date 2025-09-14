@@ -1,25 +1,15 @@
 ---
-titleTemplate: "Evolution spontanée d’un système chimique"
+titleTemplate: "Évolution spontanée d’un système chimique"
 prev: false
 ---
 
-# Introduction
+# Évolution spontanée d’un système chimique
 
 ## Plan du cours
 
 1. [Équilibre chimique](equilibre-chimique.md)
 2. [Évolution spontanée d’un système hors équilibre chimique](hors-equilibre-chimique.md)
 3. [Force des acides et des bases](force-acides-bases.md)
-
-## Objectifs
-
-À l’issue de cette partie, vous devrez savoir :
-
-- Relier le caractère non total d’une transformation à la présence, à l’état final du système, de tous les réactifs et de tous les produits.
-- Mettre en évidence la présence de tous les réactifs dans l’état final d’un système siège d’une transformation non totale, par un nouvel ajout de réactifs.
-- Déterminer le sens d’évolution spontanée d’un système.
-- Déterminer un taux d’avancement final à partir de données sur la composition de l’état final et le relier au caractère total ou non total de la transformation.
-- Déterminer la valeur du quotient de réaction à l’état final d’un système, siège d’une transformation non totale, et montrer son indépendance vis-à-vis de la composition initiale du système à une température donnée
 
 ## Rappels
 
@@ -61,3 +51,13 @@ $$
 $$
 
 :::
+
+## Objectifs
+
+À l’issue de cette partie, vous devrez savoir :
+
+- Relier le caractère non total d’une transformation à la présence, à l’état final du système, de tous les réactifs et de tous les produits.
+- Mettre en évidence la présence de tous les réactifs dans l’état final d’un système siège d’une transformation non totale, par un nouvel ajout de réactifs.
+- Déterminer le sens d’évolution spontanée d’un système.
+- Déterminer un taux d’avancement final à partir de données sur la composition de l’état final et le relier au caractère total ou non total de la transformation.
+- Déterminer la valeur du quotient de réaction à l’état final d’un système, siège d’une transformation non totale, et montrer son indépendance vis-à-vis de la composition initiale du système à une température donnée

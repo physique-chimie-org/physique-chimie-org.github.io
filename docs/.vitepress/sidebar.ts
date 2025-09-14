@@ -3,8 +3,8 @@ import { DefaultTheme } from "vitepress/theme";
 export const sidebar: DefaultTheme.SidebarMulti = {
     "/t-spe/": [
         {
-            text: "Le programme (Bulletin Officiel)",
-            link: "/t-spe/programme-terminale",
+            text: "Le programme",
+            link: "/t-spe/",
         },
         {
             text: "Transformations acides bases",
@@ -196,6 +196,10 @@ export const sidebar: DefaultTheme.SidebarMulti = {
         },
     ],
     "/seconde/": [
+        {
+            text: "Le programme",
+            link: "/seconde/",
+        },
         /**
         {
             text: "Le noyau de l’atome et son cortège électronique",
@@ -283,7 +287,11 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                 {
                     text: "Décrire le mouvement d’un système",
                     link: "/seconde/mouvements-et-interactions/description-du-mouvement/description-du-mouvement",
-                }
+                },
+                {
+                    text: "Vecteurs déplacement et vitesse d'un point",
+                    link: "/seconde/mouvements-et-interactions/description-du-mouvement/vecteurs-deplacement-et-vitesse",
+                },
             ],
         },
         /**

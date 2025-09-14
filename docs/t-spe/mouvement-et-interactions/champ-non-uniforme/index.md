@@ -3,7 +3,7 @@ titleTemplate: "Mouvement dans un champ non uniforme"
 prev: false
 ---
 
-# Introduction
+# Mouvement dans un champ non uniforme
 
 ## Plan du cours
 

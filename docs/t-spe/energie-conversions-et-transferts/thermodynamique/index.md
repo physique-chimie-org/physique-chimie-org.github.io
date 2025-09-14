@@ -3,11 +3,11 @@ titleTemplate: "Transferts macroscopiques d’énergie"
 prev: false
 ---
 
-# Introduction
+# Transferts macroscopiques d’énergie
 
 ## Plan du cours
 
-1. [Systeme thermodynamique](systeme-thermodynamique.md)
+1. [Système thermodynamique](systeme-thermodynamique.md)
 2. [Énergie interne](energie-interne.md)
 3. [Transmission de la chaleur](transmission-chaleur.md)
 4. [Transfert thermique par conduction](transfert-thermique.md)

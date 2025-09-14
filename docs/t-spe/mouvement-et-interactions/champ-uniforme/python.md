@@ -36,7 +36,7 @@ Les données de vitesses peuvent être calculées par la méthode des points adj
 # Initialisation de la liste des énergies cinétiques
 Ec = []
 
-for i in range(1, len(t)-1):  // [!code warning]
+for i in range(1, len(t)-1): # [!code warning]
     # Calcul de l'énergie cinétique à la date i
     Ec_i = 0.5 * m * v[i-1] ** 2
     # Ajout dans la liste correspondante
@@ -82,9 +82,9 @@ Voici un exemple de code permettant de calculer l'énergie mécanique, à partir
 # Initialisation de la liste des énergies mécaniques
 Em = []
 
-for i in range(1, len(t)-1): // [!code warning]
+for i in range(1, len(t)-1): # [!code warning]
     # Calcul de l'énergie mécanique à la date i
-    Em_i = Ec[i-1] + Ep[i] // [!code warning]
+    Em_i = Ec[i-1] + Ep[i] # [!code warning]
     # Ajout dans la liste correspondante
     Em.append(Em_i)
 ```

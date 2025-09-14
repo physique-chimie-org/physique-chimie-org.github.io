@@ -42,7 +42,7 @@ vx = []
 vy = []
 v = []
 
-for i in range(1, len(t)-1): // [!code warning]
+for i in range(1, len(t)-1): # [!code warning]
     # Calcul des coordonnées du vecteur vitesse à la date i
     vx_i = (x[i+1] - x[i-1]) / (t[i+1] - t[i-1])
     vy_i = (y[i+1] - y[i-1]) / (t[i+1] - t[i-1])
@@ -71,10 +71,10 @@ ax = []
 ay = []
 a = []
 
-for i in range(1, len(t)-1): // [!code warning]
+for i in range(1, len(t)-1): # [!code warning]
     # Calcul des coordonnées du vecteur accélération à la date i
-    ax_i= (vx[i+1] - vx[i-1]) / (t[i+1] - t[i-1]) // [!code warning]
-    ay_i= (vy[i+1] - vy[i-1]) / (t[i+1] - t[i-1]) // [!code warning]
+    ax_i= (vx[i+1] - vx[i-1]) / (t[i+1] - t[i-1]) # [!code warning]
+    ay_i= (vy[i+1] - vy[i-1]) / (t[i+1] - t[i-1]) # [!code warning]
     # Calcul de la norme du vecteur accélération à la date i
     a_i = (ax_i**2 + ay_i**2)**0.5
     # Ajout dans les listes correspondantes
@@ -99,13 +99,13 @@ ax = []
 ay = []
 a = []
 
-for i in range(1, len(t)-1): // [!code --]
-for i in range(2, len(t)-2): // [!code ++]
+for i in range(1, len(t)-1): # [!code --]
+for i in range(2, len(t)-2): # [!code ++]
     # Calcul des coordonnées du vecteur accélération à la date i
-    ax_i = (vx[i+1] - vx[i-1]) / (t[i+1] - t[i-1]) // [!code --]
-    ax_i = (vx[i] - vx[i-2]) / (t[i+1] - t[i-1]) // [!code ++]
-    ay_i = (vy[i+1] - vy[i-1]) / (t[i+1] - t[i-1]) // [!code --]
-    ay_i = (vy[i] - vy[i-2]) / (t[i+1] - t[i-1]) // [!code ++]
+    ax_i = (vx[i+1] - vx[i-1]) / (t[i+1] - t[i-1]) # [!code --]
+    ax_i = (vx[i] - vx[i-2]) / (t[i+1] - t[i-1]) # [!code ++]
+    ay_i = (vy[i+1] - vy[i-1]) / (t[i+1] - t[i-1]) # [!code --]
+    ay_i = (vy[i] - vy[i-2]) / (t[i+1] - t[i-1]) # [!code ++]
     # Calcul de la norme du vecteur accélération à la date i
     a_i = (ax_i**2 + ay_i**2)**0.5
     # Ajout dans les listes correspondantes

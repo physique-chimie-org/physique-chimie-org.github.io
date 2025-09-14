@@ -3,7 +3,7 @@ titleTemplate: "Cinématique"
 prev: false
 ---
 
-# Introduction
+# Cinématique
 
 ## Plan du cours
 

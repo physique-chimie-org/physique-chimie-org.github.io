@@ -6,8 +6,8 @@ export const nav: DefaultTheme.NavItem[] = [
         activeMatch: "/t-spe/",
         items: [
             {
-                text: "Le programme (Bulletin Officiel)",
-                link: "/t-spe/programme-terminale",
+                text: "Le programme",
+                link: "/t-spe/",
             },
             {
                 text: "Composition et transformation de la matière",
@@ -113,6 +113,10 @@ export const nav: DefaultTheme.NavItem[] = [
         text: "Seconde",
         activeMatch: "/seconde/",
         items: [
+            {
+                text: "Le programme",
+                link: "/seconde/",
+            },
             {
                 text: "Composition et transformation de la matière",
                 items: [

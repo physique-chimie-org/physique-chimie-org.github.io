@@ -18,7 +18,7 @@ Pour étudier le mouvement d'un système, il est nécessaire de choisir un **ré
 
 ::: danger Définition
 Un **référentiel** est un objet physique de référence par rapport auquel on observe le mouvement du système.
-Pour préciser mathématiquement les caractéristiques du mouvement d’un système, on associe au référentiel ensuite un système de coordonnées d'espace (repère d’espace) et une horloge (repère de temps).
+Pour préciser mathématiquement les caractéristiques du mouvement d’un système, on associe au référentiel un système de coordonnées d'espace (repère d’espace) et une horloge (repère de temps).
 :::
 
 Le repère d’espace permet de définir la position du système dans l’espace à un instant donné, tandis que le repère de temps permet de mesurer la durée des événements.
@@ -29,13 +29,13 @@ Il existe plusieurs référentiels possibles pour décrire un mouvement d’un s
 Le mouvement d’un système est relatif au référentiel choisi. Cela signifie que le mouvement d’un système dépend du référentiel d'étude.
 :::
 
-Par exemple, une voiture peut sembler immobile par rapport à un passager à l’intérieur de la voiture, mais en mouvement par rapport à un observateur fixe sur le bord de la route.
+Par exemple, une voiture peut sembler immobile par rapport à un passager à l’intérieur de la voiture, mais est en mouvement par rapport à un observateur fixe sur le bord de la route.
 
 ### Exemples de référentiels
 
 #### le référentiel héliocentrique
 
-Le référentiel héliocentrique est le référentiel centré sur le centre de masse du Soleil. Il est utilisé pour étudier le mouvement des planètes autour du Soleil. Le Soleil est considéré comme immobile dans ce référentiel.
+Le référentiel héliocentrique est le référentiel centré sur le centre de masse du Soleil. Il est utilisé pour étudier le mouvement des planètes autour du Soleil. Le Soleil tourne autour de son axe dans ce référentiel.
 
 Les caractéristiques du repère d’espace sont :
 
@@ -44,7 +44,7 @@ Les caractéristiques du repère d’espace sont :
 
 #### le référentiel géocentrique
 
-Le référentiel géocentrique est le référentiel centré sur le centre de masse de la Terre. Il est utilisé pour étudier le mouvement des satellites artificiels autour de la Terre. La Terre tourne autour de son axe dans ce référentiel.
+Le référentiel géocentrique est le référentiel centré sur le centre de masse de la Terre. Il est utilisé pour étudier le mouvement des satellites autour de la Terre. La Terre tourne autour de son axe dans ce référentiel.
 
 Les caractéristiques du repère d’espace sont :
 
@@ -66,7 +66,7 @@ Le référentiel lié au système est un référentiel centré sur le système l
 
 Les caractéristiques du repère d’espace sont :
 
-- Origine : centre de masse du système
+- Origine : généralement le centre de masse du système
 - Axes : pointent vers trois directions fixes pendant la durée de l'observation, choisis en fonction des directions d'intérêt
 
 ## Modélisation du système par un point
