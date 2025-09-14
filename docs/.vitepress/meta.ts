@@ -9,3 +9,7 @@ export const author = "Aliosha Padovani";
 export const email = "aliosha.padovani@gmail.com";
 export const github =
     "https://github.com/physique-chimie-org/physique-chimie-org.github.io";
+
+export const adsenseOptions = {
+    client: "ca-pub-4988693087757422"
+};

@@ -1,5 +1,5 @@
 import { HeadConfig } from "vitepress";
-import { author, keywords, siteTitle } from "./meta";
+import { adsenseOptions, author, keywords, siteTitle } from "./meta";
 
 export const head: HeadConfig[] = [
     [
@@ -152,4 +152,5 @@ export const head: HeadConfig[] = [
     ["meta", { name: "author", content: author }],
     ["meta", { name: "generator", content: "VitePress" }],
     ["meta", { name: "keywords", content: keywords }],
+    ["meta", { name: "google-adsense-account", content: adsenseOptions.client }],
 ];
