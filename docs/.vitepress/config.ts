@@ -112,9 +112,13 @@ export default withPwa(defineConfig({
             },
             footer: {
               selectText: "Sélectionner",
+              selectKeyAriaLabel: "Sélectionner",
               navigateText: "Naviguer",
+              navigateUpKeyAriaLabel: "Naviguer vers le haut",
+              navigateDownKeyAriaLabel: "Naviguer vers le bas",
               closeText: "Fermer",
-              searchByText: "Rechercher par",
+              closeKeyAriaLabel: "Fermer",
+              searchByText: "Recherche par",
             },
             noResultsScreen: {
               noResultsText: "Aucun résultat trouvé",
