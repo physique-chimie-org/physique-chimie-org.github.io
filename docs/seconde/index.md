@@ -15,7 +15,7 @@ modèles et des théories. Aussi, l'enseignement proposé s'attache-t-il à intr
 
 Une telle approche, dans laquelle le raisonnement occupe une place centrale, permet de construire une image fidèle de ce que sera un enseignement de physique-chimie proposé en cycle terminal ou au-delà, dans une formation post-baccalauréat. Le programme de seconde permet ainsi à tous les élèves de formuler des choix éclairés en matière de parcours de formation en classe de première générale ou technologique et de suivre avec profit l’enseignement scientifique proposé dans le tronc commun de formation du cycle terminal de la voie générale.
 
-© Ministère de l'Éducation nationale et de la Jeunesse > www.education.gouv.fr
+© Ministère de l'Éducation nationale et de la Jeunesse > [www.education.gouv.fr](https://www.education.gouv.fr)
 
 ## Sommaire
 

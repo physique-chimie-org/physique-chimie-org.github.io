@@ -15,7 +15,7 @@ Les thèmes de la classe de première, choisis pour leurs vertus formatrices, so
 
 Dans le cadre de la préparation de l’épreuve orale terminale et du projet associé, une attention particulière peut être portée à la **dimension expérimentale** avec notamment le recours à des données authentiques, à l’activité de **modélisation**, à la simulation et à l’ouverture sur le monde scientifique, économique et industriel. Ce projet peut prendre appui sur des manipulations réalisées par les élèves, des résultats expérimentaux publiés, des articles scientifiques et des activités de programmation. L’oral permet notamment de présenter la cohérence de la démarche scientifique suivie.
 
-© Ministère de l'Éducation nationale et de la Jeunesse > www.education.gouv.fr
+© Ministère de l'Éducation nationale et de la Jeunesse > [www.education.gouv.fr](https://www.education.gouv.fr)
 
 ## Sommaire
 

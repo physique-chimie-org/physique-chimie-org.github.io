@@ -32,7 +32,7 @@ Exemple : Le titrage de $\ce{H3O+}$ par $\ce{HO-}$ a comme réaction support du 
 Lors d’un titrage, on introduit progressivement une solution contenant le réactif titrant B dans un volume $V_A$ contenant le réactif titré A.
 
 ::: danger Important
-A l’équivalence, la quantité de matière du réactif titré $n_i(A)$ initialement présente dans le volume $V_A$, et la quantité de matière de réactif titrant $n_E(B)$ versée, sont dans les proportions stœchiométriques de la réaction support du titrage. On peut alors étbalir :
+À l’équivalence, la quantité de matière du réactif titré $n_i(A)$ initialement présente dans le volume $V_A$, et la quantité de matière de réactif titrant $n_E(B)$ versée, sont dans les proportions stœchiométriques de la réaction support du titrage. On peut alors établir :
 
 $$
 \frac{n_i(A)}{a}=\frac{n_E(B)}{b}
@@ -41,7 +41,7 @@ $$
 :::
 
 ::: info Remarque
-Avant l’équivalence, le réactif limitant est le réactif titrant ; après l’équivalence, le réactif limitant est le réactif titré. A l’équivalence les deux réactifs sont limitant.
+Avant l’équivalence, le réactif limitant est le réactif titrant ; après l’équivalence, le réactif limitant est le réactif titré. À l’équivalence les deux réactifs sont limitant.
 :::
 
 Voici un exemple d’évolution des quantités de matière pour une réaction quelconque $\ce{A + B -> C + D}$
@@ -144,7 +144,7 @@ Pour déterminer le volume équivalent à partir de la courbe pH-métrique on pe
 ![Méthodes pour le titrage pH-métrique](/images/cours/methodes-titrage-pH-tangentes.png "Méthodes des tangentes")
 
 - **La méthode de la dérivée**:
-  A l’aide d’un logiciel, la courbe dérivée de la courbe de titrage $\frac{d(pH)}{d(V)}$. Le volume équivalent $V_E$ est le volume pour lequel on observe un pic sur la courbe dérivée.
+  À l’aide d’un logiciel, la courbe dérivée de la courbe de titrage $\frac{d(pH)}{d(V)}$. Le volume équivalent $V_E$ est le volume pour lequel on observe un pic sur la courbe dérivée.
 
 ![Méthodes pour le titrage pH-métrique](/images/cours/methodes-titrage-pH-derivee.png "Méthodes de la dérivée")
 
@@ -152,7 +152,7 @@ Pour déterminer le volume équivalent à partir de la courbe pH-métrique on pe
 
 ### Principe du titrage colorimétrique
 
-Lors d’un titrage colorimétrique, l’équivalence est repérée grâce à un changement de couleur du milieu réactionnel. Cela peut être du à un réactif coloré qui disparaît ou un produit coloré qui apparait au cours de la réaction suuport du titrage. Si ce n’est pas le cas, on peut également ajouter espèce chimique appelée indicateur colorée de fin de réaction. Dans le cas d’une réaction support du titrage acide-base, on utilise un indicateur coloré acide-base.
+Lors d’un titrage colorimétrique, l’équivalence est repérée grâce à un changement de couleur du milieu réactionnel. Cela peut être du à un réactif coloré qui disparaît ou un produit coloré qui apparait au cours de la réaction support du titrage. Si ce n’est pas le cas, on peut également ajouter espèce chimique appelée indicateur colorée de fin de réaction. Dans le cas d’une réaction support du titrage acide-base, on utilise un indicateur coloré acide-base.
 
 ### Choix de l’indicateur coloré acide-base
 
