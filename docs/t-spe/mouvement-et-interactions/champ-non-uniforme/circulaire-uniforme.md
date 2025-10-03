@@ -9,7 +9,7 @@ next: false
 
 Système : le satellite de masse m, et de centre de masse S.
 Référentiel : centré sur l'astre attracteur de masse M, supposé Galiléen.
-Repère : L'étude du mouvement du centre de masse d'un satellite autour d'une astre peut se faire dans le repère de Frenet $(M,\vec{n}, \vec{\tau})$ associé au satellite.
+Repère : L'étude du mouvement du centre de masse d'un satellite autour d'une astre peut se faire dans le repère de Frenet $(M,\overrightarrow{n}, \overrightarrow{\tau})$ associé au satellite.
 
 ## Accélération dans le repère de Frenet
 
@@ -17,19 +17,21 @@ Dans ce référentiel, le vecteur accélération peut s'exprimé ainsi :
 
 $$
 \begin{align}
-\vec{a} &=a_n \times \vec{n} + a_{\tau} \times \vec{\tau} \\
-&=\frac{v^2}{a} \times \vec{n} + \frac{dv}{dt} \times \vec{\tau}
+\overrightarrow{a} &=a_n \times \overrightarrow{n} + a_{\tau} \times \overrightarrow{\tau} \\
+&=\frac{v^2}{a} \times \overrightarrow{n} + \frac{dv}{dt} \times \overrightarrow{\tau}
 \end{align}
 $$
 
 On le noter de façon synthétique :
 
 $$
-\vec{a}=
-\begin{Bmatrix}
+\overrightarrow{a}
+\left|
+  \begin{matrix}
 a_n = \dfrac{v^2}{a} \\
 a_{\tau} = \dfrac{dv}{dt}
-\end{Bmatrix}
+\end{matrix}
+\right.
 $$
 
 ::: warning Attention
@@ -39,11 +41,13 @@ Le paramètre $a$ dans $\dfrac{v^2}{a}$ correspond au demi grand-axe de l'ellips
 Dans le cadre d'un mouvement circulaire, le demi grand-axe $a$ est égale au rayon du cercle $R$. L'accélération devient :
 
 $$
-\vec{a}=
-\begin{Bmatrix}
+\overrightarrow{a}
+\left|
+  \begin{matrix}
 a_n = \dfrac{v^2}{R} \\
 a_{\tau} = \dfrac{dv}{dt}
-\end{Bmatrix}
+\end{matrix}
+\right.
 $$
 
 ## Bilan des forces extérieures appliquées au système
@@ -51,37 +55,41 @@ $$
 Si le satellite n'est soumis qu'à la force d'attraction de l'astre :
 
 $$
-\vec{F_{astre/S}}= G \times \frac{m\times M}{R^2} \times \vec{n}
+\overrightarrow{F_{astre/S}}= G \times \frac{m\times M}{R^2} \times \overrightarrow{n}
 $$
 
 ## Application de la 2nde loi de Newton
 
 $$
 \begin{align}
-\sum{\vec{F_{ext}}} &=m\times \vec{a} \\
-G \times \frac{m\times M}{R^2} \times \vec{n} &=m\times \vec{a} \\
-G \times \frac{M}{R^2} \times \vec{n} &=\vec{a} \\
+\sum{\overrightarrow{F_{ext}}} &=m\times \overrightarrow{a} \\
+G \times \frac{m\times M}{R^2} \times \overrightarrow{n} &=m\times \overrightarrow{a} \\
+G \times \frac{M}{R^2} \times \overrightarrow{n} &=\overrightarrow{a} \\
 \end{align}
 $$
 
 Dans le repère de Frenet, on a alors :
 
 $$
-\vec{a}=
-\begin{Bmatrix}
+\overrightarrow{a}
+\left|
+  \begin{matrix}
 a_n = G \times \frac{M}{R^2} \\
 a_{\tau} = 0
-\end{Bmatrix}
+\end{matrix}
+\right.
 $$
 
 Or on a vu précédement que :
 
 $$
-\vec{a}=
-\begin{Bmatrix}
+\overrightarrow{a}
+\left|
+  \begin{matrix}
 a_n = \dfrac{v^2}{R} \\
 a_{\tau} = \dfrac{dv}{dt}
-\end{Bmatrix}
+\end{matrix}
+\right.
 $$
 
 On en déduit alors deux expressions :

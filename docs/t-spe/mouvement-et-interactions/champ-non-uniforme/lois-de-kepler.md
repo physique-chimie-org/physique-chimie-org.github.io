@@ -7,7 +7,6 @@ titleTemplate: "Mouvement dans un champ non uniforme"
 > Claude Ptolémée (IIè siècle après J.-C.) fut le premier à décrire avec précision le mouvement du Soleil, de la Lune et des planètes autour de la Terre, considérée alors comme le centre du monde, par une combinaison de mouvements circulaires uniformes […].
 > Trois siècles plus tard, Nicolas Copernic (1473-1543), astronome polonais, propose son modèle héliocentrique du système solaire, comprenant des combinaisons de trajectoires circulaires mais encore plus compliquées que celles de Ptolémée.
 
-
 ## 1ère loi : Loi des orbites (1609)
 
 > Les mesures très précises de Mars faites par l’astronome danois Tycho Brahe (1546-1601), convainquent son élève Johannes Kepler (1571-1630), astronome allemand (voir doc.2), que l’orbite de la planète rouge ne peut pas être décrite ni par un cercle, ni par une combinaison de cercles, mais qu’elle est elliptique, le Soleil occupant l’un des foyers. Il publie ce résultat en 1609, dans son Astronomia nova, aujourd’hui connu sous le nom de première loi de Kepler.
@@ -23,9 +22,11 @@ Dans le référentiel héliocentrique, la trajectoire d’une planète est une e
 - A : la position la plus éloignée du Soleil est l’aphélie.
 
 ::: info Remarques
+
 - Il ne faut pas confondre périhélie et aphélie avec périgée et apogée, qui sont les termes équivalents pour des satellites de la Terre.
 - Un cercle est une ellipse particulière pour laquelle les deux foyers F et F’ sont confondus et situés en O. Dans ce cas, relation $F_1M + F_2M = \text{constante}$ devient $OM = R$, où $R$ est le rayon du cercle.
 - Dans la réalité, les orbites des planètes du système solaire sont des ellipses qui ressemblent beaucoup à des cercles.
+
 :::
 
 ## 2ème loi : Loi des aires (1609)
@@ -52,12 +53,14 @@ Le carré de la période de révolution T d'une planète autour du Soleil est pr
 $$
 \frac{T^2}{a^3}= \text{constante}
 $$
+
 :::
 
 ::: warning Attention
 Ne pas confondre la période de **révolution** avec la période de **rotation** (sur elle-même) d'une planète.
 
 Par exemple, on estime, pour la Terre :
+
 - période rotation : 24 h ;
 - période de révolution : 365,25 jrs.
 
@@ -65,9 +68,11 @@ Par exemple, on estime, pour la Terre :
 
 ::: info Remarques
 Les trajectoires de faible excentricité peuvent être modélisées par des cercles. La 3ème loi de Kepler s’ecrit alors :
+
 $$
 \frac{T^2}{R^3}= \text{constante}
 $$
+
 :::
 
 ## Limites d'application des lois de Kepler

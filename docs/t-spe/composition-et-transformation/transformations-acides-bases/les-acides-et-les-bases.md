@@ -2,7 +2,7 @@
 titleTemplate: "Transformations acides-bases"
 ---
 
-# Transformations acides bases
+# Les acides et les bases
 
 ## Théorie de Brönsted et couples acide/base
 
@@ -121,7 +121,7 @@ Il y a transfert d’un ion hydrogène $H^+$ de l’acide éthanoïque (acide) v
 Une espèce amphotère est à la fois l’acide d’un couple et la base d’un autre couple.
 :::
 
-L’eau $H_2O$ intervient dans deux couples acido-basiques : $H_3O^+_{(aq)}/H_2O_{(l)}$ et  $H_2O_{(l)}/HO^-_{(aq)}$. C’est donc une espèce amphotère.
+L’eau $H_2O$ intervient dans deux couples acido-basiques : $H_3O^+_{(aq)}/H_2O_{(l)}$ et $H_2O_{(l)}/HO^-_{(aq)}$. C’est donc une espèce amphotère.
 
 Les deux demi-équations sont :
 

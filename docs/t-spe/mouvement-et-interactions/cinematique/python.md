@@ -27,8 +27,8 @@ Une fois les données de position obtenues, il est possible de calculer les coor
 
 $$
 \begin{align}
-\vec{v_{i,moy}} &= \frac{\vec{OM_{i+1}} - \vec{OM_{i-1}}}{t_{i+1} - t_{i-1}} \\
-\vec{a_{i,moy}} &= \frac{\vec{v_{i+1}} - \vec{v_{i-1}}}{t_{i+1} - t_{i-1}}
+\overrightarrow{v_{i,moy}} &= \frac{\overrightarrow{OM_{i+1}} - \overrightarrow{OM_{i-1}}}{t_{i+1} - t_{i-1}} \\
+\overrightarrow{a_{i,moy}} &= \frac{\overrightarrow{v_{i+1}} - \overrightarrow{v_{i-1}}}{t_{i+1} - t_{i-1}}
 \end{align}
 $$
 

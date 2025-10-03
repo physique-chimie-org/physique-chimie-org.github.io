@@ -6,21 +6,23 @@ titleTemplate: "Cinématique"
 
 ## Définition
 
-Dans le référentiel d’étude, associé au repère $(O; \vec{i}; \vec{j}; \vec{k})$, un point matériel occupe à la date $t$ une position $M(t)$ dans l’espace. On appelle vecteur position le vecteur $\vec{OM}(t)$.
+Dans le référentiel d’étude, associé au repère $(O; \overrightarrow{i}; \overrightarrow{j}; \overrightarrow{k})$, un point matériel occupe à la date $t$ une position $M(t)$ dans l’espace. On appelle vecteur position le vecteur $\overrightarrow{OM}(t)$.
 
 $$
-\vec{OM}(t) = x(t)·\vec{i} + y(t)·\vec{j} + z(t)·\vec{k}
+\overrightarrow{OM}(t) = x(t)·\overrightarrow{i} + y(t)·\overrightarrow{j} + z(t)·\overrightarrow{k}
 $$
 
-On note de façon synthétique ses coordonées dans le repère $(O; \vec{i}; \vec{j}; \vec{k})$ :
+On note de façon synthétique ses coordonées dans le repère $(O; \overrightarrow{i}; \overrightarrow{j}; \overrightarrow{k})$ :
 
 $$
-\vec{OM}=
-\begin{Bmatrix}
+\overrightarrow{OM}(t)
+\left|
+  \begin{matrix}
 x(t) \\
 y(t) \\
 z(t)
-\end{Bmatrix}
+  \end{matrix}
+\right.
 $$
 
 On définit les équations horaires comme les expressions des coordonnées du vecteur position en fonction du temps, soit $x(t)$, $y(t)$ et $z(t)$.

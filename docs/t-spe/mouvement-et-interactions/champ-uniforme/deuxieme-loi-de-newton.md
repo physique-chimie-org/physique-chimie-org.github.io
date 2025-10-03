@@ -12,12 +12,12 @@ Tout corps persévère dans son état de repos ou de mouvement rectiligne unifor
 
 **Formulation moderne :**
 
-Dans un **référentiel galiléen**, si le vecteur vitesse du centre de masse d’un système est un vecteur constant, alors la somme vectorielle des  forces qui s’exercent sur le système est nulle, et réciproquement. Un tel système est dit isolé.
+Dans un **référentiel galiléen**, si le vecteur vitesse du centre de masse d’un système est un vecteur constant, alors la somme vectorielle des forces qui s’exercent sur le système est nulle, et réciproquement. Un tel système est dit isolé.
 
 **Formulation mathématique :**
 
 $$
-\sum \vec{F} = 0 \Leftrightarrow \vec{v} = \vec{cste}
+\sum \overrightarrow{F} = 0 \Leftrightarrow \overrightarrow{v} = \overrightarrow{cste}
 $$
 
 ## La deuxième loi de Newton
@@ -31,8 +31,9 @@ Dans un **référentiel galiléen**, la somme vectorielle des forces extérieure
 **Formulation mathématique :**
 
 $$
-\sum \vec{F_{ext}} = m \vec{a}
+\sum \overrightarrow{F_{ext}} = m \overrightarrow{a}
 $$
+
 :::
 
 Si la somme des forces extérieures est nulle, le vecteur accélération est nul et le système est en mouvement rectiligne uniforme ou au repos. De la même manière, si le système est en mouvement rectiligne uniforme ou au repos, le vecteur accélération est nul et la somme des forces extérieures est nulle (principe d'inertie, première loi de Newton).
@@ -48,19 +49,20 @@ La deuxième loi de Newton :
 - montre que pour une même **cause** (les forces qui s'appliquent à un système), l'**effet** (modification du mouvement du système) est d'autant plus grand que l'**inertie** du système (masse du système) est faible.
 - contient la première loi de Newton (principe d'inertie) comme cas particulier.
   $$
-  \sum \vec{F_{ext}} = m \vec{a} = 0 \Leftrightarrow \vec{v} = \vec{cste}
+  \sum \overrightarrow{F_{ext}} = m \overrightarrow{a} = 0 \Leftrightarrow \overrightarrow{v} = \overrightarrow{cste}
   $$
+
 :::
 
 ## La troisième loi de Newton
 
 **Formulation moderne :**
-Quand un système matériel A exerce une force $\vec{F}_{A \rightarrow B}$ sur un système matériel B alors celui-ci exerce sur le système A une force opposée $\vec{F}_{B \rightarrow A}$ . Ces deux vecteurs ont même direction, même valeur mais sont de sens opposés.
+Quand un système matériel A exerce une force $\overrightarrow{F}_{A \rightarrow B}$ sur un système matériel B alors celui-ci exerce sur le système A une force opposée $\overrightarrow{F}_{B \rightarrow A}$ . Ces deux vecteurs ont même direction, même valeur mais sont de sens opposés.
 
 **Formulation mathématique :**
 
 $$
-\vec{F}_{A \rightarrow B} = - \vec{F}_{B \rightarrow A}
+\overrightarrow{F}_{A \rightarrow B} = - \overrightarrow{F}_{B \rightarrow A}
 $$
 
 ::: warning Important

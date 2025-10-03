@@ -9,14 +9,15 @@ titleTemplate: "Mouvement dans un champ uniforme"
 ### Travail d'une force de norme constante
 
 ::: danger Important
-Le travail $W(\vec{F})_{A \rightarrow B}$ d'une force $\vec{F}$ s'exerçant sur un système lors d'un déplacement de A à B est égal au produit scalaire de la force $\vec{F}$ par le vecteur déplacement $\vec{AB}$.
+Le travail $W(\overrightarrow{F})_{A \rightarrow B}$ d'une force $\overrightarrow{F}$ s'exerçant sur un système lors d'un déplacement de A à B est égal au produit scalaire de la force $\overrightarrow{F}$ par le vecteur déplacement $\overrightarrow{AB}$.
 
 $$
 \begin{aligned}
-W(\vec{F})_{A \rightarrow B} &= \vec{F} \cdot \vec{AB} \\
-&= F \times AB \times \cos(\vec{F}, \vec{AB})
+W(\overrightarrow{F})_{A \rightarrow B} &= \overrightarrow{F} \cdot \overrightarrow{AB} \\
+&= F \times AB \times \cos(\overrightarrow{F}, \overrightarrow{AB})
 \end{aligned}
 $$
+
 :::
 
 - W>0, Le travail est moteur : La force agit dans le sens du déplacement
@@ -25,15 +26,15 @@ $$
 
 ### Travail du poids
 
-Le poids $\vec{P}$ d'un système de masse constante $m$, dans un champ de pesanteur uniforme, est un vecteur de norme, de direction et de sens constants.
+Le poids $\overrightarrow{P}$ d'un système de masse constante $m$, dans un champ de pesanteur uniforme, est un vecteur de norme, de direction et de sens constants.
 
-Le travail du poids $\vec{P}$ d'un système de masse $m$ lors d'un déplacement de A à B est égal à l'inverse de la variation de l'énergie potentielle de pesanteur du système.
+Le travail du poids $\overrightarrow{P}$ d'un système de masse $m$ lors d'un déplacement de A à B est égal à l'inverse de la variation de l'énergie potentielle de pesanteur du système.
 
 $$
 \begin{aligned}
-W(\vec{P})_{A \rightarrow B} &= \vec{P} \cdot \vec{AB} \\
-&= P \times AB \times \cos(\vec{P}, \vec{AB}) \\
-&= m g \times AB \times \cos(\vec{P}, \vec{AB}) \\
+W(\overrightarrow{P})_{A \rightarrow B} &= \overrightarrow{P} \cdot \overrightarrow{AB} \\
+&= P \times AB \times \cos(\overrightarrow{P}, \overrightarrow{AB}) \\
+&= m g \times AB \times \cos(\overrightarrow{P}, \overrightarrow{AB}) \\
 &= m g \times AB (z_A - z_B) \\
 &= - m g \times \Delta z \\
 &= - \Delta E_{pp}
@@ -44,15 +45,15 @@ Dans le champ de pesanteur, le travail du poids d’un objet ne dépend que des 
 
 ### Travail d'une force électrique
 
-La force électrique $\vec{F_e}$ s'exerçant sur une charge $q$ dans un champ électrique uniforme est un vecteur de norme, de direction et de sens constants.
+La force électrique $\overrightarrow{F_e}$ s'exerçant sur une charge $q$ dans un champ électrique uniforme est un vecteur de norme, de direction et de sens constants.
 
-Le travail d'une force électrique $\vec{F_e}$ s'exerçant sur un système de charge $q$ lors d'un déplacement de A à B est égal au produit de la charge $q$ par la tension électrique $U_{AB}$ entre les points A et B.
+Le travail d'une force électrique $\overrightarrow{F_e}$ s'exerçant sur un système de charge $q$ lors d'un déplacement de A à B est égal au produit de la charge $q$ par la tension électrique $U_{AB}$ entre les points A et B.
 
 $$
 \begin{aligned}
-W(\vec{F_e})_{A \rightarrow B} &= \vec{F_e} \cdot \vec{AB} \\
-&= F_e \times AB \times \cos(\vec{F_e}, \vec{AB}) \\
-&= q E \times AB \times \cos(\vec{E}, \vec{AB}) \\
+W(\overrightarrow{F_e})_{A \rightarrow B} &= \overrightarrow{F_e} \cdot \overrightarrow{AB} \\
+&= F_e \times AB \times \cos(\overrightarrow{F_e}, \overrightarrow{AB}) \\
+&= q E \times AB \times \cos(\overrightarrow{E}, \overrightarrow{AB}) \\
 &= q U_{AB}
 \end{aligned}
 $$
@@ -61,16 +62,15 @@ Dans un champ électrique uniforme, le travail d'une force électrique ne dépen
 
 ### Travail d'une force de frottement
 
-La force de frottement $\vec{f}$ s'exerçant sur un système est un vecteur de norme constante, mais de direction et de sens qui dépendent du chemin suivi.
+La force de frottement $\overrightarrow{f}$ s'exerçant sur un système est un vecteur de norme constante, mais de direction et de sens qui dépendent du chemin suivi.
 
-Lors d’un mouvement rectiligne de longueur AB, le travail d’une force de frottement $\vec{f}$ lors d’un déplacement de A à B est donné par la relation suivante :
+Lors d’un mouvement rectiligne de longueur AB, le travail d’une force de frottement $\overrightarrow{f}$ lors d’un déplacement de A à B est donné par la relation suivante :
 
 $$
-W(\vec{f})_{A \rightarrow B} = - f \times AB
+W(\overrightarrow{f})_{A \rightarrow B} = - f \times AB
 $$
 
-Le travail d’une force de frottement est toujours résistant, il est donc toujours négatif. Le travail d’une force de frottement, contrairement au travail du poids et du travail d’une force électrique, dépend du chemin suivi. La force de frottement est donc une force non conservative. En revanche il est simple de le calculer car il est proportionnel à la longueur du déplacement. Ainsi, si le déplacement est connu, par exemple d'une longueur $L$, il est possible de calculer le travail de la force de frottement en multipliant la force de frottement par la longueur du déplacement. On obtient ainsi $W(\vec{f}) = - f \times L$.
-
+Le travail d’une force de frottement est toujours résistant, il est donc toujours négatif. Le travail d’une force de frottement, contrairement au travail du poids et du travail d’une force électrique, dépend du chemin suivi. La force de frottement est donc une force non conservative. En revanche il est simple de le calculer car il est proportionnel à la longueur du déplacement. Ainsi, si le déplacement est connu, par exemple d'une longueur $L$, il est possible de calculer le travail de la force de frottement en multipliant la force de frottement par la longueur du déplacement. On obtient ainsi $W(\overrightarrow{f}) = - f \times L$.
 
 ## Conservation de l'énergie mécanique
 
@@ -88,6 +88,7 @@ $$
 &= E_c(B) - E_c(A) + E_p(B) - E_p(A) = 0
 \end{aligned}
 $$
+
 :::
 
 ::: warning Important
@@ -102,6 +103,7 @@ La variation d’énergie cinétique d’un système se déplaçant d’un point
 $$
 \Delta E_c = E_c(B) - E_c(A) = \sum W_{A \rightarrow B}
 $$
+
 :::
 
 ::: warning Important

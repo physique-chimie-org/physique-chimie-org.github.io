@@ -24,10 +24,10 @@ Un champ est **uniforme** s'il est identique en tout point de l'espace considér
 
 ### Le champ électrique
 
-En physique, le champ électrique $\vec{E}$ est le champ vectoriel créé par des particules électriquement chargées. Si une autre charge se trouve dans ce champ, elle subira l'action de la force électrique $\vec{F_e}$ exercée à distance par la particule : le champ électrique est en quelque sorte le "médiateur" de cette action à distance.
+En physique, le champ électrique $\overrightarrow{E}$ est le champ vectoriel créé par des particules électriquement chargées. Si une autre charge se trouve dans ce champ, elle subira l'action de la force électrique $\overrightarrow{F_e}$ exercée à distance par la particule : le champ électrique est en quelque sorte le "médiateur" de cette action à distance.
 
 $$
-\vec{F_e} = q \vec{E}
+\overrightarrow{F_e} = q \cdot \overrightarrow{E}
 $$
 
 Entre deux plaques planes et parallèles d'un condensateur plan, le champ électrique est uniforme. Il est dirigé de la plaque chargée positivement vers la plaque chargée négativement. Sa valeur dépend de la tension $U$ entre les deux plaques et de la distance $d$ entre les deux plaques.
@@ -38,24 +38,24 @@ $$
 
 ### Le champ de pesanteur
 
-En physique, le champ de pesanteur $\vec{g}$ est le champ, attractif, vectoriel créé par un corps possédant une masse. Si un autre corps, possédant une masse, se trouve dans ce champ, il subira l'action de la force de pesanteur $\vec{F}$ exercée à distance par le corps : le champ de pesanteur est en quelque sorte le "médiateur" de cette action à distance.
+En physique, le champ de pesanteur $\overrightarrow{g}$ est le champ, attractif, vectoriel créé par un corps possédant une masse. Si un autre corps, possédant une masse, se trouve dans ce champ, il subira l'action de la force de pesanteur $\overrightarrow{F}$ exercée à distance par le corps : le champ de pesanteur est en quelque sorte le "médiateur" de cette action à distance.
 
 $$
-\vec{F} = m \vec{g}
+\overrightarrow{F} = m \cdot \overrightarrow{g}
 $$
 
 Le champ de pesanteur dépend de la masse du corps qui a créé le champ, mais aussi de la distance à ce corps. En effet, plus on s'éloigne d'un corps, plus le champ de pesanteur qu'il crée est faible.
 
 $$
-\vec{g} = \frac{G M}{r^2} \vec{u}
+\overrightarrow{g} = \frac{G M}{r^2} \cdot \overrightarrow{u}
 $$
 
-avec $G$ la constante de gravitation universelle, $M$ la masse du corps qui crée le champ, $r$ la distance à ce corps et $\vec{u}$ le vecteur unitaire dirigé vers le centre de masse du corps qui crée le champ.
+avec $G$ la constante de gravitation universelle, $M$ la masse du corps qui crée le champ, $r$ la distance à ce corps et $\overrightarrow{u}$ le vecteur unitaire dirigé vers le centre de masse du corps qui crée le champ.
 
 A proximité de la surface de la Terre, à une altitude $h$ de la surface de la Terre, donc à une distance $R_T + h$ du centre de masse de la Terre, la relation précédente devient :
 
 $$
-\vec{g} = \frac{G M_T}{(R_T + h)^2} \vec{u}
+\overrightarrow{g} = \frac{G M_T}{(R_T + h)^2} \cdot \overrightarrow{u}
 $$
 
 avec $R_T$ le rayon de la Terre.
@@ -63,11 +63,10 @@ avec $R_T$ le rayon de la Terre.
 Si $h$ est petit devant $R_T$, et donc négligeable, on peut faire l'approximation suivante :
 
 $$
-\vec{g} = \frac{G M_T}{R_T^2} \vec{u}
+\overrightarrow{g} = \frac{G M_T}{R_T^2} \cdot \overrightarrow{u}
 $$
 
-La norme du champ de pesanteur à la surface de la Terre, notée $g$, est alors constante et vaut : $g = 9,81 \rm{m.s^{-2}}$. De plus, si l'on peut faire l'approximation que le vecteur $\vec{u}$ est vertical et dirigé vers le bas, alors le champ de pesanteur est vertical et dirigé vers le bas. La norme, la direction et le sens du champ de pesanteur étant constants, le champ de pesanteur est uniforme.
-
+La norme du champ de pesanteur à la surface de la Terre, notée $g$, est alors constante et vaut : $g = 9,81 \rm{m.s^{-2}}$. De plus, si l'on peut faire l'approximation que le vecteur $\overrightarrow{u}$ est vertical et dirigé vers le bas, alors le champ de pesanteur est vertical et dirigé vers le bas. La norme, la direction et le sens du champ de pesanteur étant constants, le champ de pesanteur est uniforme.
 
 ## Référentiel galiléen
 

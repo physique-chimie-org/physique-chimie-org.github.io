@@ -39,8 +39,8 @@ Le référentiel héliocentrique est le référentiel centré sur le centre de m
 
 Les caractéristiques du repère d’espace sont :
 
-- Origine : centre de masse du Soleil
-- Axes : pointent vers trois étoiles éloignées qui apparaissent fixes
+- **Origine :** centre de masse du Soleil
+- **Axes :** pointent vers trois étoiles éloignées qui apparaissent fixes pendant la durée de l’observation
 
 #### le référentiel géocentrique
 
@@ -48,17 +48,17 @@ Le référentiel géocentrique est le référentiel centré sur le centre de mas
 
 Les caractéristiques du repère d’espace sont :
 
-- Origine : centre de masse de la Terre
-- Axes : pointent vers trois étoiles éloignées qui apparaissent fixes
+- **Origine :** centre de masse de la Terre
+- **Axes :** pointent vers trois étoiles éloignées qui apparaissent fixes pendant la durée de l’observation
 
 #### le référentiel terrestre
 
-Le référentiel terrestre est le référentiel centré sur un point fixe à la surface de la Terre, généralement le lieu de l'observateur. Il est utilisé pour étudier le mouvement des objets à la surface de la Terre, comme les voitures, les avions, les balles, etc. Dans ce référentiel, la Terre est considérée comme immobile.
+Le référentiel terrestre est le référentiel centré sur un point fixe à la surface de la Terre, généralement le lieu de l'observateur. Il est utilisé pour étudier le mouvement des objets à la surface de la Terre. Dans ce référentiel, la Terre est considérée comme immobile.
 
 Les caractéristiques du repère d’espace sont :
 
-- Origine : un point fixe à la surface de la Terre (lieu de l'observateur)
-- Axes : pointent vers trois directions fixes pendant la durée de l'observation, choisis en fonction des directions d'intérêt
+- **Origine :** un point fixe à la surface de la Terre (lieu de l'observateur)
+- **Axes :** pointent vers trois directions fixes pendant la durée de l'observation, choisis en fonction des directions d'intérêt
 
 #### le référentiel lié au système
 
@@ -66,8 +66,8 @@ Le référentiel lié au système est un référentiel centré sur le système l
 
 Les caractéristiques du repère d’espace sont :
 
-- Origine : généralement le centre de masse du système
-- Axes : pointent vers trois directions fixes pendant la durée de l'observation, choisis en fonction des directions d'intérêt
+- **Origine :** généralement le centre de masse du système
+- **Axes :** pointent vers trois directions fixes pendant la durée de l'observation, choisis en fonction des directions d'intérêt
 
 ## Modélisation du système par un point
 
