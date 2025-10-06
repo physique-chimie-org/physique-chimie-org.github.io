@@ -43,7 +43,7 @@ Le vecteur accélération instantanée $\overrightarrow{a}$ est la dérivée du 
 L’accélération est souvent perçue comme une augmentation de la valeur de la vitesse. Cependant, en physique il y a accélération même lorsque la vitesse diminue. De plus l’accélération est une grandeur vectorielle, décrivant la variation du vecteur vitesse. Ainsi il y a également accélération lorsque le vecteur vitesse change de direction, même si la valeur de la vitesse (norme du vecteur vitesse) ne change pas.
 :::
 
-On peut noter de façon plus synthétique les coordonnées du vecteur accélération instantanée $\overrightarrow{a}$ dans le repère $(O; \overrightarrow{i}; \overrightarrow{j}; \overrightarrow{k})$ :
+On définit le vecteur accélération instantanée $\overrightarrow{a}$ dans le repère $(O; \overrightarrow{i}; \overrightarrow{j}; \overrightarrow{k})$, tel que :
 
 $$
 \begin{align}
@@ -53,7 +53,7 @@ $$
 \end{align}
 $$
 
-On de note de façon synthétique :
+Ou de note de façon synthétique :
 
 $$
 \\

@@ -55,7 +55,7 @@ Le vecteur vitesse instantanée $\overrightarrow{v}$ est la dérivée du vecteur
 Le vecteur vitesse instantanée $\overrightarrow{v}$ est un vecteur tangent à la courbe représentant le vecteur position $\overrightarrow{OM}$.
 :::
 
-On peut noter de façon plus synthétique les coordonnées du vecteur vitesse instantanée $\overrightarrow{v}$ dans le repère $(O; \overrightarrow{i}; \overrightarrow{j}; \overrightarrow{k})$ :
+On définit le vecteur vitesse instantanée $\overrightarrow{v}$ dans le repère $(O; \overrightarrow{i}; \overrightarrow{j}; \overrightarrow{k})$, tel que :
 
 $$
 \begin{align}
@@ -64,7 +64,7 @@ $$
 \end{align}
 $$
 
-On de note de façon synthétique :
+Ou de façon synthétique :
 
 $$
 \overrightarrow{v}
