@@ -32,7 +32,7 @@ $$
 Et pour le dernier point $M_n$ et à la date $t_n$ :
 
 $$
-\overrightarrow{v_{n,moy}} = \frac{\overrightarrow{M_{n-1}M_{n+1}}}{t_{n+1} - t_{n-1}}
+\overrightarrow{v_{n,moy}} = \frac{\overrightarrow{M_{n-1}M_{n}}}{t_{n} - t_{n-1}}
 $$
 
 :::

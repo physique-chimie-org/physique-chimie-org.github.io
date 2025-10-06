@@ -3,6 +3,14 @@ import { adsenseOptions, author, keywords, siteTitle } from "./meta";
 
 export const head: HeadConfig[] = [
     [
+        "meta",
+        {
+            name: "viewport",
+            content:
+                "width=device-width, initial-scale=1",
+        },
+    ],
+    [
         "link",
         {
             rel: "apple-touch-icon",
@@ -139,14 +147,6 @@ export const head: HeadConfig[] = [
     ],
     ["meta", { name: "mobile-web-app-capable", content: "yes" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
-    [
-        "meta",
-        {
-            name: "viewport",
-            content:
-                "width=device-width, initial-scale=1",
-        },
-    ],
     ["meta", { name: "application-siteTitle", content: siteTitle }],
     ["meta", { name: "apple-mobile-web-app-title", content: siteTitle }],
     ["meta", { name: "author", content: author }],
