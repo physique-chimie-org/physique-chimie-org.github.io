@@ -32,3 +32,18 @@ Il est important de noter que lors de tests d’ions, le réactif ionique (dans 
 
 De la même manières certains réactifs ioniques peuvent former des précipités avec différents ions mais visuellement identiques. Les résultats sont alors difficielement analysables. Par exemple $HO^-$ peut former un précipité blanc avec les ions $Ca^{2+}$, $Mg^{2+}$, $Zn^{2+}$, etc.
 :::
+
+## La chromatographie sur couche mince (CCM)
+
+La chromatographie est une méthode physico-chimique qui sert à séparer les différentes substances présentes dans un mélange.
+
+La **chromatographie sur couche mince (CCM)** est une technique de chromatographie qui comprend :
+
+- une phase stationnaire : une plaque recouverte d’une fine couche de matériel adsorbant (silice, alumine, cellulose, etc.) sur laquelle on dépose une petite quantité du mélange à analyser,
+- une phase liquide, dite phase mobile ou éluant : un solvant ou un mélange de solvants qui va migrer le long de la plaque et entraîner avec lui les différentes substances du mélange à analyser.
+
+L'image ou le diagramme obtenu par chromatographie est appelé **chromatogramme**.
+
+Le protocole expérimental de la CCM est le suivant :
+
+![Protocole expérimental de la CCM](/images/cours/ccm.png "Protocole expérimental de la CCM")
