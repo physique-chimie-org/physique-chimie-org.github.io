@@ -22,7 +22,7 @@ prev: false
 Pour une réaction $a A + b B ⇌c C + d D$ on a, à temps t de la transformation chimique :
 
 $$
-x(t)= \frac{n_A (t)}{a}=\frac{n_B (t)}{b}=\frac{n_C (t)}{c}=\frac{n_D (t)}{d}
+x(t)= \frac{n_{A, conso} (t)}{a}=\frac{n_{B, conso} (t)}{b}=\frac{n_{C, prod} (t)}{c}=\frac{n_{D, prod} (t)}{d}
 $$
 
 **Avancement suivant la nature de la réaction :**
