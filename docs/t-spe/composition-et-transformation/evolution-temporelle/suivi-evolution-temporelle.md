@@ -12,11 +12,13 @@ L’avancement d’une transformations chimique peut être déterminé grâce à
 - la conductivité σ(t) au cours du temps, si la concentration d’un ou plusieurs ions varient au cours du temps.
 - La pression si la transformation consomme ou produit des gaz.
 
-Les méthodes physiques ne perturbent par le mécanisme transformationnel.
+Les méthodes physiques ne perturbent pas le mécanisme réactionnel.
 
 ## Méthodes chimiques
 
-L’avancement de la transformation est suivi par prélèvement d’échantillons à intervalles réguliers afin de déterminer la concentration d’un des réactifs par titrage.
+L’avancement de la transformation est suivi par prélèvement d’échantillons à intervalles de temps réguliers afin de déterminer la concentration d’un des réactifs ou produits par titrage.
+
+L'échantillon prélevé est souvent dilué et refroidi pour arrêter l'évolution de la transformation chimique avant le titrage. En effet la quantité de matière de l'espèce chimique titrée doit correspondre à celle présente au moment du prélèvement.
 
 ## Durée d’une transformation
 
@@ -24,7 +26,7 @@ On appelle durée d’une transformation chimique le temps $t_f$ nécessaire pou
 
 Pour évaluer la cinétique d’une transformation, on définit le temps de demi-transformation noté $t_{1/2}$. Ce temps est la durée au bout de laquelle l’avancement a atteint la moitié de sa valeur finale.
 
-On admet qu’une transformation cesse au bout d’un temps de quelques t1/2.
+On admet qu’une transformation cesse au bout d’un temps de quelques $t_{1/2}$.
 
 ::: warning Attention
 La plupart du temps nous n’étudions pas directement l’avancement en fonction du temps mais la concentration ou la quantité de matière, d’un réactif ou produit, en fonction du temps. De plus ces grandeurs sont parfois mesurées par des méthodes physiques, et l’on étudie alors la variation de la grandeur physique en fonction du temps.

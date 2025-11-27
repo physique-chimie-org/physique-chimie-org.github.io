@@ -55,8 +55,8 @@ Exemple : Décomposition de l’eau oxygénée par les ions Fe (III)
 
 $$
 \begin{align}
-\ce{H2O2_{(aq)} + \textcolor{red}{2 Fe^{3+}_{(aq)}} &-> O2_{(g)} + \textcolor{pink}{2H^{+}_{(aq)} + 2 Fe^{2+}_{(aq)}} \qquad (1)} \\
-\ce{H2O2_{(aq)} + \textcolor{pink}{2H^{+}_{(aq)} + 2 Fe^{2+}_{(aq)}} &-> 2 H2O_{(l)} + \textcolor{red}{2 Fe^{3+}_{(aq)}}\qquad (2)} \\
+H_2O_{2(aq)} + \textcolor{red}{2 Fe^{3+}_{(aq)}} &-> O_{2(g)} + \textcolor{pink}{2H^{+}_{(aq)} + 2 Fe^{2+}_{(aq)}} \qquad (1) \\
+H_2O_{2(aq)} + \textcolor{pink}{2H^{+}_{(aq)} + 2 Fe^{2+}_{(aq)}} &-> 2 H_2O_{(l)} + \textcolor{red}{2 Fe^{3+}_{(aq)}}\qquad (2) \\
 \end{align}
 $$
 
