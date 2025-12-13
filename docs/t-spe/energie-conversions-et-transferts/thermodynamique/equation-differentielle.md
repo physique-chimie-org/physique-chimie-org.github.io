@@ -108,8 +108,8 @@ On peut identifier les paramètres la courbe de la température $\theta(t)$ en f
    $$
    \begin{align}
    \text{À } t = \tau, \quad \theta(\tau) &= \theta_{th} + (\theta_0 - \theta_{th}) \cdot e^{-\frac{\tau}{\tau}} \\
-   \Rightarrow \theta(\tau) &= \theta_{th} + (\theta_0 - \theta_{th}) \cdot e^{-1} \\
-   \Rightarrow \theta(\tau) &\approx \theta_{th} + (\theta_0 - \theta_{th}) \cdot 0.37 \\
+   \theta(\tau) &= \theta_{th} + (\theta_0 - \theta_{th}) \cdot e^{-1} \\
+   \theta(\tau) &\approx \theta_{th} + (\theta_0 - \theta_{th}) \cdot 0.37 \\
    \Rightarrow \frac{\theta(\tau) - \theta_{th}}{\theta_0 - \theta_{th}} &\approx 0.37 \\
    \end{align}
    $$
