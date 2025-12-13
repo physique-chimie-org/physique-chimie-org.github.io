@@ -181,16 +181,20 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                     link: "/t-spe/energie-conversions-et-transferts/thermodynamique/energie-interne",
                 },
                 {
+                    text: "Bilan d’énergie",
+                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/bilan-energie",
+                },
+                {
                     text: "Transmission de la chaleur",
                     link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transmission-chaleur",
                 },
                 {
-                    text: "Transferts thermique par conduction",
+                    text: "Transfert thermique",
                     link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transfert-thermique",
                 },
                 {
-                    text: "Bilan d’énergie",
-                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/bilan-energie",
+                    text: "Équation différentielle",
+                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/equation-differentielle",
                 },
             ],
         },

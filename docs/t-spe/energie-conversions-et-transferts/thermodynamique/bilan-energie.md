@@ -1,6 +1,5 @@
 ---
 titleTemplate: "Transferts macroscopiques d’énergie"
-next: false
 ---
 
 # Bilan d’énergie

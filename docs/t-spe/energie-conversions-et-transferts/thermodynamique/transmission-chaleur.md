@@ -9,10 +9,10 @@ titleTemplate: "Transferts macroscopiques d’énergie"
 Le transfert de chaleur peut se faire plus ou moins rapidement. Le flux thermique permet d’estimer la vitesse à laquelle l’énergie est échangée :
 
 $$
-ϕ=\frac{Q}{Δt}
+ϕ_{moy}=\frac{Q}{Δt}
 $$
 
-- ϕ : Flux thermique en Watt (W)
+- $ϕ_{moy}$ : Flux thermique en Watt (W)
 - Q : Energie échangée sous forme de chaleur en Joules (J)
 - Δt : Durée du transfert thermique en secondes (s)
 
