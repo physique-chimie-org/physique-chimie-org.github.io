@@ -24,13 +24,13 @@ La pression p, en pascal (Pa), mesure l’intensité des chocs des molécules de
 
 ## Exemple : Le gaz parfait
 
-Pour étudier un système à l’état gazeux, on peut utiliser le modèle du gaz parfait, qui considère les molécules de gaz comme des points matériels et néglige toute interaction entre elles. Ce modèle permet d’établir une équation de l’état du gaz parfait reliant différentes variables d’état :
+Pour étudier un système à l’état gazeux, on peut utiliser le modèle du gaz parfait (ou gaz idéal). Ce modèle considère les molécules de gaz comme des points matériels et néglige toute interaction entre elles. Ce modèle permet d’établir une équation de l’état du gaz parfait reliant différentes variables d’état :
 
 $$
 p \times V=n \times R \times T
 $$
 
-Toutefois, ce modèle n’est pas précis dans toutes les situations, notamment à haute pression et à basse température.
+Toutefois, le comportement des gaz réels ne peut pas toujours être modélisé par l’équation du gaz parfait, cela dépend des conditions de pression et de température.
 
 En effet, à haute pression, le volume occupé par les molécules ne peut plus être négligé par rapport au volume occupé par le gaz. De plus, certaines interactions entre les molécules du gaz sont importantes. Enfin, à basse température, l’énergie cinétique est insuffisante et il est nécessaire de prendre en compte l’énergie d’interaction.
 

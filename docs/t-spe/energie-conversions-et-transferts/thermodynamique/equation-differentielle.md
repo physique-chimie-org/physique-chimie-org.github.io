@@ -3,9 +3,7 @@ titleTemplate: "Transferts macroscopiques d’énergie"
 next: false
 ---
 
-# Équation différentielle du transfert thermique
-
-L’équation différentielle du transfert thermique permet de modéliser l’évolution de la température d’un système en fonction du temps lorsqu’il échange de la chaleur avec son environnement.
+# Modélisation de l’évolution temporelle de la température d’un système en contact avec un thermostat
 
 ## Énoncé du problème
 
@@ -17,7 +15,7 @@ On suppose que ce système échange de la chaleur avec un milieu thermostaté à
 
 ## Définitions
 
-### Transfert de chaleur $Q$
+### Transfert thermique $Q$
 
 $$
 Q=C\cdot \Delta \theta = m \cdot c \cdot \Delta \theta \qquad (1)
@@ -31,7 +29,7 @@ $$
 ϕ_{moy}=\frac{Q}{Δt}
 $$
 
-voir le cours sur le [flux thermique](./transmission-chaleur.md#le-flux-thermique) pour plus de détails.
+voir le cours sur le [flux thermique](./transfert-thermique.md#le-flux-thermique) pour plus de détails.
 
 D'après $(1)$, on obtient :
 
@@ -51,10 +49,10 @@ $$
 \end{align}
 $$
 
-### Loi de Newton
+### Loi phénoménologique de Newton
 
 $$
-ϕ(t) = h \cdot S \cdot (\theta(t) - \theta\_{ext}) \qquad (4)
+ϕ(t) = h \cdot S \cdot (\theta(t) - \theta_{th}) \qquad (4)
 $$
 
 voir le cours sur le [flux thermique conducto-convectif](./transfert-thermique.md#flux-thermique-conducto-convectif) pour plus de détails.
@@ -111,9 +109,9 @@ On peut identifier les paramètres la courbe de la température $\theta(t)$ en f
    \begin{align}
    \text{À } t = \tau, \quad \theta(\tau) &= \theta_{th} + (\theta_0 - \theta_{th}) \cdot e^{-\frac{\tau}{\tau}} \\
    \Rightarrow \theta(\tau) &= \theta_{th} + (\theta_0 - \theta_{th}) \cdot e^{-1} \\
-   \Rightarrow \theta(\tau) &= \theta_{th} + \frac{\theta_0 - \theta_{th}}{e} \\
-   \Rightarrow \theta(\tau) &= \theta_{th} + 0.37 \cdot (\theta_0 - \theta_{th}) \\
+   \Rightarrow \theta(\tau) &\approx \theta_{th} + (\theta_0 - \theta_{th}) \cdot 0.37 \\
+   \Rightarrow \frac{\theta(\tau) - \theta_{th}}{\theta_0 - \theta_{th}} &\approx 0.37 \\
    \end{align}
    $$
 
-   Graphiquement, $\tau$ correspond au temps nécessaire pour que la température du système atteigne environ 63 % de la différence entre la température initiale et la température finale.
+   Graphiquement, $\tau$ correspond au temps nécessaire pour que la température du système atteigne environ 37 % de la différence entre la température initiale et la température finale ou 63 % de la différence entre la température finale et la température initiale.

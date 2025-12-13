@@ -185,15 +185,15 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                     link: "/t-spe/energie-conversions-et-transferts/thermodynamique/bilan-energie",
                 },
                 {
-                    text: "Transmission de la chaleur",
-                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transmission-chaleur",
-                },
-                {
                     text: "Transfert thermique",
                     link: "/t-spe/energie-conversions-et-transferts/thermodynamique/transfert-thermique",
                 },
                 {
-                    text: "Équation différentielle",
+                    text: "Bilan thermique du système Terre-atmosphère",
+                    link: "/t-spe/energie-conversions-et-transferts/thermodynamique/bilan-energie-terre-atmosphere",
+                },
+                {
+                    text: "Modélisation de l'évolution temporelle de la température",
                     link: "/t-spe/energie-conversions-et-transferts/thermodynamique/equation-differentielle",
                 },
             ],

@@ -12,8 +12,8 @@ $$
 ΔE=ΔE_M+ΔU=ΔU=W+Q
 $$
 
-- W : Travail échangé
-- Q : Chaleur échangée
+- W : Travail échangé avec l’extérieur
+- Q : Chaleur échangée avec l’extérieur
 
 Pour effectuer un bilan d’énergie, il faut :
 
