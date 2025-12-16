@@ -10,7 +10,7 @@ Lorsqu’un émetteur vibre, il génère un signal sonore qui se propage. À l�
 
 Si la vibration de l’émetteur est régulière, le signal sonore est régulier ainsi que le signal électrique et on observe sur le signal un « motif » qui se répète. On parle alors de signal **périodique**.
 
-::: danger Définition
+::: danger Important
 Un signal est dit **périodique** si un motif se répète de façon identique au bout d'un intervalle de temps régulier.
 :::
 
@@ -18,7 +18,7 @@ Un signal est dit **périodique** si un motif se répète de façon identique au
 
 La période d’un signal périodique se lit sur un graphique qui représente le signal lorsque le temps est en abscisse.
 
-::: danger Définition
+::: danger Important
 La **période** T est la durée du plus court « motif » qui se répète de façon identique. La période s’exprime en seconde (s).
 :::
 
@@ -47,7 +47,7 @@ $$
 
 :::
 
-:: danger Définition
+::: danger Important
 La **fréquence** f du son représente le nombre de périodes de ce signal par seconde. Elle s’exprime en hertz (Hz).
 :::
 
