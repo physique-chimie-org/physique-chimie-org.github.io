@@ -358,4 +358,8 @@ export const head: HeadConfig[] = [
     ["meta", { name: "generator", content: "VitePress" }],
     ["meta", { name: "keywords", content: keywords }],
     ["meta", { name: "google-adsense-account", content: adsenseOptions.client }],
+    [
+        'script',
+        { 'data-goatcounter': 'https://alpado.goatcounter.com/count', async: '', src: '//gc.zgo.at/count.js' }
+    ],
 ];
