@@ -1,21 +1,21 @@
 ---
-titleTemplate: "Le noyau de l’atome et son cortège électronique"
+titleTemplate: "La matière à l'échelle microscopique"
 prev: false
 ---
 
-# Le noyau de l’atome et son cortège électronique
+# La matière à l'échelle microscopique
 
 ## Plan du cours
 
-1. [Modèle de l’atome](modele.md)
+1. [Caractéristiques des éléments chimiques](caracteristiques.md)
 2. [Le noyau](noyau.md)
-3. [Le cortège électronique](cortege.md)
+3. [Le nuage électronique](cortege.md)
 4. [Le tableau périodique des éléments](tableau-periodique.md)
 
 ## Rappels
 
 ::: tip Rappels de collège
-L’atome est composé d’un noyau et d’un cortège électronique. Le noyau est composé de protons et de neutrons. Le cortège électronique est composé d’électrons.
+L’atome est composé d’un noyau et d’un nuage électronique. Le noyau est composé de protons et de neutrons. Le nuage électronique est composé d’électrons.
 :::
 
 ## Objectifs du chapitre

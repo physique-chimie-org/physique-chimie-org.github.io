@@ -204,34 +204,8 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             text: "Le programme",
             link: "/seconde/",
         },
-        /**
-        {
-            text: "Le noyau de l’atome et son cortège électronique",
-            collapsed: false,
-            items: [
-                {
-                    text: "Introduction",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/",
-                },
-                {
-                    text: "Le modèle de l’atome",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/modele",
-                },
-                {
-                    text: "Le noyau",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/noyau",
-                },
-                {
-                    text: "Le cortège électronique",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/cortege",
-                },
-                {
-                    text: "Le tableau périodique",
-                    link: "/seconde/composition-et-transformation/noyau-et-cortege/tableau-periodique",
-                },
-            ],
-        },
-        */
+
+
         {
             text: "Corps purs, mélanges et identification",
             collapsed: false,
@@ -251,6 +225,32 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                 {
                     text: "Méthodes d’identification",
                     link: "/seconde/composition-et-transformation/identification/methodes-identification",
+                },
+            ],
+        },
+        {
+            text: "La matière à l'échelle microscopique",
+            collapsed: false,
+            items: [
+                {
+                    text: "Introduction",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/",
+                },
+                {
+                    text: "Caractéristiques des éléments chimiques",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/caracteristiques",
+                },
+                {
+                    text: "Le noyau",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/noyau",
+                },
+                {
+                    text: "Le nuage électronique",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/cortege",
+                },
+                {
+                    text: "Le tableau périodique",
+                    link: "/seconde/composition-et-transformation/noyau-et-cortege/tableau-periodique",
                 },
             ],
         },

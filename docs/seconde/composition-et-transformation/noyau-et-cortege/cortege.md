@@ -1,28 +1,28 @@
 ---
-titleTemplate: "Le noyau de l’atome et son cortège électronique"
+titleTemplate: "La matière à l'échelle microscopique"
 ---
 
-# Le cortège électronique
+# Le nuage électronique
 
-> Le cortège électronique d’un atome définit ses propriétés chimiques.
+> Le nuage électronique d’un élément chimique définit ses propriétés chimiques.
 
 ## Composition
 
-Le **cortège électronique** est composé d’électrons. Ce sont des particules chargées négativement, de charge électrique élémentaire $-e=-1,6 \times 10^{-19} C$. Ils ont une masse de $9,11 \times 10^{-31} kg$.
+Le **nuage électronique** est composé d’électrons. Ce sont des particules chargées négativement, de charge électrique élémentaire $-e=-1,6 \times 10^{-19} C$. Ils ont une masse de $9,11 \times 10^{-31} kg$.
 
 Les électrons sont répartis dans des couches électroniques qui peuvent se découper en sous-couches.
 
 ## Configuration électronique
 
-La **configuration électronique** d’un atome est la répartition des électrons, sur les différentes couches et sous-couches, autour de son noyau. La configuration électronique peut parfois être appelée **structure électronique**.
+La **configuration électronique** d’un élément chimique est la répartition des électrons, sur les différentes couches et sous-couches, autour de son noyau. La configuration électronique peut parfois être appelée **structure électronique**.
 
-En seconde on ne s’intéresse qu’aux configurations électroniques des éléments contenant jusqu’à 18 électrons. Jusqu’à 18 électrons, il y a 3 couches électroniques et 2 types de sous-couches électroniques.
+En seconde on ne s’intéresse qu’aux configurations électroniques des éléments chimiques contenant jusqu’à 18 électrons. Jusqu’à 18 électrons, il y a 3 couches électroniques et 2 types de sous-couches électroniques.
 
 On indique la couche électronique par un nombre entier positif (1, 2 et 3), la sous-couche électronique par une lettre (s et p).
 
-::: danger Attention
+::: danger Important
 
-Voici les informations importantes à retenir afin de déterminer la configuration électronique d’un atome :
+Voici les informations importantes à retenir afin de déterminer la configuration électronique d’un élément chimique :
 
 - La première couche électronique 1, contient une sous-couche s, notée $1s$
 - La deuxième couche électronique 2, contient 2 sous-couches s et p, notées $2s$ et $2p$
@@ -47,7 +47,7 @@ L’atome de bore ${}_{5} B$ contient 5 protons, donc 5 électrons. Sa configura
 :::
 
 ::: danger Important
-La dernière couche électronique est appelée **couche de valence**, et contient donc les **électrons de valence**. Ce sont les électrons de valence qui participent aux réactions chimiques.
+La dernière couche électronique est appelée **couche de valence**, et contient donc les **électrons de valence**. Ce sont les électrons de valence qui participent aux transformations chimiques.
 :::
 
 Les autres couches sont appelées couches internes et contiennent les électrons de cœur des atomes.

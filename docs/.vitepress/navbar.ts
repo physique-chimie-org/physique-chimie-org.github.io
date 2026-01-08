@@ -120,15 +120,15 @@ export const nav: DefaultTheme.NavItem[] = [
             {
                 text: "Composition et transformation de la matière",
                 items: [
-                    /**
-                    {
-                        text: "Le noyau de l'atome et son cortège électronique",
-                        link: "/seconde/composition-et-transformation/noyau-et-cortege/",
-                    },
-                    */
+
+
                     {
                         text: "Corps purs, mélanges et identification",
                         link: "/seconde/composition-et-transformation/identification/",
+                    },
+                    {
+                        text: "La matière à l'échelle microscopique",
+                        link: "/seconde/composition-et-transformation/noyau-et-cortege/",
                     },
                     /** 
                     {
