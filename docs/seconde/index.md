@@ -22,6 +22,7 @@ Une telle approche, dans laquelle le raisonnement occupe une place centrale, per
 ### Constitution et transformations de la matière
 
 1. [Corps purs, mélanges et identification](./composition-et-transformation/identification/index.md)
+2. [La matière à l'échelle microscopique](./composition-et-transformation/noyau-et-cortege/index.md)
 
 ### Mouvement et interactions
 
