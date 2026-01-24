@@ -7,15 +7,15 @@ next: false
 
 ## Constante d’acidité
 
-Un acide $AH_{(aq)}$ réagit avec l’eau $H_2O_{(l)}$ selon la réaction d’équation :
+Un acide $AH_{(aq)}$ réagit avec l’eau $H_2O_{(l)}$ selon l'équation de réaction suivante:
 
 $$
 AH_{(aq)}+H_2O_{(l)}⇄A^-_{(aq)}+H_3O^+_{(aq)}
 $$
 
-Si cette réaction est totale, alors cet acide est dit fort. On utilise alors le symbole → pour l’équation de la réaction. Si cette réaction est équilibrée, c’est un acide faible.
+Si cette transformation est totale, alors cet acide est dit fort. Si cette transformation est un équilibre, alors cet acide est dit faible.
 
-Si cette réaction est équilibrée, on peut alors définir une constante d’équilibre $K$. Dans ce cas précis correspondant à la réaction de l’acide avec l’eau, cette constante est appelée constante d’acidité $K_A$.
+Si cette transformation est un équilibre, on peut alors définir une constante d’équilibre $K$. Dans ce cas précis correspondant à la réaction de l’acide avec l’eau, cette constante est appelée constante d’acidité $K_A$.
 
 ::: danger Important
 Un couple acide faible/base faible $AH_{(aq)}/A^-_{(aq)}$ est donc caractérisé par sa constante d’acidité $K_A$, correspondant à la réaction de l’acide avec l’eau et ne dépendant que de la température :
@@ -35,7 +35,7 @@ $$
 Pour une température donnée, le produit ionique de l’eau a la même valeur pour toutes les solutions aqueuses. À 25 °C, $K_e=1,0\times 10^{-14}$.
 
 ::: warning Attention aux confusions
-Soit la réaction suivante $AH_{ (aq) } + HO^-_{ (aq) } ⇄ A^-_{ (aq) }+H_2O_{ (l) }$
+Soit la transformation d'équation de réaction suivante $AH_{ (aq) } + HO^-_{ (aq) } ⇄ A^-_{ (aq) }+H_2O_{ (l) }$
 
 La constante d’équilibre $K$ de cette réaction est $K=\frac{[A^-]_{eq}⋅c∘}{[AH]_{eq}⋅[HO^-]_{eq}}$.
 
@@ -101,8 +101,6 @@ pH-pkA &= log(\frac{[A^-]_{eq}}{[AH]_{eq}}) \quad (1) \\
 10^{pH-pkA} &= 10^{log(\frac{[A^-]_{eq}}{[AH]_{eq}})} \\
 10^{pH-pkA} &= \frac{[A^-]_{eq}}{[AH]_{eq}} \quad (2)
 \end{align}
-
-
 $$
 
 :::
