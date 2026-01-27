@@ -9,7 +9,7 @@ titleTemplate: "Mouvement dans un champ non uniforme"
 
 ## 1ère loi : Loi des orbites (1609)
 
-> Les mesures très précises de Mars faites par l’astronome danois Tycho Brahe (1546-1601), convainquent son élève Johannes Kepler (1571-1630), astronome allemand (voir doc.2), que l’orbite de la planète rouge ne peut pas être décrite ni par un cercle, ni par une combinaison de cercles, mais qu’elle est elliptique, le Soleil occupant l’un des foyers. Il publie ce résultat en 1609, dans son Astronomia nova, aujourd’hui connu sous le nom de première loi de Kepler.
+> Les mesures très précises de Mars faites par l’astronome danois Tycho Brahe (1546-1601), convainquent son élève Johannes Kepler (1571-1630), astronome allemand, que l’orbite de la planète rouge ne peut pas être décrite ni par un cercle, ni par une combinaison de cercles, mais qu’elle est elliptique, le Soleil occupant l’un des foyers. Il publie ce résultat en 1609, dans son Astronomia nova, aujourd’hui connu sous le nom de première loi de Kepler.
 
 ::: danger Important
 Dans le référentiel héliocentrique, la trajectoire d’une planète est une ellipse dont le Soleil occupe l'un des foyers.
