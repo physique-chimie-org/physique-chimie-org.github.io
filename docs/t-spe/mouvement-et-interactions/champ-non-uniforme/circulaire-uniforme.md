@@ -119,7 +119,18 @@ T &= \dfrac{d}{v} \\
 \end{align}
 $$
 
-## 3ème loi de Kepler dans le cadre d'un mouvement circulaire uniforme
+::: danger Important
+La période de révolution T d'un satellite en orbite circulaire, de rayon R, autour d'un astre de masse M est donnée par la relation :
+
+$$
+T = 2\pi\times  \sqrt{\dfrac{R^3}{G\times M}}
+$$
+
+:::
+
+## 3ème loi de Kepler
+
+### Mouvement circulaire uniforme
 
 $$
 \begin{align}
@@ -128,3 +139,25 @@ T^2 = \dfrac{4\pi ^2 \times R^3}{G\times M} \\
 \dfrac{T^2}{R^3} = \dfrac{4\pi ^2}{G\times M}
 \end{align}
 $$
+
+::: danger Important
+La troisième loi de Kepler pour un satellite en orbite circulaire, de rayon R, autour d'un astre de masse M est donnée par la relation :
+
+$$
+\dfrac{T^2}{R^3} = \dfrac{4\pi ^2}{G\times M}
+$$
+
+:::
+
+### Généralisation aux trajectoires elliptiques
+
+::: danger Important
+La troisième loi de Kepler pour un satellite en orbite elliptique, de demi grand-axe a, autour d'un astre de masse M est donnée par la relation :
+
+$$
+\dfrac{T^2}{a^3} = \dfrac{4\pi ^2}{G\times M}
+$$
+
+:::
+
+Cette relation est valable pour tout objet, satellite ou planète en orbite autour d'un astre, à condition que la force d'attraction de l'astre sur l'objet en orbite soit la force prépondérante.

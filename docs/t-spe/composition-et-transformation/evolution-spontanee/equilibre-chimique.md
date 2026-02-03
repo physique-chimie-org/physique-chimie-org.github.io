@@ -7,14 +7,14 @@ titleTemplate: "Evolution spontanée d’un système chimique"
 ## Transformation non totale et équilibre chimique
 
 ::: danger
-Lorsque la transformation est non totale, le système chimique atteint un état d’équilibre pour lequel les réactifs et les produits sont tous présents à l’état final. L’équation de la réaction s’écrit alors avec une double flèche indiquant que la transformation se produit dans les deux sens de l’équation simultanément mais sans variation de la composition finale du système.
+Lorsque la transformation est non totale, le système chimique atteint un état d’équilibre pour lequel les réactifs et les produits sont tous présents à l’état final. L’équation de la réaction s’écrit alors avec une double flèche ⇄ indiquant que la transformation se produit dans les deux sens de l’équation simultanément mais sans variation de la composition finale du système.
 :::
 
 Il ne faut pas confondre transformation totale non terminée (le mélange peut continuer à évoluer) et transformation non totale. Seules les transformations non totales peuvent donner lieu à un équilibre (le mélange n’évolue plus).
 
 **Modèle d’équilibre dynamique :**
 
-la réaction entre A et B, donnant C et D n’est pas totales on, on écrit :
+la réaction entre A et B, donnant C et D n’est pas totales, on écrit :
 
 $$
 a.A+b.B \textcolor{cyan}{⇌} c.C + d.D
@@ -65,9 +65,11 @@ A l’état final $n(acide)_{f}=n(acide)_{i}  - x_f = 3,3×10^{-2}\ mol$. Donc $
 Si la réaction était totale, alors $n(acide)_{f}=n(alcool)_{f}=1,0×10^{-1}\ mol - x_{max} = 0\ mol$. Donc $x_{max}=1,0×10^{-1}\ mol$.
 
 Au final, on obtient :
+
 $$
 τ_f=\frac{x_f}{x_{max}}=\frac{6,7\times10^{-2}\ mol}{1,0×10^{-1}\ mol}=0,67<1
 $$
+
 La réaction est bien non totale.
 
 :::

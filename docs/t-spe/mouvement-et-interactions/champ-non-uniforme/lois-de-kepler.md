@@ -75,6 +75,16 @@ $$
 
 :::
 
+## Les trois lois de Kepler en animation
+
+<div class="iframe-4-3">
+    <iframe
+    loading="lazy"
+    src="https://phet.colorado.edu/sims/html/keplers-laws/latest/keplers-laws_fr.html"
+        allowfullscreen>
+</iframe>
+</div>
+
 ## Limites d'application des lois de Kepler
 
 Les lois de Kepler sont valables pour tout objet, satellite ou planète en orbite autour d'un astre.
