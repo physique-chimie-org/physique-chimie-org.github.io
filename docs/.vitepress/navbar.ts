@@ -130,12 +130,10 @@ export const nav: DefaultTheme.NavItem[] = [
                         text: "La matière à l'échelle microscopique",
                         link: "/seconde/composition-et-transformation/noyau-et-cortege/",
                     },
-                    /** 
                     {
                         text: "Les solutions",
                         link: "/seconde/composition-et-transformation/solutions/",
                     },
-                    */
                 ],
             },
 

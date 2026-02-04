@@ -12,8 +12,8 @@ Lorsque la concentration d'une solution est inconnue, il est possible de la dét
 
 Afin de réaliser un dosage par étalonnage il est important de connaître plusieurs choses :
 
-- le soluté dissout dans la solution de concentration inconnue
-- une propriété de la solution de concentration inconnue ou une grandeur physique mesurable (couleur, conductivité, masse volumique, etc), qui dépend de la quantité de ce soluté en solution
+- le soluté dissout dans la solution de concentration inconnue.
+- une propriété de la solution de concentration inconnue ou une grandeur physique mesurable (couleur, conductivité, masse volumique, etc), qui dépend de la concentration de ce soluté en solution. De préférence cettre grandeur doit être proportionnelle à la concentration en soluté dissout.
 
 **Exemple :** Si le soluté dissout est le sulfate de cuivre II, la solution se colore en bleu. Plus il y a de sulfate de cuivre dissout en solution, plus la solution se colore en bleu.
 
@@ -37,6 +37,10 @@ De manière approximative, on peut déterminer un encadrement de la valeur de la
 
 De manière plus précise, on peut modéliser la relation qui existe entre la grandeur physique mesurée et la concentration des solutions de concentration connues. On peut alors déterminer plus précisémment, par exemple graphiquement, la valeur de la concentration inconnue.
 
-**Exemple :** Dans l'exemple ci-dessous, une grandeur physique a été mesurée (ordonnées) pour chaque solutions d'une gamme étalon et donc pour différentes concentrations (abscisses). Ce sont les points bleus. On observe qu'il existe une relation entre la grandeur physique et la concentration car on peut modéliser ces mesures par une droite. C'est la droite verte, appelée courbe d'étalonnage. Pour déterminer la concentration inconnue d'une solution, il suffit donc de lire graphiquement à quelle concentration correspond la mesure de la grandeur physique pour la solution de concentration inconnue. C'est la construction graphique rouge.
+**Exemple :** Dans l'exemple ci-dessous, une grandeur physique a été mesurée (ordonnées) pour chaque solutions d'une gamme étalon et donc pour différentes concentrations connues (abscisses). Ce sont les points bleus.
+
+On observe qu'il existe une relation mathématique entre la grandeur physique et la concentration : il y a une relation de proportionnalité, car on peut modéliser ces mesures par une droite. C'est la droite verte, appelée courbe d'étalonnage.
+
+Pour déterminer la concentration inconnue d'une solution, il suffit de mesurer la grandeur physique pour cette solution et ensuite de lire graphiquement à quelle concentration correspond cette mesure de la grandeur physique. C'est la construction graphique rouge.
 
 ![courbe d’étalonnage](/images/cours/courbe-dosage-etalonnage-mesures.png "Courbe d’étalonnage")

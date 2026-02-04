@@ -65,7 +65,7 @@ $$
 
 :::
 
-Vous pouvez observer les quantités d’ion oxonium $H_3O^+$ en fonction du pH, et vice-versa, dans l’animation suivante de l’Université du Colorado[^1] (voir _micro_ et _my solution_ dans l’animation) :
+Vous pouvez observer les quantités d’ion oxonium $H_3O^+$ en fonction du pH, et vice-versa, dans l’animation suivante de l’Université du Colorado[^1] (voir _micro_ et _ma solution_ dans l’animation) :
 
 <div class="iframe-4-3">
     <iframe loading="lazy"

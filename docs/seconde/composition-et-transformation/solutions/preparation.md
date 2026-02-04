@@ -15,26 +15,25 @@ $$
 m_{soluté} = C_m \times V_{solution}
 $$
 
+::: danger Important
 Le protocle de la dissolution est le suivant :
 
 ![Dissolution](/images/cours/dissolution.png "Protocole de dissolution - [eprofs.fr <IconExternalLink/>](https://eprofs.fr/)")
 
-1. Placer une coupelle ou un verre de montre sur le plateau d’une balance électronique et effectuer la tare
-   (mise à zéro). Peser précisément la masse.
-2. Introduire le soluté dans la fiole jaugée, de volume de solution souhaité, avec un entonnoir.
-3. Rincer la coupelle et l’entonnoir à l’aide du solvant (ici l'eau distillée) au-dessus de la fiole jaugée afin de
-   récupérer tout le soluté. Remplir la fiole à moitié avec le solvant.
-4. Boucher la fiole jaugée, et agiter pour dissoudre totalement le soluté.
-5. Compléter la fiole avec le solvant, jusqu’au trait de jauge. Le bas du ménisque doit être au niveau
-   du trait de jauge. Il est possible d’ajouter aux gouttes à gouttes le solvant avec une pipette Pasteur. Boucher et agiter
+1. Placer une **coupelle** ou un **verre de montre** sur le plateau d’une balance électronique et effectuer la **tare** (mise à zéro). Peser précisément la masse.
+2. Introduire le soluté dans la **fiole jaugée**, de volume de solution souhaité, avec un **entonnoir**.
+3. Rincer la **coupelle** et l’**entonnoir** à l’aide du solvant (ici l'eau distillée) au-dessus de la **fiole jaugée** afin de récupérer tout le soluté. Remplir la **fiole jaugée** à moitié avec le solvant.
+4. Boucher la **fiole jaugée**, et agiter pour dissoudre totalement le soluté.
+5. Compléter la **fiole jaugée** avec le solvant, jusqu’au **trait de jauge**. Le bas du ménisque doit être au niveau du **trait de jauge**. Il est possible d’ajouter aux gouttes à gouttes le solvant avec une pipette Pasteur. Boucher et agiter
    de nouveau pour homogénéiser la solution.
+
+:::
 
 ## Préparation d'une solution par dilution
 
-La dilution est un procédé consistant à obtenir une solution de concentration inférieure à celle de départ, soit par ajout de solvant,
-soit par prélèvement d'une partie de la solution et en complétant avec du solvant pour garder le même volume.
-Afin de préparer une solution par dilution, il faut donc avoir à disposition une solution de départ, appelée solution "mère". La solution, moins concentrée,
-préparée par dilution à partir de la solution mère, est appelée solution "fille".
+La dilution est un procédé consistant à obtenir une solution de concentration inférieure à celle de départ, soit par ajout de solvant, soit par prélèvement d'une partie de la solution et en complétant avec du solvant pour plus de contrôle sur le volume final.
+
+Afin de préparer une solution par dilution, il faut donc avoir à disposition une solution de départ, appelée solution "**mère**". La solution, moins concentrée, préparée par dilution à partir de la solution mère, est appelée solution "**fille**".
 
 Comme la quantité de soluté de change pas en ajoutant du solvant, on peut établir :
 
@@ -61,18 +60,20 @@ Pour réaliser la dilution, il faudra alors prélever un volume de solution mèr
 
 **Application :**
 On souhaite réaliser $100 mL$ d'une solution fille de concentration $20 g/L$, à partir d'une solution mère de concentration $80 g/L$.
-Quel volume de solution mère doit-on prélever ?
+**Déterminer** le volume de solution mère à prélever.
 
-::: details Réponse
+::: details Afficher la réponse
 le facteur de dilution est $f = \frac{80 g/L}{20 g/L} = 4$. Donc on doit prélever $V_{mère} = \frac{100 mL}{4} = 25 mL$.
 :::
 
+::: danger Important
 Le protocle de la dilution est le suivant :
 
 ![Dilution](/images/cours/dilution.png "Protocole de dilution - [eprofs.fr <IconExternalLink/>](https://eprofs.fr/)")
 
-1. Introduire la solution mère dans un bécher. Prélever cette solution à l'aide d'une pipette jaugée.
-2. Verser le contenu de la pipette jaugée (Volume de la solution mère) dans une fiole jaugée.
-3. Ajouter un peu de solvant dans fiole jaugée. Boucher la fiole et homogénéiser la solution.
-4. Oter le bouchon et ajouter encore de l'eau distillée jusqu'au trait de jauge. Homogénéiser à
-   nouveau la solution.
+1. Introduire la solution mère dans un **bécher**. Prélever cette solution à l'aide d'une **pipette jaugée**.
+2. Verser le contenu de la **pipette jaugée** (Volume de la solution mère) dans une **fiole jaugée**.
+3. Ajouter un peu de solvant dans **fiole jaugée**. Boucher la **fiole jaugée** et homogénéiser la solution.
+4. Oter le bouchon et ajouter encore de l'eau distillée jusqu'au **trait de jauge**. Homogénéiser à nouveau la solution.
+
+:::

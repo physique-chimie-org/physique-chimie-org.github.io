@@ -298,7 +298,6 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                 },
             ],
         },
-        /**
         {
             text: "Les solutions",
             collapsed: false,
@@ -321,6 +320,5 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                 },
             ],
         },
-        */
     ],
 };
