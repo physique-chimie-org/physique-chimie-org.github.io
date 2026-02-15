@@ -12,12 +12,13 @@ Pour étudier un mouvement et notamment déterminer les vitesses et accélérati
 
 Cet outil permet de charger une vidéo, de choisir un référentiel, une échelle et de pointer les positions successives d'un objet en mouvement. Une fois le pointage terminé, il est possible de copier les données afin de les exploiter dans un programme en langage Python.
 
-Exemple de données :
+Exemple de données, issues d'un pointage vidéo d'une chute libre d'une balle de tennis dans un champ de pesanteur uniforme :
 
 ```python
-t = [0.2, 0.24, 0.28, 0.32, 0.36, 0.399999, 0.439999, 0.479998, 0.519997, 0.559997, 0.599997, 0.639997, 0.679997, 0.719997, 0.759997, 0.799997, 0.839997, 0.879997]
-x = [0.414198, 0.574228, 0.687191, 0.856636, 0.99784, 1.1767, 1.33673, 1.4591, 1.61914, 1.76975, 1.92978, 2.06157, 2.20278, 2.36281, 2.48519, 2.61698, 2.76759, 2.92762]
-y = [2.34398, 2.55108, 2.77701, 2.94645, 3.10648, 3.26651, 3.40772, 3.53009, 3.65247, 3.7466, 3.83133, 3.85957, 3.91605, 3.97253, 4.00077, 4.01019, 4.00077, 3.99136]
+t = [ 0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28, 0.32, 0.36, 0.4, 0.44, 0.48, 0.52, 0.56, 0.6, 0.64, 0.68]
+x = [0.467066, 0.47006, 0.47006, 0.473054, 0.476048, 0.482036, 0.482036, 0.479042, 0.488024, 0.491018, 0.497006, 0.5, 0.5, 0.505988, 0.505988, 0.511976, 0.520958, 0.520958]
+y = [2.25449, 2.23353, 2.20359, 2.15868, 2.09281, 2.01497, 1.92515, 1.81737, 1.68263, 1.5479, 1.38323, 1.20359, 0.997006, 0.784431, 0.547904, 0.287425, -0.00898204, -0.302395]
+
 ```
 
 ## Energie cinétique et énergie potentielle de pesanteur
@@ -49,7 +50,7 @@ Il est important de noter que les coordonnées des vecteurs vitesse étant calcu
 
 ### Energie potentielle de pesanteur
 
-Voici un exemple de code permettant de calculer l'énergie potentielle de pesanteur en chaque point, à partir des données d'altitudes. On suppose ici que les altitudes sont stockées dans une liste `y` et que la masse du système est stockée dans une variable `m`.
+Voici un exemple de code permettant de calculer l'énergie potentielle de pesanteur en chaque point, à partir des données d'altitudes. On suppose ici que les altitudes sont stockées dans une liste `y`, que l'origine des énergies potentielles de pesanteur est stockée dans la variable `yEp0` et que la masse du système est stockée dans une variable `m`.
 
 ```python:line-numbers
 # Initialisation de la liste des énergies potentielles de pesanteur
@@ -57,7 +58,7 @@ Epp = []
 
 for i in range(0, len(t)):
     # Calcul de l'énergie potentielle de pesanteur à la date i
-    Epp_i = m * 9.81 * y[i]
+    Epp_i = m * 9.81 * (y[i] - yEp0)
     # Ajout dans la liste correspondante
     Epp.append(Epp_i)
 ```
@@ -110,7 +111,7 @@ for i in range(1, len(t)-1):
 
 ## Programme complet
 
-Il est possible de déterminer en même temps les énergies cinétiques, potentielles et mécaniques. Voici un exemple de code permettant de calculer ces énergies en chaque point, à partir des données de position, de masse et de temps. On suppose ici que les données de position sont stockées dans les listes `x` et `y`, que la masse du système est stockée dans une variable `m`, que les données de temps sont stockées dans une liste `t` et que les vitesses sont stockées dans une liste `v`. Les vitesses ont été obtenues par la méthode des points adjacents.
+Il est possible de déterminer en même temps les énergies cinétiques, potentielles et mécaniques. Voici un exemple de code permettant de calculer ces énergies en chaque point, à partir des données de position, de masse et de temps. On suppose ici que les données de position sont stockées dans les listes `x` et `y`, que l'origine des énergies potentielles de pesanteur est stockée dans la variable `yEp0`, que la masse du système est stockée dans une variable `m`, que les données de temps sont stockées dans une liste `t` et que les vitesses sont stockées dans une liste `v`. Les vitesses ont été obtenues par la méthode des points adjacents.
 
 ```python:line-numbers
 # Initialisation des listes d'énergies
@@ -122,7 +123,7 @@ for i in range(1, len(t)-1):
     # Calcul de l'énergie cinétique à la date i
     Ec_i = 0.5 * m * v[i-1] ** 2
     # Calcul de l'énergie potentielle à la date i
-    Ep_i = m * 9.81 * y[i]
+    Ep_i = m * 9.81 * (y[i] - yEp0)
     # Calcul de l'énergie mécanique à la date i
     Em_i = Ec_i + Ep_i
     # Ajout dans les listes correspondantes
@@ -146,7 +147,7 @@ for i in range(0, len(t)):
     # Calcul de l'énergie cinétique à la date i
     Ec_i = 0.5 * m * v[i] ** 2
     # Calcul de l'énergie potentielle à la date i
-    Ep_i = m * 9.81 * y[i]
+    Ep_i = m * 9.81 * (y[i] - yEp0)
     # Calcul de l'énergie mécanique à la date i
     Em_i = Ec_i + Ep_i
     # Ajout dans les listes correspondantes
@@ -157,4 +158,6 @@ for i in range(0, len(t)):
 
 :::
 
-Il est ensuite possible de visualiser les énergies cinétiques, potentielles et mécaniques à l'aide de la bibliothèque `matplotlib`.
+Il est ensuite possible d'utiliser les listes `t`, `Ec`, `Ep`, `Em` à l'aide de la bibliothèque `matplotlib` pour tracer des graphiques représentant les énergies en fonction du temps.
+
+Voir un exemple d'exploitation : [Energie - python](https://console.basthon.fr/?kernel=python&script=eJydVdtu2zAMfQ-QfyDShzrXyXe7QB-Kwts6DNuA9S0IBtdRWxW27NlKFv_NXvsd-bFR9CVtka3bAkQ-OqQOSZFORFbkpYIsVkWaq1TcLIpaI4grKFI1HAwHCs5hCWwGbMEcWgO9mhatnl4JWmS0yGgTY5ORaKdZyeiS0SVjs5DRC1bDwU4HQ0fPZ15z2mfsJbCZ28j5HmskncBibbQD8kPmWA0XsCY7JzSZ2ZwIOz33sDA3DIIXyDRDv_GzWOgGB4TZ1jpba2G5jhPOAIFtuzYBZrvEmG7gBRqw0ApMAiaGnoG5CC3XdDUITN8mxgssz9bAxdz10w5si4hWjy3CPm0_cBzbpHSo0ubyfcdCzTk2iQUhXoVDG5tZduiudDdP4EoKJeJUVLESuYQ1rwA3Ch9rDkmel-tcyv0j7SvY8kTxTYlAoEvFh4Mt9QjFtnUH2udwcJuXIEBIKGN5xw1ML-XSUOO5OT4bDgA_J3AZp8kmJfHn0TZdsC4W7H9CGsM6VhxEc3y7-yYwmrFbiqm5gjkgmJurMbwBQ3Wcarj2RN2cqDtr_dqJJynq8DIvM_6X2TWhdJKTiQVTCo5oPJlgmzr1i4d8o_CcxIs_XH6SlyWvilyiAfdduYu4KLhck2ZfUU_WB7LniHql0af7R8nLO6HjREnbvqjoQNaCE_xh0JXqizjNbx64Ai4hud9gyfhbUeI0aFecNtfX3h9P81LcCckpWB8DilxxqQRPdb28UqgWp0qoDQrfChmnKFRHBUOteomN-MdBQrkuFiQCp0mJ75tj_YkSahD2AiaQ4dfYUuPn2yXDiZhMwPqj-JM6jqkXpK51Q3yptTzOGo0c1nZsuA7K2f4xieXv0s5ImLKfUpj_GKUo6SZE64y7lHuyOJBZT2b9MF28fXt1-f7iXQRfPl99uv46HODfw0L_VeBbZJ7hJc6iZDaajrBT8Q1Pz0dRgv0ajY85Fs8dC3IEOOaaPXfNnmjuiDRG1zwrKjCq3lC3hqi9XONDb0r5nS6s3VX3-Q9j_AsQmOjd)

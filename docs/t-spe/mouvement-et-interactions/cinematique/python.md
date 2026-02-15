@@ -13,12 +13,13 @@ Pour étudier un mouvement et notamment déterminer les vitesses et accélérati
 
 Cet outil permet de charger une vidéo, de choisir un référentiel, une échelle et de pointer les positions successives d'un objet en mouvement. Une fois le pointage terminé, il est possible de copier les données afin de les exploiter dans un programme en langage Python.
 
-Exemple de données :
+Exemple de données, issues d'un pointage vidéo d'une chute libre d'une balle de tennis dans un champ de pesanteur uniforme :
 
 ```python
-t = [0.2, 0.24, 0.28, 0.32, 0.36, 0.399999, 0.439999, 0.479998, 0.519997, 0.559997, 0.599997, 0.639997, 0.679997, 0.719997, 0.759997, 0.799997, 0.839997, 0.879997]
-x = [0.414198, 0.574228, 0.687191, 0.856636, 0.99784, 1.1767, 1.33673, 1.4591, 1.61914, 1.76975, 1.92978, 2.06157, 2.20278, 2.36281, 2.48519, 2.61698, 2.76759, 2.92762]
-y = [2.34398, 2.55108, 2.77701, 2.94645, 3.10648, 3.26651, 3.40772, 3.53009, 3.65247, 3.7466, 3.83133, 3.85957, 3.91605, 3.97253, 4.00077, 4.01019, 4.00077, 3.99136]
+t = [ 0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28, 0.32, 0.36, 0.4, 0.44, 0.48, 0.52, 0.56, 0.6, 0.64, 0.68]
+x = [0.467066, 0.47006, 0.47006, 0.473054, 0.476048, 0.482036, 0.482036, 0.479042, 0.488024, 0.491018, 0.497006, 0.5, 0.5, 0.505988, 0.505988, 0.511976, 0.520958, 0.520958]
+y = [2.25449, 2.23353, 2.20359, 2.15868, 2.09281, 2.01497, 1.92515, 1.81737, 1.68263, 1.5479, 1.38323, 1.20359, 0.997006, 0.784431, 0.547904, 0.287425, -0.00898204, -0.302395]
+
 ```
 
 ## Calcul des vitesses et accélérations à l'aide de Python
@@ -154,4 +155,6 @@ for i in range(2, len(t)-2):
     a.append(a_i)
 ```
 
-Il est ensuite possible de visualiser les vecteurs vitesse et accélération moyenne en chaque point à l'aide de la bibliothèque `matplotlib`.
+Il est ensuite possible d'utiliser les listes `t`, `x`, `y`, `vx`, `vy`, `v`, `ax`, `ay` et `a` à l'aide de la bibliothèque `matplotlib` pour tracer des graphiques représentant les positions, les vitesses et les accélérations en fonction du temps, ou encore les vecteurs vitesses et accélérations en chaque point.
+
+Voir un exemple d'exploitation : [Cinématique - python](https://console.basthon.fr/?kernel=python&script=eJy1lM1u2zgQx-8G_A6D9hA5sV2SEiUqQA5Bsdnm0l1gewuCgLHZrXZlSZBor_Q2e811H6F5sSVHH5asOu4HqgM1nOHM_DR_QtEmS3MNG6mzONVx9LjMKmuBLCCL9XQynWi4gjsgcyBL4uEq7EoZrr5d0WQYZBh00eNiEN1evWKQY5BjsF4w6Iv76aS0zcxBPyB-nR0Qcmi4hNflAp_UJT3BSNNtbwUh8VjtE6Sm80JKaJ0RtvX4fiE8FOLAojQM6nOMhFzsLUNbWVq2ZNzzwjkYw3W5iwZxOXooF76wBgmZoGhQ03oOdBkyTrk1BA1c9PiC-a41uGG3b1e4DB1NPbIMO-xAeJ5LEQe_tB5-4DFTc2FEIiI0o_Bw4xLmhvzeqvkabpNIRzKOCqmjNIG1KsBstHmtFazSNF-nSfL8hPsCdmql1TY3RmSOFGo62aFGptiuao3mPZ18THOIIEogl8mfyjF4sUocPVvQ2eV0AuZ5DW9lvNrGWHzYbds2a3vB878QS1hLrSCq03flQ2S6OeVddEHvYQHGWND7GbwBR7c-XfuajKrOqNpodSqjh2jbJ2m-UV9JV7eykOfnDC6wubFm5-dGprb69V_pVpu8xAx-P_xVmueqyNLEBMy-_dylzDKVrLFm90Wds9o7Ox-6fkBouVo9P8XPTzmmTSey1Vu2estjerNOb_ZNeg9bfmGwsmwnexdZvex7wV4SUTay76omozqVcUr205B1R9mpL39QfdmpL_fqy059uVdfdr5O_eubm9u3765__QV-_-32_Yc_rJDU8Jm_-rLYPtqfvOO6dIb-JW71vJy_unjVuAqlH6pYPqrYOSuNpuBsZmcmZgvoaPX3QyZzuSlM8MzIbs89plqnm6sbGRcKKWTJRh3NHSk-yVyVV6ZJY1fWxrasJamQBKB29lmq72EZHazag7H6qAfIfITM-8iIyRvMO3ppLtB816flA9pdg_um-GnA3gjYOzJjjvDeAXzZg_eG8OX3wdtK_ojKf5HKP6DqQflDqJ8-UDFCF6MbIFpcdml-K3PZvwFiwCu7G_D5P0RuD5TNAa02WQHOke85jhmMMIMjExbYNThA7useDJHLb0G24XDEEr7IEh6w9FDCIcoByVfO5wQwon5K_3Fm_wNqgy85)

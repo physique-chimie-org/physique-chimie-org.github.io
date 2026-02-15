@@ -255,6 +255,28 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             ],
         },
         {
+            text: "Les solutions",
+            collapsed: false,
+            items: [
+                {
+                    text: "Introduction",
+                    link: "/seconde/composition-et-transformation/solutions/",
+                },
+                {
+                    text: "Vocabulaire et outils",
+                    link: "/seconde/composition-et-transformation/solutions/solutions",
+                },
+                {
+                    text: "Préparation d'une solution",
+                    link: "/seconde/composition-et-transformation/solutions/preparation",
+                },
+                {
+                    text: "Mesure de la concentration",
+                    link: "/seconde/composition-et-transformation/solutions/mesures",
+                },
+            ],
+        },
+        {
             text: "Émission et perception des sons",
             collapsed: false,
             items: [
@@ -295,28 +317,6 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                 {
                     text: "Vecteurs déplacement et vitesse d'un point",
                     link: "/seconde/mouvements-et-interactions/description-du-mouvement/vecteurs-deplacement-et-vitesse",
-                },
-            ],
-        },
-        {
-            text: "Les solutions",
-            collapsed: false,
-            items: [
-                {
-                    text: "Introduction",
-                    link: "/seconde/composition-et-transformation/solutions/",
-                },
-                {
-                    text: "Vocabulaire et outils",
-                    link: "/seconde/composition-et-transformation/solutions/solutions",
-                },
-                {
-                    text: "Préparation d'une solution",
-                    link: "/seconde/composition-et-transformation/solutions/preparation",
-                },
-                {
-                    text: "Mesure de la concentration",
-                    link: "/seconde/composition-et-transformation/solutions/mesures",
                 },
             ],
         },
