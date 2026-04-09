@@ -102,4 +102,6 @@ $$v_2 = \sqrt{2 \cdot g \cdot (z_1 - z_2)}$$
 
 ### Application de la relation de Bernoulli : L'effet Venturi
 
-L'effet Venturi est un phénomène physique qui se produit lorsqu'un fluide s'écoule horizontalement à travers une section rétrécie d'un conduit. Selon la relation de Bernoulli, lorsque le fluide traverse cette section rétrécie, sa vitesse augmente et sa pression diminue.
+L'effet Venturi, du nom du physicien italien Giovanni Battista Venturi, est un phénomène physique qui se produit lorsqu'un fluide s'écoule horizontalement, à débit volumique constant, à travers une section rétrécie d'un conduit. Selon la relation de Bernoulli, si le conduit rétrécit, alors la vitesse découlement augmente (puisque le débit est le produit de la vitesse par la section, les deux varient à l'inverse). À l'inverse, si le conduit l'élargit, la vitesse d'écoulement diminue et sa pression augmente.
+
+Voici une simulation interactive permettant d'observer l'effet Venturi : [LABO MÉCA-FLUIDES / VENTURI](https://portail-de-simulations-scientifiques-34d18d.forge.apps.education.fr/bernouilli/index.html) par Vincent Durieux.
