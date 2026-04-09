@@ -165,6 +165,25 @@ export const sidebar: DefaultTheme.SidebarMulti = {
             ],
         },
         {
+            text: "Mécanique des fluides",
+            collapsed: false,
+            items: [
+                {
+                    text: "Introduction",
+                    link: "/t-spe/mouvement-et-interactions/mecanique-fluide/",
+
+                },
+                {
+                    text: "Statique des fluides",
+                    link: "/t-spe/mouvement-et-interactions/mecanique-fluide/statique",
+                },
+                {
+                    text: "Dynamique des fluides",
+                    link: "/t-spe/mouvement-et-interactions/mecanique-fluide/dynamique",
+                },
+            ],
+        },
+        {
             text: "Transferts macroscopiques d’énergie",
             collapsed: false,
             items: [

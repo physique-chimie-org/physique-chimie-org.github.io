@@ -61,12 +61,10 @@ export const nav: DefaultTheme.NavItem[] = [
                         text: "Mouvement dans un champ non uniforme",
                         link: "/t-spe/mouvement-et-interactions/champ-non-uniforme/",
                     },
-                    /*
                     {
-                      text: "Dynamique et mouvement dans un champ uniforme",
-                      link: "/t-spe/mouvements-et-interactions/champ-uniforme/",
+                        text: "Mécanique des fluides",
+                        link: "/t-spe/mouvement-et-interactions/mecanique-fluide/",
                     },
-                    */
                 ],
             },
             {
