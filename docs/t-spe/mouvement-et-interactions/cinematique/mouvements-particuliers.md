@@ -1,5 +1,0 @@
----
-titleTemplate: "Cinématique"
----
-
-# Mouvements particuliers

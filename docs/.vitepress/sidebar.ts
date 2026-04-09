@@ -217,6 +217,32 @@ export const sidebar: DefaultTheme.SidebarMulti = {
                 },
             ],
         },
+        {
+            text: "Caractériser les phénomènes ondulatoires",
+            collapsed: false,
+            items: [
+                {
+                    text: "Introduction",
+                    link: "/t-spe/ondes-et-signaux/ondes/",
+                },
+                {
+                    text: "Ondes sonores",
+                    link: "/t-spe/ondes-et-signaux/ondes/ondes-sonores",
+                },
+                {
+                    text: "Diffraction",
+                    link: "/t-spe/ondes-et-signaux/ondes/diffraction",
+                },
+                {
+                    text: "Interférences",
+                    link: "/t-spe/ondes-et-signaux/ondes/interferences",
+                },
+                {
+                    text: "Effet Doppler",
+                    link: "/t-spe/ondes-et-signaux/ondes/doppler",
+                },
+            ],
+        },
     ],
     "/seconde/": [
         {

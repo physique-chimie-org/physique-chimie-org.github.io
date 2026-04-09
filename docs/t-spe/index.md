@@ -31,9 +31,12 @@ Dans le cadre de la préparation de l’épreuve orale terminale et du projet as
 1. [Cinématique](./mouvement-et-interactions/cinematique/index.md)
 2. [Mouvement dans un champ uniforme](./mouvement-et-interactions/champ-uniforme/index.md)
 3. [Mouvement dans un champ non uniforme](./mouvement-et-interactions/champ-non-uniforme/index.md)
+4. [Mécanique des fluides](./mouvement-et-interactions/mecanique-fluide/index.md)
 
 ### L’énergie : conversions et transferts
 
 1. [Transferts macroscopiques d’énergie](./energie-conversions-et-transferts/thermodynamique/index.md)
 
 ### Ondes et signaux
+
+1. [Caractériser les phénomènes ondulatoires](./ondes-et-signaux/ondes/index.md)

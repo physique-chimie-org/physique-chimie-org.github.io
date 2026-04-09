@@ -89,18 +89,18 @@ export const nav: DefaultTheme.NavItem[] = [
             {
                 text: "Ondes et signaux",
                 items: [
+                    {
+                        text: "Caractériser les phénomènes ondulatoires",
+                        link: "/t-spe/ondes-et-signaux/ondes/",
+                    },
                     /*
                     {
-                      text: "Lunette astronomique",
-                      link: "/t-spe/ondes-et-signaux/lunette-astronomique/",
+                    text: "Lunette astronomique",
+                    link: "/t-spe/ondes-et-signaux/lunette-astronomique/",
                     },
                     {
-                      text: "Caractériser les phénomènes ondulatoires",
-                      link: "/t-spe/ondes-et-signaux/caracteriser-les-phenomenes-ondulatoires/",
-                    },
-                    {
-                      text: "Dynamique d'un système électrique",
-                      link: "/t-spe/ondes-et-signaux/dynamique-dun-systeme-electrique/",
+                    text: "Dynamique d'un système électrique",
+                    link: "/t-spe/ondes-et-signaux/dynamique-dun-systeme-electrique/",
                     },
                     */
                 ],
