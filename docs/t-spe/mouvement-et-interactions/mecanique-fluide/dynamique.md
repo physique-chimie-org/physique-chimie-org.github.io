@@ -90,8 +90,8 @@ $$
 \begin{align}
     \frac{1}{2} \cdot \rho \cdot v_2^2 + \rho \cdot g \cdot z_2 + P_2 &= \frac{1}{2} \cdot \rho \cdot v_1^2 + \rho \cdot g \cdot z_1 + P_1 \\
     \frac{1}{2} \cdot \rho \cdot v_2^2 + \rho \cdot g \cdot z_2 + \textcolor{red}{P_0} &= \frac{1}{2} \cdot \rho \cdot v_1^2 + \rho \cdot g \cdot z_1 + \textcolor{red}{P_0} \\
-    \frac{1}{2} \cdot \textcolor{red}{\rho} \cdot (v_2^2 - v_1^2) &= \textcolor{red}{\rho} \cdot g \cdot (z_2 - z_1) \\
-    \textcolor{red}{v_2^2 - v_1^2} &= 2 \cdot g \cdot (z_2 - z_1) \\
+    \frac{1}{2} \cdot \textcolor{red}{\rho} \cdot (v_2^2 - v_1^2) &= \textcolor{red}{\rho} \cdot g \cdot (z_1 - z_2) \\
+    \textcolor{red}{v_2^2 - v_1^2} &= 2 \cdot g \cdot (z_1 - z_2) \\
     v_2^2 &= 2 \cdot g \cdot (z_1 - z_2) \\
 \end{align}
 $$
