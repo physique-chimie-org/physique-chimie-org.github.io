@@ -52,8 +52,8 @@ On fait réagir $n(acide)_i=1,0×10^{-1}\ mol$ de $CH_3COOH$ avec $n(alcool)_i=1
 
 Au bout d’un temps assez long, le système n’évolue plus. La quantité restante de $CH_3COOH$ est de $n(acide)_{f}=3,3×10^{-2}\ mol$.
 
-1. La réaction est-elle totale ?
-2. Quel le taux d’avancement final de la réaction ?
+1. **Indiquer** si la réaction est totale.
+2. **Déterminer** le taux d’avancement final de la réaction.
 
 ::: details Afficher les réponses
 

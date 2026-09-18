@@ -40,7 +40,7 @@ Voici quelques exemples de configurations électroniques :
 - L’atome de sodium ${}_{11} Na$ possède 11 protons, donc 11 électrons. Sa configuration électronique est $1s^2 2s^2 2p^6 3s^1$;
 - L’atome de carbone ${}_{6} C$ possède 6 protons, donc 6 électrons. Sa configuration électronique est $1s^2 2s^2 2p^2$;
 
-**Exercice :** Quelle est la configuration électronique de l’atome de bore ${}_{5} B$ ?
+**Exercice :** **Etablir** la configuration électronique de l’atome de bore ${}_{5} B$ ?
 
 ::: details Afficher la réponse
 L’atome de bore ${}_{5} B$ contient 5 protons, donc 5 électrons. Sa configuration électronique est $1s^2 2s^2 2p^1$.
@@ -54,7 +54,7 @@ Les autres couches sont appelées couches internes et contiennent les électrons
 
 Par exemple, l’atome d’azote ${}_{7} N$ possède 7 électrons. Sa configuration électronique est $1s^2 2s^2 2p^3$. La couche de valence est la deuxième couche électronique ($2s^2 2p^3$). Il possède $2+3=5$ électrons de valence.
 
-**Exercice :** Quelle est la couche de valence de l’atome d’aluminium ${}_{13} Al$ et combien d’électrons de valence possède-t-il ?
+**Exercice :** **Identifier** la couche de valence de l’atome d’aluminium ${}_{13} Al$ et **déterminer** le nombre d’électrons de valence.
 
 ::: details Afficher la réponse
 L’atome d’aluminium ${}_{13} Al$ contient 13 électrons. Sa configuration électronique est $1s^2 2s^2 2p^6 3s^2 3p^1$. La couche de valence est la troisième couche électronique ($3s^2 3p^1$). Il possède $2+1=3$ électrons de valence.

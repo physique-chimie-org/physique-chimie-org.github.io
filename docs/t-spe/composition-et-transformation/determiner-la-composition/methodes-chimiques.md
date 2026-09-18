@@ -48,31 +48,31 @@ Voici un exemple d’évolution des quantités de matière pour une réaction qu
 
 ![Evolution des quantités de matière](/images/cours/evolution-quantites-matiere-titrage.png "Exemple d’évolution des quantités de matière lors d’un titrage")
 
-Si l’on peut repérer l’équivalence, on peut alors déterminer la quantité de matière initiale du réactif titré $n_i(A)$ ou sa concentration initiale $[A]_i$. Il faut pour cela pouvoir repérer le volume de réactif titrant $V_E$ versé à l’équivalence. En effet connaissant $V_E$ et $[B]$, on peut calculer $n_E(B)$ et donc $n_i(A)$. Si l’on connaît en plus le volume initialement présent $V_A$, on peut calculer la concentration initiale $[A]_i$.
+Si l’on peut repérer l’équivalence, on peut alors déterminer la quantité de matière initiale du réactif titré $n_i(A)$ ou sa concentration initiale $C(A)_i$. Il faut pour cela pouvoir repérer le volume de réactif titrant $V_E$ versé à l’équivalence. En effet connaissant $V_E$ et $C(B)$, on peut calculer $n_E(B)$ et donc $n_i(A)$. Si l’on connaît en plus le volume initialement présent $V_A$, on peut calculer la concentration initiale $C(A)_i$.
 
 $$
 \begin{aligned}
 n_i(A) &= n_E(B) \times \frac{a}{b} \\
-n_i(A) &= [B] \times V_E \times \frac{a}{b} \\
-[ A ]_i \times V_A &= [B] \times V_E \times \frac{a}{b} \\
-[ A ]_i &= [B] \times \frac{V_E}{V_A} \times \frac{a}{b} \\
+n_i(A) &= C(B) \times V_E \times \frac{a}{b} \\
+C(A)_i \times V_A &= C(B) \times V_E \times \frac{a}{b} \\
+C(A)_i &= C(B) \times \frac{V_E}{V_A} \times \frac{a}{b} \\
 \end{aligned}
 $$
 
-**Exercice :** Soit la réaction support du titrage $\ce{A + B -> C + D}$. On introduit progressivement 25 mL du solution de réactif titrant $\ce{B}$, de concentration $[B]=0,10 mol.L^{-1}$, dans un volume $V_A=10 mL$ contenant le réactif titré $\ce{A}$. L’évolution des quantités de matière est présentée dans le graphique précédent.
+**Exercice :** Soit la réaction support du titrage $\ce{A + B -> C + D}$. On introduit progressivement 25 mL du solution de réactif titrant $\ce{B}$, de concentration $C(B)=0,10 mol.L^{-1}$, dans un volume $V_A=10 mL$ contenant le réactif titré $\ce{A}$. L’évolution des quantités de matière est présentée dans le graphique précédent.
 
-1. Déterminer, graphiquement, le volume de réactif titrant $V_E$ versé à l’équivalence.
-2. Déterminer, par le calcul, la quantité de matière $n_i(A)$ du réactif titré $\ce{A}$, présente initialement dans le volume $V_A$. Comparer à la valeur initiale de $n(A)$ sur le graphique.
-3. Déterminer la concentration initiale $[A]_i$ du réactif titré $\ce{A}$, dans le volume $V_A$.
+1. **Déterminer**, graphiquement, le volume de réactif titrant $V_E$ versé à l’équivalence.
+2. **Déterminer**, par le calcul, la quantité de matière $n_i(A)$ du réactif titré $\ce{A}$, présente initialement dans le volume $V_A$. **Comparer** à la valeur initiale de $n(A)$ sur le graphique.
+3. **Déterminer** la concentration initiale $C(A)_i$ du réactif titré $\ce{A}$, dans le volume $V_A$.
 
-::: details Afficher les réponse
+::: details Afficher les réponses
 
 1. On observe que les réactifs A et B sont tous les deux limitant pour $V_E=12 mL$
 2. On calcule $n_i(A)$ en utilisant la relation à l’équivalence :
 
    $$
    \begin{align}
-    n_i(A) &= [B] \times V_E \\
+    n_i(A) &= C(B) \times V_E \\
     &= 0,10 (mol.L^{-1})\times 12 \times 10^{-3} (L) \\
     &= 1,2 \times 10^{-3} mol
     \end{align}
@@ -80,10 +80,10 @@ $$
 
    Sur le graphique, on observe bien que $n_i(A)=1,2 \times 10^{-3} mol$. (_Attention, il est indiqué que l’unité sur l’axe des ordonnées est $10^{-3} mol$_)
 
-3. On calcule $[A]_i$ :
+3. On calcule $C(A)_i$ :
    $$
    \begin{aligned}
-    \\ [A]_i &= \frac{n_i(A)}{V_A} \\
+    \\ C(A)_i &= \frac{n_i(A)}{V_A} \\
     &= \frac{1,2 \times 10^{-3} (mol)}{10 \times 10^{-3} (L)} \\
     &= 1,2 \times 10^{-1} mol.L^{-1}
     \end{aligned}

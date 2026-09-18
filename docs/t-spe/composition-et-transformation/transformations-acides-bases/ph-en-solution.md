@@ -53,10 +53,10 @@ $$
 - Le pH d’une solution est d’autant plus faible, est donc d’autant plus acide, que la concentration en ion oxonium $H_3O^+$ est élevée.
 - Le pH d’une solution est d’autant plus élevé, est donc d’autant plus basique, que la concentration en ion oxonium $H_3O^+$ est faible.
 
-**Application :**
+**Exercice :**
 
-1. On mesure $[H_3O^+]=1,0×10^{-3} mol·L^{-1}$. Quelle est la valeur du pH ?
-2. Le pH d’une solution aqueuse est de 9,5. Quelle est la concentration en ions $H_3O^+$ ?
+1. $[H_3O^+]=1,0×10^{-3} mol·L^{-1}$. **Déterminer** le pH de la solution.
+2. Le pH d’une solution aqueuse est de 9,5. **Déterminer** la concentration en ions $H_3O^+$.
 
 ::: details Afficher les réponses
 

@@ -36,7 +36,7 @@ On peut identifier une analogie avec les réactions d’oxydo-réduction, vues e
 | demi-équation     | $Oxydant + n \times e^- = Réducteur$       | $Acide = Base + H^+$               |
 | exemple           | $Cu^{2+}_{(aq)} + 2 \times e^- = Cu_{(s)}$ | $H_3O^+_{(aq)} = H_2O_{(l)} + H^+$ |
 
-**Application :** _(dans chacune des réactions suivantes, un seul ion hydrogène est échangé)_
+**Exercice :** **Compléter** le tableau suivant.
 
 | Couples acide-base         | Acide           | Base              | Demi-équation acide-base               |
 | -------------------------- | --------------- | ----------------- | -------------------------------------- |
@@ -92,9 +92,9 @@ Pour établir l’équation de la réaction acide-base, on peut :
 - Écrire les demi-équations de chaque couple de façon à placer les réactifs à gauche et les produits à droite.
 - Additionner membre à membre les demi-équations pour obtenir l’équation de réaction acide-base.
 
-**Application :**
+**Exercice :**
 
-Ecrire la réaction totale entre l’acide éthanoïque $CH_3COOH_{(aq)}$ et l’ion hydroxyde $HO^-$.
+**Etablir** l'équation de la réaction entre l’acide éthanoïque $CH_3COOH_{(aq)}$ et l’ion hydroxyde $HO^-$.
 
 Couples acide/base :
 
@@ -128,9 +128,9 @@ Les deux demi-équations sont :
 - $H_2O_{(l)}= HO^-_{(aq)} + H^+$
 - $H_3O^+_{(aq)} = H_2O_{(l)} + H^+$
 
-**Application :**
+**Exercice :**
 
-Parmi les espèces chimiques du tableau précédent, identifier une autre espèce amphotère que l’eau.
+Parmi les espèces chimiques du tableau précédent, **identifier** une autre espèce amphotère que l’eau.
 
 ::: details Afficher les réponses
 

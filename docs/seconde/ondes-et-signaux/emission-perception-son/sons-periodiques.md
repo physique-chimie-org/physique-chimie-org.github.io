@@ -33,7 +33,7 @@ Dans ce cas, pour mesurer la période avec une plus grande précision il faut :
 - diviser la durée $\Delta t$ mesurée, par le nombre de périodes $T$ pour trouver la valeur d’une seule période $T$ (suite de l’exemple : $T = \frac{\Delta t}{10}$)
   :::
 
-**Question :** Quelle est la période $T$ du signal représenté ci-dessus ?
+**Exercice :** **Déterminer** la période $T$ du signal représenté ci-dessus.
 
 ::: details Afficher la réponse
 La période est :
@@ -63,7 +63,7 @@ $$
 
 :::
 
-**Question :** Quelle est la fréquence $f$ du signal représenté ci-dessus ?
+**Exercice :** **Déterminer** la fréquence $f$ du signal représenté ci-dessus.
 
 ::: details Afficher la réponse
 On utilise la relation $f = \frac{1}{T}$ en vérifiant bien que $T$ est en seconde !

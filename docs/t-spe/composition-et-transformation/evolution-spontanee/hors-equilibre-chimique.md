@@ -30,7 +30,7 @@ Si un solvant ou des espèces solides figurent dans l’équation, ils intervien
 
 **Exercice :**
 
-Ecrire le quotient de réaction des réactions suivantes :
+**Établir** le quotient de réaction des réactions suivantes :
 
 1. $HCOOH_{(aq)} + NH_{3(aq)}  ⇌ HCOO_{(aq)}^- + NH_{4(aq)}^+$
 2. $2H_2O_{(l)} ⇌ HO_{(aq)}^- + H_3O_{(aq)}^+$
@@ -71,9 +71,9 @@ La constante d’équilibre est indépendante de la composition du système. Sel
 
 Soit la réaction $2H_2O_{(l)} ⇌ HO_{(aq)}^- + H_3O_{(aq)}^+$ de constante d’équilibre $K(T=25°C)=10^{-14}$.
 
-1. Si le système est à l’équilibre et $[H_3O^+]_{eq}=1,0 \times 10^{-3}  mol.L^{-1}$, que vaut $[HO^-]_{eq}$ ?
+1. On suppose que le système est à l’équilibre et $[H_3O^+]_{eq}=1,0 \times 10^{-3}  mol.L^{-1}$. **Déterminer** la concentration d’ions hydroxyde $[HO^-]_{eq}$ à l’équilibre.
 
-2. Si $[H_3O^+]=1,0 \times 10^{-5}  mol.L^{-1}$ et $[HO^-]=1,0 \times 10^{-5}  mol.L^{-1}$, le système est-il à l’équilibre ?
+2. On suppose que $[H_3O^+]=1,0 \times 10^{-5}  mol.L^{-1}$ et $[HO^-]=1,0 \times 10^{-5}  mol.L^{-1}$. **Vérifier** si le système est à l’équilibre.
 
 ::: details Afficher les réponses
 
@@ -92,7 +92,7 @@ $$
 1. Le système n’est pas à l’équilibre, car :
 
 $$
-Qr=\frac{(\frac{1,0 \times 10^{-5}}{1}) \times (\frac{1,0 \times 10^{-5}}{1})}{1}=10^{-10}≠K(T=25°C)
+Qr=\frac{(\frac{1,0 \times 10^{-5}}{1}) \times (\frac{1,0 \times 10^{-5}}{1})}{1}=10^{-10}>K(T=25°C)
 $$
 
 :::
@@ -117,12 +117,10 @@ a.A_{(aq)}+b.B_{(aq)}  ⇌ c.C_{{(aq)}}+d.D_{{(aq)}}
 $$
 
 1. si Qr < K(T), le système est hors équilibre et évolue spontanément dans le sens direct :
-
    - les réactifs A et B sont consommés et les produits C et D sont formés
    - Qr augmente
 
 2. Si Qr > K(T), le système est hors équilibre et évolue spontanément dans le sens indirect :
-
    - les produits C et D sont consommés et les réactifs A et B sont formés
    - Qr diminue
 
@@ -141,7 +139,7 @@ _Données :_
 - $[HCOOH]=2,0×10^{-2}  mol.L^{-1}$
 - $[HCOO^-]=[H_3O^+]=1,0×10^{-3}  mol.L^{-1}$
 
-Le système est-il à l’équilibre ? Sinon, dans quel sens évolue-t-il ?
+**Vérifier** si le système est à l’équilibre. Si ce n’est pas le cas, **déterminer** le sens d’évolution du système chimique et **préciser** l’évolution des quantités de matière des espèces chimiques mises en jeu.
 
 ::: details Afficher les réponses
 Il faut calculer $Qr$ et le comparer à $K$

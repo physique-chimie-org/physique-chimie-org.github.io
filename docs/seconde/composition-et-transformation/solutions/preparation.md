@@ -58,7 +58,7 @@ $$
 **Exemple :** si l'on souhaite préparer une solution fille 2 fois moins concentrée que la solution mère , alors $f = \frac{C_{mère}}{C_{fille}} = 2$.
 Pour réaliser la dilution, il faudra alors prélever un volume de solution mère 2 fois plus petit que le volume final de soluton fille : $V_{mère} = \frac{V_{fille}}{f} = \frac{V_{fille}}{2}$
 
-**Application :**
+**Exercice :**
 On souhaite réaliser $100 mL$ d'une solution fille de concentration $20 g/L$, à partir d'une solution mère de concentration $80 g/L$.
 **Déterminer** le volume de solution mère à prélever.
 

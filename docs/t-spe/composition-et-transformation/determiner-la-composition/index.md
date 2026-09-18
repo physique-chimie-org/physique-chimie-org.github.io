@@ -27,7 +27,6 @@ prev: false
 - Titrage :
 
   le titrage colorimétrique permet de déterminer l’équivalence par un changement de couleur du milieu réactionnel
-
   - la réaction de titrage doit être **totale** (le réactif limitant est entièrement consommé) ;
   - la réaction doit être **rapide** ;
   - la réaction doit être **unique**.
@@ -37,10 +36,10 @@ prev: false
   À l’équivalence, les quantités de matière des réactifs (titrant et titré) sont introduites dans les proportions stœchiométriques. Pour une réaction de titrage $aA+bB→cC+dD$, on a :
 
   $$
-  \frac{n_0(A)}{a}=\frac{n_0(B)}{b}
+  \frac{n_i(A)}{a}=\frac{n_E(B)}{b}
   $$
 
-  Le volume équivalent correspond au volume de la solution titrante ajoutée dans le bécher pour atteindre le point d’équivalence
+  Le volume équivalent $V_E$ correspond au volume de la solution titrante ajoutée dans le bécher pour atteindre le point d’équivalence.
 
 - Spectroscopie IR
 
