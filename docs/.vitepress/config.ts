@@ -82,7 +82,7 @@ export default withPwa(defineConfig({
       provider: 'algolia',
       options: {
         appId: "9TE5KV94J0",
-        apiKey: "4f40b79730bb4640efb7472c21f28d4b",
+        apiKey: "f675b8da59909c5db4bf2243b4960e12",
         indexName: "physique-chimie",
         placeholder: "Rechercher",
         translations: {
