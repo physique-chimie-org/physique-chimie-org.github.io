@@ -14,7 +14,7 @@ En cours de rédaction, les contenus de cette page sont susceptibles d'être mod
 1. [Ondes sonores](ondes-sonores.md)
 2. [Diffraction](diffraction.md)
 3. [Interférences](interferences.md)
-4. [Effet Doppler](effet-doppler.md)
+4. [Effet Doppler](doppler.md)
 
 ## Rappels
 
